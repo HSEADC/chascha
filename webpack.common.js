@@ -80,6 +80,73 @@ module.exports = {
       filename: './index.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/color.html',
+      filename: './color.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/feno.html',
+      filename: './feno.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/geo.html',
+      filename: './geo.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/habitat.html',
+      filename: './habitat.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/sound.html',
+      filename: './sound.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/structure.html',
+      filename: './structure.html'
+    }),
+
+
+
+
+    new HtmlWebpackPlugin({
+      template: './src/color/color_article1.html',
+      filename: './color/color_article1.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/feno/feno_article1.html',
+      filename: './feno/feno_article1.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/geo/geo_article1.html',
+      filename: './geo/geo_article1.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/habitat/habitat_article1.html',
+      filename: './habitat/habitat_article1.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/sound/sound_article1.html',
+      filename: './sound/sound_article1.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/structure/structure_article1.html',
+      filename: './structure/structure_article1.html'
+    }),
+
+
+
+
+    
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
