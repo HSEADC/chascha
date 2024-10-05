@@ -5,11 +5,15 @@
 html,
 body {
   height: 100%;
+  padding: 0.5% 0.5%;
 }
 
-body {
-  font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+//Basics работает на весь сайт
+
+
+body{
+  font-family: 'Arial Narrow', Helvetica, Arial, sans-serif;
+  font-style: normal;
 }
 
 .images {
@@ -23,15 +27,52 @@ body {
 
   .image {
     &#bgPNG {
-      background-image: url('images/image.png');
+      background-image: url('../images/image.png');
     }
 
     &#bgJPG {
-      background-image: url('images/image.jpg');
+      background-image: url('../images/habitat/habitat_articles/large.jpg');
+      background-image: url('../images/habitat/habitat_articles/large1.jpeg');
+      background-image: url('../images/habitat/habitat_articles/cow3.jpeg');
+      background-image: url('../images/image.jpg');
+      
     }
 
     &#bgSVG {
-      background-image: url('images/image.svg');
+      background-image: url('../images/image.svg');
     }
   }
+}
+
+.cow1{
+  display: flex;
+  width: 30%;
+  z-index: 1;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.cow2{
+  display: flex;
+  width: 30%;
+  z-index: 1;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.cow3{
+  display: flex;
+  width: 30%;
+  z-index: 1;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.zagolovok1{
+  margin-top: 2%;
+}
+
+.text1{
+  margin-top: 0.2%;
+  
 }

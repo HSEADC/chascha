@@ -1,11 +1,36 @@
 body.index {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: top;
+  align-items: left;
 
   & > div,
   & > a {
     margin: 10px 0;
   }
 }
+a,p, label, button{
+  font-family: 'Arial Narrow', Helvetica, sans-serif;
+  font-size: 1.4vw;
+  font-weight: 100;
+  
+  
+}
+
+h1,h2{
+  font-family: 'Arial Narrow', Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: bold;
+  margin-bottom: 0.4%;
+  margin-top: 1%;
+}
+
+a:link{
+  color: green;
+}
+
+a:visited{
+  color: rgb(0, 33, 0);
+}
+
