@@ -119,10 +119,13 @@ module.exports = {
       filename: './literature/book.html'
     }),
 
+<<<<<<< HEAD
     
 
 >>>>>>> anya
 
+=======
+>>>>>>> anya
     new HtmlWebpackPlugin({
       template: './src/color.html',
       filename: './color.html'
