@@ -1,21 +1,35 @@
 @font-face {
+<<<<<<< HEAD
   font-family: 'Arial Narrow';
   src: url('../fonts/ofont.ru_Arial\ Narrow.ttf') format('truetype'),
     url('../fonts/ofont.ru_Arial\ Narrow.ttf') format('truetype');
+=======
+  font-family: 'PT Root UI';
+  src: url('../fonts/PT-Root-UI_Regular.woff2') format('woff2'),
+    url('../fonts/PT-Root-UI_Light.woff') format('woff');
+>>>>>>> anya
   font-weight: 100;
   font-style: normal;
   
 }
 
 @font-face {
+<<<<<<< HEAD
   font-family: 'Arial Narrow';
   src: url('../fonts/arialnarrow_bold.ttf') format('truetype'),
   url('../fonts/arialnarrow_bold.ttf') format('truetype');
   font-weight: 600;
+=======
+  font-family: 'PT Root UI';
+  src: url('../fonts/PT-Root-UI_Regular.woff2') format('woff2'),
+    url('../fonts/PT-Root-UI_Regular.woff') format('woff');
+  font-weight: 400;
+>>>>>>> anya
   font-style: normal;
 }
 
 @font-face {
+<<<<<<< HEAD
   font-family: 'Arial Narrow';
   src: url('../fonts/arialnarrow_bolditalic.ttf') format('truetype'),
   url('../fonts/arialnarrow_bolditalic.ttf') format('truetype'),;
@@ -29,4 +43,19 @@
   url('../fonts/arialnarrow_italic.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
+=======
+  font-family: 'PT Root UI';
+  src: url('../fonts/PT-Root-UI_Medium.woff2') format('woff2'),
+    url('../fonts/PT-Root-UI_Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Root UI';
+  src: url('../fonts/PT-Root-UI_Bold.woff2') format('woff2'),
+    url('../fonts/PT-Root-UI_Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+>>>>>>> anya
 }

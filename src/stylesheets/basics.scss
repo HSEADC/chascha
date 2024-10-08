@@ -16,6 +16,34 @@ body{
   font-style: normal;
 }
 
+.cow1{
+  display: flex;
+  width: 30%;
+  z-index: 1;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.cow2{
+  display: flex;
+  width: 30%;
+  z-index: 1;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.cow3{
+  display: flex;
+  width: 30%;
+  z-index: 1;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.zagolovok1{
+  margin-top: 2%;
+}
+
 .images {
   display: flex;
 
@@ -26,14 +54,26 @@ body{
   }
 
   .image {
+
     &#bgPNG {
+<<<<<<< HEAD
+=======
+      background-image: url('../images/habitat/habitat_article1/cow1.jpg');
+      background-image: url('../images/habitat/habitat_article1/cow2.jpg');
+      background-image: url('../images/habitat/habitat_article1/cow3.jpg');
+    }
+    &#bgPNG {
+>>>>>>> anya
       background-image: url('../images/image.png');
     }
 
     &#bgJPG {
+<<<<<<< HEAD
       background-image: url('../images/habitat/habitat_articles/large.jpg');
       background-image: url('../images/habitat/habitat_articles/large1.jpeg');
       background-image: url('../images/habitat/habitat_articles/cow3.jpeg');
+=======
+>>>>>>> anya
       background-image: url('../images/image.jpg');
       
     }
