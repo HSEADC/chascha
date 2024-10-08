@@ -77,6 +77,21 @@ module.exports = {
 
     // Landing page
     new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: './about.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/formspree.html',
+      filename: './formspree.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/literature.html',
+      filename: './literature.html'
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html'
     }),
