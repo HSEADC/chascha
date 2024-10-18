@@ -97,27 +97,16 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-<<<<<<< HEAD
-      template: './src/literature.html',
-      filename: './literature.html'
-    }),
-
-    new HtmlWebpackPlugin({
-=======
->>>>>>> anya
       template: './src/about.html',
       filename: './about.html'
     }),
 
     new HtmlWebpackPlugin({
-<<<<<<< HEAD
-=======
       template: './src/literature.html',
       filename: './literature.html'
     }),
 
     new HtmlWebpackPlugin({
->>>>>>> anya
       template: './src/map.html',
       filename: './map.html'
     }),
@@ -127,20 +116,11 @@ module.exports = {
       filename: './formspree.html'
     }),
 
-<<<<<<< HEAD
-=======
     new HtmlWebpackPlugin({
       template: './src/literature/book.html',
       filename: './literature/book.html'
     }),
 
-<<<<<<< HEAD
-    
-
->>>>>>> anya
-
-=======
->>>>>>> anya
     new HtmlWebpackPlugin({
       template: './src/color.html',
       filename: './color.html'
@@ -204,14 +184,6 @@ module.exports = {
       filename: './structure/structure_article1.html'
     }),
 
-<<<<<<< HEAD
-    new HtmlWebpackPlugin({
-      template: './src/literature/book.html',
-      filename: './literature/book.html'
-    }),
-
-=======
->>>>>>> anya
 
 
 
