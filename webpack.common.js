@@ -82,30 +82,21 @@ module.exports = {
       filename: './index.html'
     }),
 
-    new HtmlWebpackPlugin({
-      template: './src/about.html',
-      filename: './about.html'
-    }),
 
-    new HtmlWebpackPlugin({
-      template: './src/literature.html',
-      filename: './literature.html'
-    }),
+
 
     new HtmlWebpackPlugin({
       template: './src/map.html',
       filename: './map.html'
     }),
 
-    new HtmlWebpackPlugin({
-      template: './src/formspree.html',
-      filename: './formspree.html'
-    }),
+
 
     new HtmlWebpackPlugin({
       template: './src/literature/book.html',
       filename: './literature/book.html'
     }),
+
 
     new HtmlWebpackPlugin({
       template: './src/color.html',
@@ -169,8 +160,6 @@ module.exports = {
       template: './src/structure/structure_article1.html',
       filename: './structure/structure_article1.html'
     }),
-
-
 
 
 
