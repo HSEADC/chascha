@@ -35,62 +35,9 @@ h1,h2{
   margin-bottom: 0.4%;
   margin-top: 1%;
 }
-
 p, h1, h2, a {
   color: #003E01;
 }
-
-
-
-.images {
-  display: flex;
-
-  * {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
-  }
-
-  .image {
-
-    &#bgPNG {
-      background-image: url('../images/habitat/habitat_article1/cow1.jpg');
-      background-image: url('../images/habitat/habitat_article1/cow2.jpg');
-      background-image: url('../images/habitat/habitat_article1/cow3.jpg');
-      background-image: url('../images/about/graph.png');
-    }
-    &#bgPNG {
-      background-image: url('../images/image.png');
-      background-image: url('../images/zaglushka/rostok.png');
-      background-image: url('../images/about/img5.png');
-      background-image: url(../images/about/underline.png);
-      background-image: url(../images/zaglushka/underline2.png);
-      background-image: url(../images/zaglushka/tg.png);
-      background-image: url(../images/zaglushka/vk.png);
-      background-image: url(../images/zaglushka/dzen.png);
-      background-image: url(../images/habitat/habitat_article1/logotype.png);
-    }
-
-    &#bgJPG {
-      background-image: url('../images/image.jpg');
-      background-image: url('../images/about/img1.jpg');
-      background-image: url('../images/about/img2.jpg');
-      background-image: url('../images/about/img3.jpg');
-      background-image: url('../images/about/img4.jpg');
-      
-      
-    }
-
-    &#bgSVG {
-      background-image: url('../images/habitat/habitat_article1/green_line.svg');
-      background-image: url('../images/image.svg');
-      background-image: url('../images/habitat/habitat_article1/pole.svg');
-    }
-  }
-}
-
-
-
 
 a {
   text-decoration: none;
