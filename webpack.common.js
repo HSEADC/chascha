@@ -176,9 +176,6 @@ module.exports = {
     }),
 
 
-
-
-    
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
