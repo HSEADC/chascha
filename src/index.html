@@ -5,20 +5,77 @@
     <title>main</title>
     <analytics></analytics>
   </head>
-  <body class="index">
-  <p><a href="index.html">Главная</a></p>
-  <p><a href="about.html">О нас</a></p>
-<p><a href="map.html">Карта</a></p>
-<p><a href="literature.html">Литература</a></p>
-<p><a href="formspree.html">Сборщик почт(типа мы сделали, удалим потом)</a></p>
+  <body class="zaglushka">
+  <!-- <p><a href="index.html">Главная</a></p> -->
+  <!-- <p><a href="about.html">О нас</a></p> -->
+<!-- <p><a href="map.html">Карта</a></p>
+<p><a href="literature.html">Литература</a></p> -->
+<!-- <p><a href="formspree.html">Сборщик почт(типа мы сделали, удалим потом)</a></p> -->
 
-<h1>Разделы статей</h1>
+<h1 class="hello">Привет, это <a href="about.html">Умвельт</a>
+<p class="intro">Сейчас мы расшифровываем природные сигналы,<br> 
+  чтобы вы научились понимать окружающий мир.<br> 
+  Скоро увидимся!</p>
+<div class="animation_rostok">
+  <img class="rostok" src="./images/zaglushka/rostok.png">
+</div>
+<div class="underline2" > 
+  <img class="underline22" src="./images/zaglushka/underline2.png" >
+</div>
+<div class="socials">
+  <img class="tg" src="./images/zaglushka/tg.png" href="https://t.me/uumwelt">
+  <img class="vk" src="./images/zaglushka/vk.png" href="https://t.me/uumwelt">
+  <img class="dzen" src="./images/zaglushka/dzen.png" href="https://t.me/uumwelt">
+</div>
+<form id="my-form" action="https://formspree.io/f/mzzpnoee" method="POST">
+  <p>Вы можете оставить почту,<br>
+    чтобы первыми узнать о запуске сайта</p>
+
+  <input type="email" name="email" placeholder="Почта" />
+  <button id="my-form-button">Отправить</button>
+  <p id="my-form-status"></p>
+</form>
+
+<script>
+  var form = document.getElementById("my-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "Спасибо!";
+        form.reset()
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          } else {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          }
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your form"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script> 
+
+<!-- <h1>Разделы статей</h1>
 <p><a href="color.html">Знаки изменения цвета</a></p>
 <p><a href="feno.html">Фенологические знаки</a></p>
 <p><a href="geo.html">Геологические знаки</a></p>
 <p><a href="habitat.html">Знаки поведения</a></p>
 <p><a href="sound.html">Звуковые знаки</a></p>
-<p><a href="structure.html">Знаки изменения строения</a></p>
+<p><a href="structure.html">Знаки изменения строения</a></p> -->
 
   </body>
 </html>
