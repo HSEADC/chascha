@@ -5,7 +5,9 @@
 html,
 body {
   height: 100%;
-  padding: 0.5% 0.5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
 }
 
 //Basics работает на весь сайт
@@ -16,33 +18,29 @@ body{
   font-style: normal;
 }
 
-.cow1{
-  display: flex;
-  width: 30%;
-  z-index: 1;
-  margin-top: 1%;
-  margin-bottom: 1%;
+a,p, label, button, input{
+  font-family: 'Arial Narrow', Helvetica, sans-serif;
+  font-size: 1.4vw;
+  font-weight: 100;
+  color: #003E01;
+  
+  
 }
 
-.cow2{
-  display: flex;
-  width: 30%;
-  z-index: 1;
+h1,h2{
+  font-family: 'Arial Narrow', Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  font-style: bold;
+  margin-bottom: 0.4%;
   margin-top: 1%;
-  margin-bottom: 1%;
 }
 
-.cow3{
-  display: flex;
-  width: 30%;
-  z-index: 1;
-  margin-top: 1%;
-  margin-bottom: 1%;
+p, h1, h2, a {
+  color: #003E01;
 }
 
-.zagolovok1{
-  margin-top: 2%;
-}
+
 
 .images {
   display: flex;
@@ -59,51 +57,41 @@ body{
       background-image: url('../images/habitat/habitat_article1/cow1.jpg');
       background-image: url('../images/habitat/habitat_article1/cow2.jpg');
       background-image: url('../images/habitat/habitat_article1/cow3.jpg');
+      background-image: url('../images/about/graph.png');
     }
     &#bgPNG {
       background-image: url('../images/image.png');
+      background-image: url('../images/zaglushka/rostok.png');
+      background-image: url('../images/about/img5.png');
+      background-image: url(../images/about/underline.png);
+      background-image: url(../images/zaglushka/underline2.png);
+      background-image: url(../images/zaglushka/tg.png);
+      background-image: url(../images/zaglushka/vk.png);
+      background-image: url(../images/zaglushka/dzen.png);
+      background-image: url(../images/habitat/habitat_article1/logotype.png);
     }
 
     &#bgJPG {
       background-image: url('../images/image.jpg');
+      background-image: url('../images/about/img1.jpg');
+      background-image: url('../images/about/img2.jpg');
+      background-image: url('../images/about/img3.jpg');
+      background-image: url('../images/about/img4.jpg');
+      
       
     }
 
     &#bgSVG {
+      background-image: url('../images/habitat/habitat_article1/green_line.svg');
       background-image: url('../images/image.svg');
+      background-image: url('../images/habitat/habitat_article1/pole.svg');
     }
   }
 }
 
-.cow1{
-  display: flex;
-  width: 30%;
-  z-index: 1;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
 
-.cow2{
-  display: flex;
-  width: 30%;
-  z-index: 1;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
 
-.cow3{
-  display: flex;
-  width: 30%;
-  z-index: 1;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
 
-.zagolovok1{
-  margin-top: 2%;
-}
-
-.text1{
-  margin-top: 0.2%;
-  
+a {
+  text-decoration: none;
 }

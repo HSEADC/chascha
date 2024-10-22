@@ -9,28 +9,121 @@ body.index {
     margin: 10px 0;
   }
 }
-a,p, label, button{
-  font-family: 'Arial Narrow', Helvetica, sans-serif;
-  font-size: 1.4vw;
-  font-weight: 100;
+
+
+
+.zaglushka{
+  p{
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
+  .hello{
+    margin-top: 10%;
+    margin-left: 9%;
+  }
+  body {
+    overflow: hidden;
+  }
+  a{
+    font-size: 2vw;
+  }
+
+  #my-form{
+    margin-top: 24%;
+    margin-left: 46%;
+  }
+  #my-form-button{
+    border-radius: none;
+    border-style:solid ;
+    border-color:#003E01;
+    background-color: #003E01;
+    color: white;
+    width: 9vw;
+    height: 2.6vw;
+    
+  }
+  form input{
+    border-radius: none ;
+    border-style: solid;
+    box-shadow: none;
+    border-color:#003E01;
+    background-color: #ffffff;
+    width: 20vw;
+    height: 2.6vw;
+  }
+
+  ::placeholder{
+    color: #003E01;
+    padding-left: 2%;
+  }
+
+  .animation_rostok{
+    margin-top: -23%;
+    margin-left: -12%;
+    position: absolute;
+    width: 16%;
+    height: 48%;
+    overflow: hidden;
+    
+  }
+
+  .rostok{
+    justify-content: start;
+    position: absolute;
+    width: 1090%;
+    margin-top:1%;
+    animation: rostok 1.6s steps(1) infinite ;
+  }
+
+  .underline2{
+    position: relative;
+    width: 7.5%;
+    margin-top: -7.3%;
+    margin-left: 11%;
+  }
+  .underline22{
+    position: absolute;
+    margin-top: -8%;
+    width: 100%;
   
-  
+  }
+
+  .socials{
+    width: 10%;
+    display: flex;
+    margin-top: 28%;
+    margin-left: 85%;
+    margin-bottom: -32.3%;
+    
+  }
+
+  .vk,.tg,.dzen{
+    width: 40%;
+    height: 40%;
+  }
+
+  .vk{
+    margin-left: -4%;
+  }
+  .dzen{
+    margin-left: 9%;
+  }
 }
 
-h1,h2{
-  font-family: 'Arial Narrow', Helvetica, sans-serif;
-  font-size: 2vw;
-  font-weight: 500;
-  font-style: bold;
-  margin-bottom: 0.4%;
-  margin-top: 1%;
+@keyframes rostok {
+  0%{margin-left: 20%;}
+  10%{margin-left: -60%;}
+  20%{margin-left: -144%;}
+  30%{margin-left: -218%;}
+  40%{margin-left: -300%;}
+  50%{margin-left: -388%;}
+  60%{margin-left: -490%;}
+  70%{margin-left: -613%;}
+  80%{margin-left: -738%;}
+  90%{margin-left: -738%;}
+  100%{margin-left: -738%;}
 }
 
-a:link{
-  color: green;
-}
 
-a:visited{
-  color: rgb(0, 33, 0);
-}
+
 
