@@ -1,0 +1,186 @@
+.habitat_articles{
+    body{
+        #cows::-webkit-scrollbar{
+            background-color: none;
+        }
+
+
+        #forma{
+            position: absolute;
+            
+        }
+        
+    }
+      #my-form-button{
+        border-radius: none;
+        border: none;
+        background-image: url(../images/habitat/habitat_article1/poisk.svg);
+        background-color: #ffffff;
+        color: white;
+        width: 1.9%;
+        height: 4%;
+        margin-left: -2.4%;
+        margin-top: 0.2%;
+        position: absolute;
+      }
+      
+      form input{
+        margin-left: 2%;
+        border-radius: 0deg;
+        border-width: 2px;
+        border-style: solid;
+        box-shadow: none;
+        border-color:#003E01;
+        background-color: #ffffff;
+        width: 18vw;
+        height: 2.6vw;
+        margin-left: 5.6%;
+        margin-top: -0.1%;
+      }
+    
+      ::placeholder{
+        color: #003E01;
+        padding-left: 2%;
+      }
+}
+
+  
+
+  .green_line{
+    z-index: -3;
+    position: relative;
+    width: 100%;
+    margin-top: 0.3%;
+    
+  }
+
+  .line{
+    position: absolute;
+    margin-left: -2.7%;
+    width: 105.4%;
+    
+  }
+
+  .about_us{
+    margin-top: -5.5%;
+    margin-left: 96.7%;
+    margin-bottom: -2.1%;
+  }
+
+  .cows{
+    display: block;
+    z-index: 4;
+    width: 48%;
+    height: 92%;
+    overflow-y: scroll;
+    margin-top: 3.5%;
+  }
+
+  .cow1{
+    width: 52%;
+    margin-top: -3%;
+  }
+
+  .cow_1{
+    display: flex;
+    margin-left: 53%;
+   margin-top: 1%;
+  }
+
+  .cow2{
+    width: 52%;
+    margin-left: 44%;
+    margin-top: -3%;
+  }
+  .cow_2{
+    display: flex;
+    margin-left: 97%;
+   margin-top: 4%;
+  }
+
+  .cow3{
+    width: 52%;
+    margin-top: -3%;
+  }
+  .cow_3{
+    display: flex;
+    margin-left: 53%;
+   margin-top: 4.4%;
+  }
+  .cows::-webkit-scrollbar{
+    background-color: white;
+    width: 3px;
+  }
+  .cows::-webkit-scrollbar-thumb{
+    background-color:#003E01;
+  }
+
+  .text_cows{
+    overflow-y: scroll;
+    height: 89%;
+    width: 49%;
+    margin-left: 52%;
+    margin-top: 2%;
+    margin-bottom: -42%;
+  }
+
+  .text_cows::-webkit-scrollbar{
+    background-color: white;
+    width: 3px;
+  }
+
+
+  .text_cows::-webkit-scrollbar-thumb{
+    background-color:#003E01;
+  }
+
+  .text_cows_between{
+    right: 2%;
+  }
+
+  .tags{
+    margin-left: 52%;
+    font-style: oblique;
+    
+    margin-bottom: -0.8%;
+  }
+
+  .socials{
+    width: 6.5%;
+    display: flex;
+    margin-left: 93%;
+    margin-top: 1.9%;
+    
+  }
+
+  .vk,.dzen{
+    width: 30%;
+    height: 30%;
+  }
+
+  .vk{
+    margin-left: -11%;
+  }
+  .dzen{
+    margin-left: 9%;
+  }
+  
+  .tg{
+    width: 32%;
+    height: 32%;
+  }
+
+  .umwelt_podval{
+    margin-top: -1.8%;
+  }
+
+  .logotype{
+    margin-top: -6%;
+    width: 3.4%;
+    position: absolute;
+  }
+
+
+
+
+ 
