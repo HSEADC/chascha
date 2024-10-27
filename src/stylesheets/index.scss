@@ -16,7 +16,8 @@ body.index {
     padding-bottom: 2%;
   }
   .hello{
-    margin-top: 10%;
+    margin-top: 8%;
+    margin-left: 8%;
     
   }
   body {
@@ -27,7 +28,7 @@ body.index {
   }
 
   #my-form{
-    margin-top: 24%;
+    margin-top: 18%;
     margin-left: 46%;
   }
   #my-form-button{
@@ -86,12 +87,13 @@ body.index {
   
   }
 
-  .socials{
+  .social{
     width: 10%;
     display: flex;
-    margin-top: 28%;
+    position: relative;
+    margin-top: 27%;
+    margin-bottom: -29%;
     margin-left: 85%;
-    margin-bottom: -32.3%;
     
   }
 
