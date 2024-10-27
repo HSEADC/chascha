@@ -6,10 +6,35 @@
 }
 
 .section h2, .section p {
+    width: 35vw;
     text-align: right;
     display: block;
-
+    padding-right: 60px;
+    padding-top: 20px;
 }
+
+.logotypee{
+    margin-top: -5vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.section2 p {
+    width: 35vw;
+    text-align: right;
+    display: block;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+
 
 p, h1, h2, a {
     color: #003E01;
@@ -57,53 +82,6 @@ hr {
     border-left: 2px solid #003E01;
 }
     
-      
-.graph {
-    background-image: url('../images/about/graph.png');
-    background-size: 70% ;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    width: 400vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-
-}
-    
-.pair1 {
-    width: 100%;
-    height: 33%;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 20px;
-}
-
-.pair2 {
-    width: 100%;
-    height: 33%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px;
-}
-
-.pair3 {
-    width: 100%;
-    height: 33%;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 20px;
-}
-
-.razdel {
-    cursor: pointer;
-}
 
 .item1 {
     display: flex;
@@ -139,6 +117,15 @@ hr {
     align-items: center;
 }
 
+.container2 {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .primer{
     display: flex;
     flex-direction: column;
@@ -160,24 +147,153 @@ hr {
 }
 
 .manifesto {
-    margin-top: -50vw;
-    margin-left: 50vw;
+    padding-bottom: 10vw;
+    padding-left: 12vw;
+    width: 85vw;
+    margin-top: -40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
 }
 
-.manifesto p{
-    color: white !important;
-}
 
 .social {
-    width: 100%;
+    width: 20%;
     padding-top: 30px;
-    padding-right: 60px;
     display: flex;
-    justify-content: end;
     flex-direction: row;
     padding-bottom: 30px;
 }
 
 .tg {
     margin-right: 20px;
+}
+
+.tg1 {
+
+    width: 3vw;
+}
+
+.history_pic{
+    background-size: 25vw;
+    width: 25vw;
+}
+
+.history_pic img{
+    background-size: 25vw;
+    width: 25vw;
+}
+
+.container1 {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.historyy {
+    padding-left: 60px;
+    width: 50vw;
+}
+
+.manifesto1 {
+    width: 50%;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    p, a {
+        font-size: 20px;
+    }
+
+    h1, h2 {
+        font-size: 25px;;
+    }
+
+    .section h2, .section p {
+        width: 80vw;
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    
+    .section2 p {
+        width: 80vw;
+        padding-right: 30px;
+    }
+
+    .img1 img {
+        width: 80vw;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    .container {
+        padding-top: 0px;
+        flex-direction: column;
+    }
+
+    .item_pic{
+        background-size: 80vw;
+        width: 80vw;
+    }
+    
+    .item_pic2 {
+        background-size: 40vw;
+        width: 60vw;
+    }
+
+    .underline {
+        padding-left: 20%;
+    }
+
+    .container2 {
+        flex-direction: column-reverse;
+    }
+
+    .manifesto_bg {
+        display: none;
+    }
+
+    .manifesto {
+        width: 100vw;
+        margin-top: 0vw;
+        padding-top: 50px;
+        padding-left: 10px;
+        flex-direction: column;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .historyy {
+        width: 100vw;
+    }
+
+    .history_pic img{
+        margin-top: 0px;
+        background-size: 50vw;
+        width: 50vw;
+    }
+
+    .logotypee{
+        margin-top: -10vw;
+        width: 20vw;
+        height: 20vw;
+    }
+
+
+    .tg1 {
+        width: 6vw;
+    }
+
+
 }
