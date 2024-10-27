@@ -156,11 +156,12 @@ module.exports = {
       template: './src/geo/geo_article1.html',
       filename: './geo/geo_article1.html'
     }),
-
+    
     new HtmlWebpackPlugin({
       template: './src/habitat/habitat_article1.html',
       filename: './habitat/habitat_article1.html'
     }),
+    
 
     new HtmlWebpackPlugin({
       template: './src/sound/sound_article1.html',
