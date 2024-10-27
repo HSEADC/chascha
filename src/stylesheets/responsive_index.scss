@@ -1,44 +1,48 @@
 @media screen and (min-width: 1920px){
     .zaglushka{
         
-        .socials{
+        .social{
             margin-top: 38%;
         }
+
+        #my-form{
+            margin-top: 19%;
+        }
+
         
     } 
     }
     @media screen and (min-width: 1440px)and (max-width: 1919px){
-        .zaglushka{
-            
-            .socials{
-                margin-top: 43%;
-            }
-            
-        } 
+        
     }
     @media screen and (min-width: 1366px)and (max-width: 1439px){
         .zaglushka{
-            
-            .socials{
-                margin-top: 36%;
+        
+            .social{
+                margin-top: 34%;
             }
+    
+            #my-form{
+                margin-top: 18%;
+            }
+    
             
-        } 
+        }
     }
         
     @media screen and (min-width: 1024px)and (max-width: 1365px){
         .zaglushka{
-            
-            .socials{
-                margin-top: 54%;
-
-                .vk{
-                    margin-left: -13%;
-                }
+        
+            .social{
+                margin-top: 52%;
             }
-
+    
+            #my-form{
+                margin-top: 17%;
+            }
+    
             
-        } 
+        }
     }
     
     @media screen and (min-width: 768px)and (max-width: 1023px){
@@ -49,8 +53,8 @@
                 margin-left: 25%;
             }
             #my-form{
-                margin-left: 26%;
-                margin-top: 15%;
+                margin-left: 7%;
+                margin-top: 7%;
             }
             .hello{
                 font-size: 4vw;
@@ -81,13 +85,18 @@
                 margin-top: -41%;
                 margin-left: -22%;
             }
-            .socials{
-                margin-top: 119%;
-                margin-left:75%;
+            .social{
+                width: 30%;
+                margin-top: 110%;
+                margin-left: 70%;
 
-                .vk,.tg,.dzen{
-                    width: 75%;
-                    height: 60%;
+                .tg{
+                    width: 77%;
+                    
+                 }
+                 .tg1{
+                    width: 100%;
+                    
                  }
                 
 
@@ -102,7 +111,7 @@
         } 
     }
     @media screen and (min-width: 414px)and (max-width: 767px){
-       
+        
     }
     @media screen and (min-width: 360px)and (max-width: 413px){ 
      
