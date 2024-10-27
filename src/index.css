@@ -5,3 +5,5 @@
 @import 'stylesheets/index.scss';
 @import 'stylesheets/about.scss';
 @import 'stylesheets/habitat_articles.scss';
+@import 'stylesheets/responsive_index.scss';
+@import 'stylesheets/responsive_habitat_articles.scss'; 
