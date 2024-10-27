@@ -1,12 +1,15 @@
 @media screen and (min-width: 1920px){
     .habitat_articles{
-
+    
     .about_us{
-        margin-top: -3%;
+        margin-top: -4%;
+    }
+    .cows{
+        height: 38.5vw;
     }
     .logotype{
         width: 3%;
-        margin-top: -3.5%;
+        margin-top: -4.7%;
     }
     #my-form-button{
         height: 1.6vw;
@@ -15,6 +18,8 @@
     }
     .socials{
         margin-top: 4%;
+        margin-left: 80%;
+        
     }
 }
      
@@ -43,11 +48,11 @@
         .habitat_articles{
 
             .about_us{
-                margin-top: -3%;
+                margin-top: -6%;
             }
             .logotype{
                 width: 3%;
-                margin-top: -3.5%;
+                margin-top: -6.4%;
             }
             #my-form-button{
                 height: 1.6vw;
@@ -337,7 +342,7 @@
        }
    
        .text_cows{
-        display: none;
+           display: none;
            margin-top: 6%;
            height: 100%;
            width: 90%;
