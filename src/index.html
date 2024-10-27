@@ -2,12 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Медиа о природных знаках Умвельт</title>
     <meta name="description" content="Окружающий мир общается с человеком на языке, состоящим из знаков. Они требуют расшифровки. 
     Мы сервис Умвельт, где собираются и интерпретируются природные сигналы.">
     <meta name="keywords" content="медиа, природа, умвельт, природные знаки, медиа о природе">
     <link rel="icon" href="images/about/favicon.svg" type="image/x-icon">
-    <analytics></analytics>
   </head>
   <body class="zaglushka">
   <!-- <p><a href="index.html">Главная</a></p> -->
@@ -18,15 +18,17 @@
 <!-- <div class="navbar_line_green">
 <img class="navbar_line" src="./images/habitat/habitat_article1/navbar_line.svg">
 </div> -->
-<h1 class="hello">Привет, это <a href="about.html">Умвельт</a>
-<p class="intro">Сейчас мы расшифровываем природные сигналы,<br> 
-  чтобы вы научились понимать окружающий мир.<br> 
+<div class="shapka">
+   <a class="hello" href="about.html">Привет, это Умвельт</a>
+<p class="intro" >Сейчас мы расшифровываем природные сигналы,<br> 
+  чтобы Вы научились понимать окружающий мир.<br> 
   Скоро увидимся!</p>
 <div class="animation_rostok">
   <img class="rostok" src="images/zaglushka/rostok.png">
 </div>
-<div class="underline2" > 
-  <img class="underline22" src="images/zaglushka/underline2.png" >
+<div class="underline2"> 
+  <img class="underline22" src="images/zaglushka/underline2.png">
+</div>
 </div>
 <div class="social">
   <a href="https://t.me/uumwelt" class="tg"><img class="tg1" src="./images/about/tg.png" alt=""></a>
@@ -37,7 +39,7 @@
   <p id="form_text">Вы можете оставить почту,<br>
     чтобы первыми узнать о запуске сайта</p>
 
-  <input type="email" name="email" placeholder="Почта" />
+  <input type="email" name="email" placeholder="Почта"/>
   <button id="my-form-button">Отправить</button>
   <p id="my-form-status"></p>
 </form>
@@ -64,12 +66,12 @@
           if (Object.hasOwn(data, 'errors')) {
             status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
           } else {
-            status.innerHTML = "Oops! There was a problem submitting your form"
+            status.innerHTML = "Форма пуста"
           }
         })
       }
     }).catch(error => {
-      status.innerHTML = "Oops! There was a problem submitting your form"
+      status.innerHTML = "Форма пуста"
     });
   }
   form.addEventListener("submit", handleSubmit)
