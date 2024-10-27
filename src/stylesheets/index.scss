@@ -11,25 +11,41 @@ body.index {
 }
 
 .zaglushka{
+  .shapka{
+    position: relative;
+  }
   p{
-    padding-top: 1%;
+    padding-top: 10%;
     padding-bottom: 2%;
+    margin-left: 0%;
+  }
+
+  .intro{
+    margin-left: 11%;
   }
   .hello{
-    margin-top: 8%;
-    margin-left: 8%;
-    
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 11%;
+    cursor: pointer;
   }
   body {
     overflow: hidden;
   }
   a{
+    margin-top: 10%;
     font-size: 2vw;
   }
+  
 
   #my-form{
-    margin-top: 18%;
-    margin-left: 46%;
+    margin-top: -15%;
+    margin-left: 48%;
+    height: 2vw;
+  }
+
+  #my-form-status{
+    margin-top: -8%;
   }
   #my-form-button{
     border-radius: none;
@@ -39,6 +55,7 @@ body.index {
     color: white;
     width: 9vw;
     height: 2.6vw;
+    cursor: pointer;
     
   }
   form input{
@@ -58,10 +75,10 @@ body.index {
 
   .animation_rostok{
     margin-top: -23%;
-    margin-left: -12%;
+    margin-left: -2%;
     position: absolute;
     width: 16%;
-    height: 48%;
+    height: 160%;
     overflow: hidden;
     
   }
@@ -77,8 +94,8 @@ body.index {
   .underline2{
     position: relative;
     width: 7.5%;
-    margin-top: -7.3%;
-    margin-left: 11%;
+    margin-top: -7.5%;
+    margin-left: 21%;
   }
   .underline22{
     position: absolute;
@@ -91,23 +108,17 @@ body.index {
     width: 10%;
     display: flex;
     position: relative;
-    margin-top: 27%;
-    margin-bottom: -29%;
+    margin-top: 24%;
+    margin-bottom: -10%;
     margin-left: 85%;
     
   }
 
-  .vk,.tg,.dzen{
+  .tg{
     width: 40%;
     height: 40%;
   }
 
-  .vk{
-    margin-left: -4%;
-  }
-  .dzen{
-    margin-left: 9%;
-  }
 }
 
 @keyframes rostok {
