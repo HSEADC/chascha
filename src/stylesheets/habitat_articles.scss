@@ -43,9 +43,9 @@
         padding-left: 2%;
       }
 }
-
-  
-
+.article_cow{
+  margin-top: -5%;
+}
   .green_line{
     z-index: -3;
     position: relative;
@@ -58,6 +58,7 @@
     position: absolute;
     margin-left: -2.7%;
     width: 105.4%;
+    margin-top: -2%;
     
   }
 
@@ -68,12 +69,13 @@
   }
 
   .cows{
+
     display: block;
     z-index: 4;
     width: 48%;
-    height: 92%;
+    height: 36vw;
     overflow-y: scroll;
-    margin-top: 3.5%;
+    margin-top: 5%;
   }
 
   .cow1{
@@ -117,10 +119,10 @@
 
   .text_cows{
     overflow-y: scroll;
-    height: 89%;
+    height: 35vw;
     width: 49%;
     margin-left: 52%;
-    margin-top: 2%;
+    margin-top: 7.5%;
     margin-bottom: -42%;
   }
 
@@ -145,39 +147,36 @@
     margin-bottom: -0.8%;
   }
 
-  .socials{
-    width: 6.5%;
+  .social{
+    width: 3%;
     display: flex;
-    margin-left: 93%;
-    margin-top: 1.9%;
+    margin-left: 80%;
+    margin-top: 2.4%;
     
   }
 
-  .vk,.dzen{
+  .tg{
+    display: block;
+    width: 20%;
+  }
+  
+  .tg1{
     width: 30%;
     height: 30%;
   }
 
-  .vk{
-    margin-left: -11%;
-  }
-  .dzen{
-    margin-left: 9%;
-  }
-  
-  .tg{
-    width: 90%;
-    height: 80%;
-  }
-
   .umwelt_podval{
-    margin-top: -1.8%;
+    margin-top: -5%;
   }
 
   .logotype{
     margin-top: -6%;
     width: 3.4%;
     position: absolute;
+  }
+
+  .text_cows_mobile{
+    display: none;
   }
 
 
