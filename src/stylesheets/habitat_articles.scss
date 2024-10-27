@@ -183,6 +183,393 @@
         }
 }
 
+@media screen and (min-width: 1920px){
+  .habitat_articles{
+  
+  .about_us{
+      margin-top: -4%;
+  }
+  .cows{
+      height: 38.5vw;
+  }
+  .logotype{
+      width: 3%;
+      margin-top: -4.7%;
+  }
+  #my-form-button{
+      height: 1.6vw;
+      width: 1.5vw;
+      margin-top: 0.4%;
+  }
+  .socials{
+      margin-top: 4%;
+      margin-left: 80%;
+      
+  }
+}
+   
+}
+  @media screen and (min-width: 1440px)and (max-width: 1919px){
+      .habitat_articles{
+
+          .about_us{
+              margin-top: -6%;
+          }
+          .logotype{
+              width: 3%;
+              margin-top: -6.4%;
+          }
+          #my-form-button{
+              height: 1.6vw;
+              width: 1.5vw;
+              margin-top: 0.4%;
+          }
+          .socials{
+              margin-top: 4%;
+          }
+      }
+  }
+  @media screen and (min-width: 1366px)and (max-width: 1439px){
+      .habitat_articles{
+
+          .about_us{
+              margin-top: -6%;
+          }
+          .logotype{
+              width: 3%;
+              margin-top: -6.4%;
+          }
+          #my-form-button{
+              height: 1.6vw;
+              width: 1.5vw;
+              margin-top: 0.4%;
+          }
+          .socials{
+              margin-top: 4%;
+          }
+      }
+  }
+      
+  @media screen and (min-width: 1024px)and (max-width: 1365px){
+      .habitat_articles{
+
+          .about_us{
+              margin-top: -3%;
+          }
+          .logotype{
+              width: 3%;
+              margin-top: -3.5%;
+          }
+          #my-form-button{
+              height: 1.6vw;
+              width: 1.5vw;
+              margin-top: 0.4%;
+          }
+          .socials{
+              margin-top: 4%;
+          }
+      }
+  }
+  
+  @media screen and (min-width: 768px)and (max-width: 1023px){
+   
+      .habitat_articles{
+          p,a,input{
+              font-size: 3vw;
+          }
+          .green_line{
+              display: none;
+              
+          }
+          .line{
+         display: none;
+         
+     }
+     .about_us{
+         margin-top: -9%;
+         margin-left: 90%;
+         margin-bottom: -4%;
+     }
+     .logotype{
+         margin-top: -9.5%;
+         width: 7%;
+         margin-left: -1%;
+     }
+ 
+     form input{
+         width: 32vw;
+         height: 5vw;
+         margin-left: 10%;
+     }
+
+     #my-form-button{
+      display: none;
+     }
+ 
+     .cows{
+         margin-top: -163%;
+         height: 90%;
+         width: 80%;
+     }
+ 
+     .text_cows{
+      display: none;
+         margin-top: 6%;
+         height: 100%;
+         width: 90%;
+         margin-left: 5%;
+         
+     }
+ 
+     .tags{
+         margin-top: -180%;
+         margin-left: 58%;
+     }
+ 
+     .socials{
+         margin-top: 220%;
+         margin-left: 87%;
+     }
+     .vk,.dzen,.tg{
+      width: 70%;
+      height: 70%;
+    }
+    .vk{
+      margin-left: -23%;
+    }
+    .text_cows_mobile{
+      display: block;
+      position: relative;
+      
+      width: 75%;
+      margin-top: 10%;
+    }
+
+    .text_mobile2{
+      margin-top: 146%;
+    }
+    .cows::-webkit-scrollbar{
+      display: none;
+    }
+      
+
+     }
+  }
+  @media screen and (min-width: 414px)and (max-width: 767px){
+      .habitat_articles{
+          p,a,input{
+              font-size: 4.5vw;
+          }
+          .green_line{
+              display: none;
+              
+          }
+          .line{
+         display: none;
+         
+     }
+     .about_us{
+         margin-top: -20%;
+         margin-left: 87%;
+         margin-bottom: -4%;
+     }
+     .logotype{
+         margin-top: -19%;
+         width: 13%;
+         margin-left: -1%;
+     }
+ 
+     form input{
+      display: none;
+         width: 32vw;
+         height: 5vw;
+         margin-left: 10%;
+     }
+
+     #my-form-button{
+      display: none;
+     }
+ 
+     .cows{
+      
+         margin-top: -286%;
+         height: 70%;
+         width: 108%;
+         
+     }
+
+     .cows::-webkit-scrollbar{
+      display: none;
+    }
+
+     .cow1,.cow2,.cow3{
+      width: 60%;
+
+     }
+
+     .cow2{
+      margin-top: 8%;
+     }
+
+     .cow3{
+      margin-top: 8%;
+     }
+
+     .cow_1,.cow_2,.cow_3{
+      display: none;
+
+     }
+ 
+     .text_cows{
+      display: none;
+         margin-top: 6%;
+         height: 100%;
+         width: 90%;
+         margin-left: 5%;
+         
+     }
+ 
+     .tags{
+         margin-top: -300%;
+         margin-left: 58%;
+     }
+ 
+     .socials{
+         margin-top: 415%;
+         margin-left: 82%;
+         margin-bottom: -7%;
+     }
+     .vk,.dzen,.tg{
+      width: 100%;
+      height: 90%;
+    }
+    .vk{
+      margin-left: -73%;
+    }
+    .text_cows_mobile{
+      display: block;
+      position: relative;
+      
+      width: 98%;
+      margin-top: 35%;
+    }
+
+    .text_mobile2{
+      margin-top: 186%;
+    }
+      
+
+     }
+  }
+  @media screen and (min-width: 360px)and (max-width: 413px){ 
+      .habitat_articles{
+          p,a,input{
+              font-size: 4.5vw;
+          }
+          .green_line{
+              display: none;
+              
+          }
+          .line{
+         display: none;
+         
+     }
+     .about_us{
+         margin-top: -20%;
+         margin-left: 87%;
+         margin-bottom: -4%;
+     }
+     .logotype{
+         margin-top: -19%;
+         width: 13%;
+         margin-left: -1%;
+     }
+ 
+     form input{
+      display: none;
+         width: 32vw;
+         height: 5vw;
+         margin-left: 10%;
+     }
+
+     #my-form-button{
+      display: none;
+     }
+ 
+     .cows{
+      
+         margin-top: -300%;
+         height: 85%;
+         width: 108%;
+         
+     }
+
+     .cows::-webkit-scrollbar{
+      display: none;
+    }
+
+     .cow1,.cow2,.cow3{
+      width: 60%;
+
+     }
+
+     .cow2{
+      margin-top: 8%;
+     }
+
+     .cow3{
+      margin-top: 8%;
+     }
+
+     .cow_1,.cow_2,.cow_3{
+      display: none;
+
+     }
+ 
+     .text_cows{
+         display: none;
+         margin-top: 6%;
+         height: 100%;
+         width: 90%;
+         margin-left: 5%;
+         
+     }
+ 
+     .tags{
+         margin-top: -310%;
+         margin-left: 50%;
+     }
+ 
+     .socials{
+         margin-top: 440%;
+         margin-left: 82%;
+         margin-bottom: -7%;
+     }
+     .vk,.dzen,.tg{
+      width: 100%;
+      height: 90%;
+    }
+    .vk{
+      margin-left: -73%;
+    }
+    .text_cows_mobile{
+      display: block;
+      position: relative;
+      
+      width: 98%;
+      margin-top: 35%;
+    }
+
+    .text_mobile2{
+      margin-top: 186%;
+    }
+      
+
+     }
+  }
+  @media screen and (min-width: 0px)and (max-width: 359px){ 
+  }
+
 
 
 
