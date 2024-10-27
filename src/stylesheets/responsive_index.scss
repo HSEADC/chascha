@@ -111,7 +111,71 @@
         } 
     }
     @media screen and (min-width: 414px)and (max-width: 767px){
-        
+        .zaglushka{
+            .underline2{
+                width: 17%;
+                margin-top: -14.5%;
+                margin-left: 25%;
+            }
+            #my-form{
+                margin-left: 7%;
+                margin-top: 7%;
+            }
+            .hello{
+                font-size: 4vw;
+                margin-left: 18%;
+                margin-top: 19%;
+            }
+            a{
+                font-size: 4vw;
+            }
+            p{
+                font-size: 3.2vw;
+            }
+            #my-form-button{ 
+                font-size: 3.2vw;
+                height: 4.5vw;
+                width: 16vw;
+            } 
+
+            form input{
+                font-size: 3.2vw;
+                width: 31vw;
+                margin-left: -25%;
+                height: 4.5vw;
+            }
+
+            .animation_rostok{
+                display: none; 
+                width: 30%;
+                margin-top: -41%;
+                margin-left: -22%;
+            }
+
+            .social{
+                width: 30%;
+                margin-top: 110%;
+                margin-left: 70%;
+
+                .tg{
+                    width: 77%;
+                    
+                 }
+                 .tg1{
+                    width: 100%;
+                    
+                 }
+                
+
+                .vk{
+                    margin-left: -13%;
+                }
+            }
+
+            #form_text{
+                margin-left: -25%;
+            }
+        } 
     }
     @media screen and (min-width: 360px)and (max-width: 413px){ 
      

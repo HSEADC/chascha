@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .section {
     width: 100%;
     display: flex;
@@ -88,6 +92,15 @@ hr {
     justify-content: flex-start;
     align-items: start;
 }
+
+.item2 {
+    width: 30vw;
+}
+
+.item22 {
+    width: 50vw;
+}
+
 
 .item_pic{
     background-size: 40vw;
@@ -206,6 +219,12 @@ hr {
 
 
 @media screen and (max-width: 500px) {
+
+    body {
+        padding: 0;
+        overflow-x: hidden;
+    }
+
     p, a {
         font-size: 20px;
     }
@@ -215,14 +234,28 @@ hr {
     }
 
     .section h2, .section p {
-        width: 80vw;
-        padding-right: 30px;
+        width: 100vw;
         padding-top: 20px;
+    }
+
+    .section{
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+
+    .section22{
+        display: block;
+        padding-right: 20px;
+    }
+
+    .section p, .section h2{
+        width: 100vw;
+        padding-top: 20px;
+        padding-right: 0;
     }
     
     .section2 p {
         width: 80vw;
-        padding-right: 30px;
     }
 
     .img1 img {
@@ -295,5 +328,8 @@ hr {
         width: 6vw;
     }
 
+    .manifesto1 {
+        width: 90%;
+    }
 
 }
