@@ -5,4 +5,11 @@
 @import 'stylesheets/index.scss';
 @import 'stylesheets/about.scss';
 @import 'stylesheets/habitat_articles.scss';
+@import 'stylesheets/geo.scss';
+@import 'stylesheets/feno.scss';
+@import 'stylesheets/literature.scss';
+@import 'stylesheets/books.scss';
+@import 'stylesheets/color.scss';
+@import 'stylesheets/map.scss';
+@import 'stylesheets/sound.scss';
 
