@@ -2,6 +2,10 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    border-radius: 10px;
+}
+
 .section {
     width: 100%;
     display: flex;
@@ -10,7 +14,7 @@ body {
 }
 
 .section h2, .section p {
-    width: 35vw;
+    width: 45vw;
     text-align: right;
     display: block;
     padding-right: 60px;
@@ -18,7 +22,7 @@ body {
 }
 
 .logotypee{
-    margin-top: -5vw;
+    margin-top: -4.5vw;
     width: 10vw;
     height: 10vw;
 }
@@ -42,10 +46,14 @@ body {
 
 p, h1, h2, a {
     color: #003E01;
-  }
+}
+
+h2 {
+    font-size: 40px;
+}
 
 .img1 div{
-    background-image: url(../images/about/img1.jpg);
+    background-image: url(../images/about/img1.webp);
 }
 
 .img1 img {
@@ -148,22 +156,10 @@ hr {
     padding-left: 30%;
 }
 
-.manifesto_bg {
-    padding: 30px;
-    width: 100%;
-    height: auto;
-}
-
-.manifesto_bg img{
-    width: 100%;
-    height: auto;
-}
-
 .manifesto {
-    padding-bottom: 10vw;
-    padding-left: 12vw;
-    width: 85vw;
-    margin-top: -40vw;
+    padding-left: 60px;
+    width: 100vw;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -212,9 +208,8 @@ hr {
 }
 
 .manifesto1 {
-    width: 50%;
+    width: 40%;
 }
-
 
 
 

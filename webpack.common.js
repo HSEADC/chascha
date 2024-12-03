@@ -139,7 +139,10 @@ module.exports = {
       filename: './structure.html'
     }),
 
-
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
+    }),
 
 
     new HtmlWebpackPlugin({
