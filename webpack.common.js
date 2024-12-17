@@ -156,8 +156,18 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/feno/feno_article2.html',
+      filename: './feno/feno_article2.html'
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/geo/geo_article1.html',
       filename: './geo/geo_article1.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/geo/geo_article2.html',
+      filename: './geo/geo_article2.html'
     }),
     
     new HtmlWebpackPlugin({
@@ -169,6 +179,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/sound/sound_article1.html',
       filename: './sound/sound_article1.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/sound/sound_article2.html',
+      filename: './sound/sound_article2.html'
     }),
 
     new HtmlWebpackPlugin({
