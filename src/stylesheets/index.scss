@@ -15,7 +15,7 @@ body.index {
     overflow: hidden;
   }
   a{
-    margin-top: 10%;
+    margin-top: 11%;
     
   }
   
@@ -23,7 +23,7 @@ body.index {
 
 
 body {
-    background-image: url(/src/images/index/background.gif);
+    background-image: url(../images/index/background.gif);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,11 +50,14 @@ a{
 
 .table p, .table a{
     color: white;
+    mix-blend-mode: difference;
 }
 
-input {
-    background-color: transparent !important;
-    border: 2px solid #B0EB00 !important;
+
+input[type] {
+    background-color: transparent ;
+    border: 2px solid #B0EB00 ;
+    padding: 5px;
 }
 
 input::placeholder {
@@ -80,14 +83,18 @@ input::placeholder {
 
 .table div:nth-child(6n + 1) {
     border: none; 
+    display:  flex;
+    justify-content: flex-end;
+    align-items:  center;
 }
 
 
-.div1 p, .div7 p, .div13 p, .div19 p, .div25 p, .div31 p {
+.table div:nth-child(6n + 1) > p {
     transform: rotate(-90deg);
 }
 
 .main_screen{
+    padding: 20px;
     display: flex;
     justify-content: flex-start;
 }
@@ -108,28 +115,62 @@ input::placeholder {
 .chascha {
     color: white;
     font-size: 60px;
-    margin-top: -90px;
     margin-bottom: 30px;
     letter-spacing: -6px;
     font-weight: 700;
+    margin-left: 20px;
 }
 
 #my-form {
     margin-top: 100px;
-    margin-left: 450px;
-    margin-bottom: 100px;
+    margin-left: 400px;
 }
 
 #form_text {
+    padding-bottom: 5px;
     color: #B0EB00;
 }
 
 .email {
+    padding: 5px;
     width: 400px;
 }
 
 #my-form-button {
+    height: 40px;
+    background-color: #B0EB00;
+    color: #000000;
+    border: none;
+}
+
+#my-form-button1 {
+    background-image: url(../images/index/finder.png);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d1d1d;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 100px;
+}
+
+.names {
+    padding: 25px;
+}
+
+.names a{
+    font-style: italic;
     color: #B0EB00;
+}
+
+.tg1 {
+    width: 30px;
+}
+
+.socials {
+    padding: 20px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -180,5 +221,17 @@ input::placeholder {
 
     .email {
         width: 200px;
+    }
+
+    .names a{
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    #form_text {
+        font-size: 16px;
     }
 }
