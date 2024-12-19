@@ -50,8 +50,9 @@ a{
 
 .table p, .table a{
     color: white;
-    mix-blend-mode: difference;
+    mix-blend-mode: multiply;
 }
+
 
 
 input[type] {
@@ -77,8 +78,14 @@ input::placeholder {
     border: 1.5px solid #B0EB00; 
     display: block;
     width: 100%;
-    height: auto;
+    height: 13vw;
     overflow: visible;
+    padding: 3px;
+}
+
+.table :hover {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(176,235,0,1) 100%);
 }
 
 .table div:nth-child(6n + 1) {
@@ -86,6 +93,11 @@ input::placeholder {
     display:  flex;
     justify-content: flex-end;
     align-items:  center;
+}
+
+.table div:nth-child(6n + 1):hover {
+    background: none;
+    background-color: transparent;
 }
 
 

@@ -1,20 +1,288 @@
 .about_us {
     background-color: white;
     background-image: url(../images/about/big_gradient.webp);
-}
+
 
 .chascha1 {
     font-size: 15vw;
-    color: white;
+    color: #2B372C;
     font-weight: 700;
     letter-spacing: -20px;
     text-align: center;
     margin-top: -9.5vw;
 }
 
+div, p {
+    font-size: 20px;
+}
+
+.podpis {
+    font-size: 16px;
+}
+
 .chascha2 {
     font-size: 7vw;
-    color: white;
+    color: #2B372C;
     letter-spacing: -8px;
     text-align: center;
+}
+
+.big_section {
+    margin-top: 10vw;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    margin-top: 5vw;
+    width: 40%;
+}
+
+.div2{
+    width: 20vw;
+}
+
+.div3{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 10vw;
+    padding-top: 10px;
+    margin-top: 4em;
+    width: 40%;
+    background-color: #B0EB00;
+
+}
+
+
+
+.div1_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.div1_1_1 p{
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -8px;
+    color: #B0EB00;
+}
+
+.div1_1_2 {
+    padding: 10px;
+    background-color: #B0EB00;
+    width: 20vw;
+}
+
+.div1_2 img{
+    opacity: 0.9;
+}
+
+.div1_3 img, .div1_2 img, .div2_2 img{
+    width: 100%;
+}
+
+.div2_1_1, .div2_1_2, .div2_1_3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2_1_1 img, .div2_1_2 img, .div2_1_3 img{
+    width: 50%;
+}
+
+.quote {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.quote1 {
+    font-size: 10vw;
+    font-weight: 700;
+    color: #B0EB00;
+}
+
+.quote2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 36px;
+}
+
+.team {
+    margin-top: 10vw;
+}
+
+
+.team p{
+    display: inline;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -8px;
+    color: #B0EB00;
+}
+
+.team_description {
+    margin-left: 10vw;
+    margin-top: 5vw;
+    width: 40vw;
+}
+
+.anya {
+    margin-top: -2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.name1{
+    display: flex;
+    flex-direction: column;
+}
+
+.name1 img, .anya img{
+    width: 100%;
+}
+
+.names {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-left: 30vw;
+}
+
+.contacts {
+    margin-top: 10vw;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -8px;
+    color: #B0EB00;
+}
+
+footer {
+    background-color: #B0EB00;
+}
+
+.contacts_img img{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 100%;
+}
+
+footer {
+    margin-top: -11px;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-top: 8vw;
+}
+
+.line {
+    width: 100%;
+    height: 7px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.tgg {
+    margin-top: -4vw;
+}
+
+.hse {
+    font-size: 3vw;
+    font-weight: 700;
+    letter-spacing: -5px;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .big_section {
+        flex-direction: column;
+    }
+
+    .div1{
+        width: 100%;
+    }
+    
+    .div2{
+        width: 100%;
+    }
+    
+    .div3{
+        width: 100%;
+    }
+
+    .chascha1 {
+        font-size: 30vw;
+        margin-top: -20vw;
+    }
+
+    .chascha2 {
+        font-size: 10vw;
+        letter-spacing: -5px;
+    }
+
+    .div1_1_2 {
+        width: 80%;
+    }
+
+    .div1_1_1 p{
+        font-size: 9vw;
+        letter-spacing: -4px;
+    }
+
+    .div2 {
+        display: none;
+    }
+
+    .div3{
+        margin-top: 0em;
+    
+    }
+
+    .team p{
+        font-size: 9vw;
+        letter-spacing: -4px;
+    }
+
+    .team_description {
+        width: 80vw;
+    }
+
+    .names {
+        margin-left: 6vw;
+    }
+
+    .contacts{
+        font-size: 9vw;
+        letter-spacing: -4px;
+    }
+
+    .hse {
+        font-size: 6vw;
+        letter-spacing: -4px;
+    }
+
+    footer {
+        height: 35vw;
+    }
+
+
+
+}
+
 }
