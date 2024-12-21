@@ -7,29 +7,126 @@
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="https://hseadc.github.io/umwelt/styleguide.html" /> 
     <meta property="og:title" content="Стайл-гайд чаща" /> 
-    <meta property="og:description" content="В этом разделе чаща рассказывает своём стиле" /> 
+    <meta property="og:description" content="В этом разделе чаща рассказывает о своём стиле" /> 
     <meta property="og:image" content="https://raw.githubusercontent.com/HSEADC/umwelt/refs/heads/main/src/images/logotype.jpg" /> 
      
     <!-- Twitter --> 
     <meta property="twitter:card" content="summary_large_image" /> 
-    <meta property="twitter:url" content="https://hseadc.github.io/umwelt/literature.html" /> 
+    <meta property="twitter:url" content="https://hseadc.github.io/umwelt/styleguide.html" /> 
     <meta property="twitter:title" content="Стайл-гайд чаща" /> 
     <meta property="twitter:description" content="В этом разделе чаща рассказывает своём стиле" /> 
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/HSEADC/umwelt/refs/heads/main/src/images/logotype.jpg" /> 
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <title>literature</title>
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/HSEADC/umwelt/refs/heads/main/src/images/logotype.jpg" />
+    <script src="./styleguide.js" charset="UTF-8"></script>
+    <link rel="icon" href="images/styleguide/favicon.png" type="image/x-icon">
+    <title>стайл-гайд</title>
 </head>
-<body>
-    <p><a href="./index.html">Главная</a></p>
-    <p><a href="./about.html">О нас</a></p>
-    <p><a href="./map.html">Карта</a></p>
-    <h1>Стайл-гайд</h1>
+<body class="styleguide_style">
+    <!-- <p><a href="./index.html">Главная</a></p> -->
+    <p class="about"><a href="./about.html">О нас</a></p>
+    <p class="map"><a href="./map.html">Карта</a></p>
+    
 
     <form>
         <input type=""  placeholder="Что Вы хотите узнать?">
         <button id="my-form-button" src="images/main/poisk.svg" ></button>
         <p id="my-form-status"></p>
       </form>
+
+
+    <div class="back_grad">
+        <img class="grad" src="./images/styleguide/background_grad.webp">
+    </div>
+    <div class="logo">
+        <img class="logotype" src="./images/styleguide/logotype_black.webp">
+        <h1 class="media_o">медиа о природных знаках</h1>
+    </div>
+    <div class="navigation">
+        <button class="about_us">
+            <h2>o проекте</h2>
+        </button>
+        <button class="logooo">
+            <h2>логотип</h2>
+        </button>
+        <button class="color">
+            <h2>цвет</h2>
+        </button>
+        <button class="typography">
+            <h2>типографика</h2>
+        </button>
+        <button class="grid">
+            <h2>сетка</h2>
+        </button>
+        <button class="graphic">
+            <h2>графика</h2>
+        </button>
+        <button class="lang">
+            <h2>язык</h2>
+        </button>
+        <button class="merch">
+            <h2>мерч</h2>
+        </button>
+    </div>
+
+    <div class="about_block">
+        <h3>о проекте</h3>
+        <p>Мы — команда тех, кто любит задавать вопросы.<br> Неважно, смотрим ли мы на облака, кору дерева<br> или следы на снегу, — нас всегда волнует: «Что это значит?». <br>Мы собрались вместе, чтобы объединить наши интересы<br> к природе, науке, культуре и дизайну.</p>
+        <img class="collage" src="./images/styleguide/collage.webp">
+        <div class="missia">
+        <h4>миссия</h4>
+        <p>Пробудить интерес к диалогу с природой,<br> научить самостоятельно определять влияние<br> климатических изменений на жизнь человека.</p>
+        <h4>суть</h4>
+        <p>Сборник природных знаков и их расшифровок.</p>
+         </div>
+    </div>
+
+    <div class="logotype_block">
+        <h3 class="logoooo">логотип</h3>
+        <img class='first_logo' src="./images/styleguide/logo_green.webp">
+        <h4>построение и механика</h4>
+        <img src="./images/styleguide/measure_green.webp">
+        <img src="./images/styleguide/measure_black.webp">
+        <p>Внутреннее расстояние между блоком текста<br> 
+            и зеленым полем равно 0 px. </p>
+        <img class="ohrannoe" src="./images/styleguide/ohrannoe.webp">
+        <h4>коллаборация</h4>
+        <p>В качестве расстояния между логотипами<br> используется 0.5 символа «‎а».</p>
+        <img class="collab" src="./images/styleguide/collab.webp">
+        <h4>цветовые пары</h4>
+        <img src="./images/styleguide/cvetovie_pari.webp">
+        <h4>ограничения</h4>
+        <div class="ogranichenia">
+            <p>Нельзя:</p>
+            <div class="ogr_1">
+            <img class="blue_on_green" src="./images/styleguide/blue_on_green.webp">
+            <p class="text_1">Использовать другой цвет текста</p>
+            <img class="black_on_red" src="./images/styleguide/black_on_red.webp">
+            <p class="text_2">Использовать другой цвет фона</p>
+            </div>
+            <div class="ogr_2">
+                <img class="otstupi" src="./images/styleguide/otstupi.webp">
+                <p class="text_3">Менять расстояние между текстом<br>
+                    и зеленым полем</p>
+                <img class="no_contrast" src="./images/styleguide/no_contrast.webp">
+                <p class="text_4">Использовать неконтрастные сочетания цветов</p>
+            </div>
+            <div class="ogr_3">
+                <img class="pol_treking" src="./images/styleguide/pol_treking.webp">
+                <p class="text_5">Менять трекинг логотипа</p>
+                <img class="defor" src="./images/styleguide/defor.webp">
+                <p class="text_6">Деформировать логотип</p>
+            </div>
+            
+        </div>
+        <p>Использование логотипа с зеленым фоном<br> допустимо только на черном и белом фоне.</p>
+        <h4>использование в вебе</h4>
+        <p>В мобильной версии разделов «О нас» и «Стайлгайд» <br> логотип расположен по ширине страницы.</p>
+        <img class="ex_web1" src="./images/styleguide/ex_web1.webp">
+        <h4>на физических носителях</h4>
+        <img class="ex_fiz1" src="./images/styleguide/ex_fiz1.webp">
+        <h4>фавикон</h4>
+        <img class="favicon" src="./images/styleguide/favicon.webp">
+    </div>
+    
 
 </body>
 </html>
