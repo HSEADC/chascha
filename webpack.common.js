@@ -59,13 +59,14 @@ module.exports = {
           filename: 'images/[hash][ext][query]'
         }
       },
+
       {
-        test: /\.(ttf|otf|woff|woff2)$/i,
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]'
+        test: /\.(ttf|otf|woff|woff2|eot)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[hash][ext][query]'
         }
-      }
+     }
     ]
   },
   plugins: [
@@ -215,3 +216,7 @@ module.exports = {
     minimizer: [new CssMinimizerPlugin()]
   }
 }
+
+
+
+
