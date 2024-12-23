@@ -15,333 +15,318 @@ body.index {
     overflow: hidden;
   }
   a{
-    margin-top: 10%;
+    margin-top: 11%;
     
   }
   
+}
 
-  #forma{
+.razdel {
+    font-weight: 700;
+    color: #000000;
+}
+
+
+body {
+    background-image: url(../images/index/background.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.menu{
+    padding: 0%;
+    margin: 0%;
+    left: 0;
+}
+
+.menu p,.menu li a, .menu li p{
+    width: fit-content;
+    background-color: #B0EB00;
+    color: black;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+a{
+    color: black;
+}
+
+.table p, .table a{
+    color: white;
+    mix-blend-mode: multiply;
+}
+
+.hashtags {
+    display: inline;
+    font-size: 0.7rem;
+}
+
+
+
+input[type] {
+    background-color: transparent ;
+    border: 2px solid #B0EB00 ;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: #B0EB00;
+}
+
+.table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: min-content repeat(5, 1fr); 
+    grid-auto-rows: 3vw repeat(auto-fill, 13vw);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-content: start;
+}
+
+.table div {
+    border: 1.5px solid #B0EB00; 
+    display: block;
+    width: 100%;
+    height: 13vw;
+    overflow: visible;
+    padding: 3px;
+}
+
+.table{
+    .div1, .div7, .div13, .div19 , .div25, .div31 {
+        width: 3vw;
+    }
+}
+
+
+.table div:hover {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(176,235,0,1) 100%);
+}
+
+
+.table div p {
+    z-index: 2;
+}
+
+.table div:hover p, .table div:hover a {
+    mix-blend-mode: normal;
+}
+
+.table div:nth-child(6n + 1) {
+    border: none; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    position: relative; 
+    padding-right: 5px; 
+}
+
+.table div:nth-child(6n + 1) > p {
+    transform: rotate(-90deg);
+    transform-origin: right top;
+    margin: 0; 
+    position: absolute; 
+    right: 3vw;
+    top: 50%;
+    transform: translate(0, -50%) rotate(-90deg);
+}
+
+
+.table div:nth-child(6n + 1):hover {
+    background: none;
+    background-color: transparent;
+}
+
+
+.main_screen{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5vw;
+}
+
+.div2 img, .div16 img, .div27 img {
+    width: 100%;
+}
+
+.gradient {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.chascha {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+    letter-spacing: -6px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#my-form {
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+#form_text {
+    padding-bottom: 5px;
+    color: #B0EB00;
+}
+
+.email {
+    padding: 5px;
+    width: 400px;
+}
+
+#my-form-button {
+    height: 40px;
+    background-color: #B0EB00;
+    color: #000000;
+    border: none;
+}
+
+#my-form-button1 {
+    background-image: url(../images/index/finder.png);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d1d1d;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 100px;
+}
+
+.names {
+    padding: 25px;
+}
+
+.names a{
+    font-style: italic;
+    color: #B0EB00;
+}
+
+.tg1 {
+    width: 30px;
+}
+
+.socials {
+    padding: 20px;
+}
+
+#div2 #image-container {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: start;
+}
+
+#div2 #image-container > p {
     position: absolute;
-    
+    top: 0;
+    align-items: start;
+    margin: 0;
+    padding: 0%;
+    transform: none;
+    opacity: 0; /* Изначально скрыто */
+    visibility: hidden; /* Изначально скрыто */
+    color: #fff;
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Плавный переход */
 }
 
-}
-#my-form-button{
-border-radius: none;
-border: none;
-background-image: url(../images/habitat/habitat_article1/poisk.svg);
-background-color: #ffffff;
-color: white;
-width: 1.9vw;
-height: 4%;
-margin-left: -2.4%;
-margin-top: 1.3%;
-position: absolute;
-cursor: pointer;
-
-}
-form input{
-margin-left: 0%;
-border-radius: 0deg;
-border-width: 2px;
-border-style: solid;
-box-shadow: none;
-border-color:#003E01;
-background-color: #ffffff;
-width: 18vw;
-height: 2.6vw;
-margin-top: 1%;
+#div2 #image-container:hover img {
+    opacity: 0; /* Скрываем изображение при наведении */
 }
 
-::placeholder{
-color: #003E01;
-padding-left: 2%;
+#div2 #image-container:hover p {
+    opacity: 1; /* Показываем текст при наведении */
+    visibility: visible; /* Показываем текст при наведении */
 }
 
-  
-
-  
 
 
 
-  
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .table {
+        grid-template-columns: repeat(5, 1fr); 
+    }
 
-@media screen and (min-width: 1920px){
-  .main{
-      
-      .social{
-          margin-top: 30%;
-      }
+    .table div:nth-child(6n) {
+        display: none;
+    }
 
-      #my-form{
-          margin-top: 15%;
-      }
+    #my-form {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
 
-      .shapka{
-          margin-top: 17%;
-      }
+    .email {
+        width: 300px;
+    }
+}
 
-      
 
-      
-  } 
-  }
-  @media screen and (min-width: 1440px)and (max-width: 1919px){
-      
-  }
-  @media screen and (min-width: 1366px)and (max-width: 1439px){
-      .zaglushka{
-      
-          .social{
-              margin-top: 30%;
-          }
-  
-          #my-form{
-              margin-top: 15%;
-          }
-  
-          .shapka{
-              margin-top: 1%;
-          }
-  
-          
-  
-          
-      } 
-  }
-      
-  @media screen and (min-width: 1024px)and (max-width: 1365px){
-      .zaglushka{
-      
-          .social{
-              margin-top: 45%;
-          }
-  
-          #my-form{
-              margin-top: 13%;
-          }
-  
-          .shapka{
-              margin-top: 2%;
-          }
-          
-      } 
-  }
-  
-  @media screen and (min-width: 768px)and (max-width: 1023px){
-      .zaglushka{
-          .underline2{
-              width: 17%;
-              margin-top: -14.5%;
-          }
-          #my-form{
-              margin-left: 22%;
-              margin-top: 3%;
-          }
-          
-          a{
-              font-size: 4vw;
-              
-          }
-          p{
-              font-size: 3.2vw;
-          }
-          .hello{
-              margin-left: 25%;
-              margin-top: 2%;
-          }
-          .intro{
-              margin-left:25%;
-              margin-top: 23%;
-          }
+@media screen and (max-width: 767px) {
 
-          .underline2{
-              margin-left: 44%;
-          }
-          #my-form-button{ 
-              font-size: 3.2vw;
-              height: 4.5vw;
-              width: 16vw;
-          } 
-
-          form input{
-              font-size: 3.2vw;
-              width: 31vw;
-              margin-left: -25%;
-              height: 4.5vw;
-          }
-
-          .animation_rostok{
-              width: 30%;
-              margin-top: -44%;
-              height: 90vw;
-          }
-          .social{
-              width: 30%;
-              margin-top: 80%;
-              margin-left: 70%;
-
-              .tg{
-                  width: 77%;
-                  
-               }
-               .tg1{
-                  width: 100%;
-                  
-               }
-          }
-
-          #form_text{
-              margin-left: -25%;
-          }
-      } 
-  }
-
-  @media screen and (min-width: 414px)and (max-width: 767px){
-      .zaglushka{
-          .underline2{
-              width: 17%;
-              margin-top: -14.5%;
-          }
-          #my-form{
-              margin-left: 22%;
-              margin-top: 3%;
-          }
-          
-          a{
-              font-size: 6vw;
-              
-          }
-          p{
-              font-size: 4.4vw;
-          }
-          .hello{
-              margin-left: 26%;
-              margin-top: 1%;
-          }
-          .intro{
-              width: 80%;
-              margin-left:26%;
-              margin-top: 23%;
-          }
-
-          .underline2{
-              width: 25%;
-              margin-left: 60%;
-              margin-top: -29%;
-          }
-          #my-form-button{ 
-              font-size: 4.4vw;
-              height: 7vw;
-              width: 25vw;
-          } 
-
-          form input{
-              font-size: 4.4vw;
-              width: 37vw;
-              margin-left: -25%;
-              height: 7vw;
-          }
-
-          .animation_rostok{
-              width: 50%;
-              margin-top: -76%;
-              margin-left: -15%;
-              height: 90vw;
-          }
-          .social{
-              width: 50%;
-              margin-top: 20%;
-              margin-left: 60%;
-
-              .tg{
-                  width: 75%;
-                  
-               }
-               .tg1{
-                  width: 107%;
-                  
-               }
-          }
-
-          #form_text{
-              margin-top: 110%;
-              margin-left: -25%;
-          }
-      }
-  }
-  @media screen and (min-width: 360px)and (max-width: 413px){ 
-      .zaglushka{
-          #my-form{
-              margin-left: 22%;
-              margin-top: 3%;
-          }
-          
-          a{
-              font-size: 6vw;
-              
-          }
-          p{
-              font-size: 4.4vw;
-          }
-          .hello{
-              margin-left: 26%;
-              margin-top: 1%;
-          }
-          .intro{
-              width: 80%;
-              margin-left:26%;
-              margin-top: 23%;
-          }
-
-          .underline2{
-              width: 25%;
-              margin-left: 62%;
-              margin-top: -30%;
-          }
-          #my-form-button{ 
-              font-size: 4.4vw;
-              height: 7vw;
-              width: 25vw;
-          } 
-
-          form input{
-              font-size: 4.4vw;
-              width: 37vw;
-              margin-left: -25%;
-              height: 7vw;
-          }
-
-          .animation_rostok{
-              width: 50%;
-              margin-top: -76%;
-              margin-left: -15%;
-              height: 90vw;
-          }
-          .social{
-              width: 50%;
-              margin-top: 20%;
-              margin-left: 60%;
-
-              .tg{
-                  width: 75%;
-                  
-               }
-               .tg1{
-                  width: 107%;
-                  
-               }
-          }
-
-          #form_text{
-              margin-top: 110%;
-              margin-left: -25%;
-          }
-      }
-  }
-  @media screen and (min-width: 0px)and (max-width: 359px){ 
-  }
+    .main_screen {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 3vw;
+    }
 
 
 
+    .table div {
+        height: 20vw;
+    }
 
+    .table {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+
+    .table div:nth-child(6n), 
+    .table div:nth-child(6n - 1) {
+        display: none; 
+    }
+
+    .menu p,.menu li a, .menu li p{
+        font-size: 20px;
+    }
+
+
+    #my-form {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+
+    .table a, .table p{
+        font-size: 16px;
+    }
+
+    .email {
+        width: 200px;
+    }
+
+    .names a{
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    #form_text {
+        font-size: 16px;
+    }
+}

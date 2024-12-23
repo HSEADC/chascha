@@ -1,330 +1,293 @@
-body {
-    overflow-x: hidden;
+.about_us {
+    background-color: white;
+    background-image: url(../images/about/big_gradient.webp);
+
+
+.chascha1 {
+    font-size: 15vw;
+    color: #2B372C;
+    font-weight: 700;
+    letter-spacing: -20px;
+    text-align: center;
+    margin-top: -9.5vw;
 }
 
-img {
-    border-radius: 10px;
+div, p {
+    font-size: 20px;
 }
 
-.section {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+.podpis {
+    font-size: 16px;
 }
 
-.section h2, .section p {
-    width: 45vw;
-    text-align: right;
-    display: block;
-    padding-right: 60px;
-    padding-top: 20px;
+.chascha2 {
+    font-size: 7vw;
+    color: #2B372C;
+    letter-spacing: -8px;
+    text-align: center;
 }
 
-.logotypee{
-    margin-top: -4.5vw;
-    width: 10vw;
-    height: 10vw;
-}
-
-.section2 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-}
-
-.section2 p {
-    width: 35vw;
-    text-align: right;
-    display: block;
-    padding-right: 60px;
-    padding-top: 20px;
-}
-
-
-
-p, h1, h2, a {
-    color: #003E01;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-.img1 div{
-    background-image: url(../images/about/img1.webp);
-}
-
-.img1 img {
-    width: 50vw;
-    height: auto;
-    padding-left: 60px;
-    padding-top: 100px;
-}
-
-hr {
-    margin-top: 100px;
-    height: 0px;
-    border-top: 2px solid #003E01;
-}
-
-
-
-.big_container {
-    padding-top: 100px;
+.big_section {
+    margin-top: 10vw;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: top;
 }
-    
-      
-    
-.description h2, .description p {
-    text-align: left;
-    display: block;
-    padding-right: 60px;
-}
-     
-    
-.description {
-    padding-left: 10px;
-    border-left: 2px solid #003E01;
-}
-    
 
-.item1 {
+.div1{
+    margin-top: 5vw;
+    width: 40%;
+}
+
+.div2{
+    width: 20vw;
+}
+
+.div3{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 10vw;
+    padding-top: 10px;
+    margin-top: 8em;
+    width: 40%;
+    height: fit-content;
+    background-color: #B0EB00;
+
+}
+
+
+
+.div1_1 {
     display: flex;
-    justify-content: flex-start;
-    align-items: start;
+    justify-content: space-between;
+    align-items: end;
 }
 
-.item2 {
-    width: 30vw;
+.div1_1_1 p{
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -8px;
+    color: #B0EB00;
 }
 
-.item22 {
-    width: 50vw;
+.div1_1_2 {
+    padding: 10px;
+    background-color: #B0EB00;
+    width: 20vw;
+}
+
+.div1_2 img{
+    opacity: 0.9;
+}
+
+.div1_3 img, .div1_2 img, .div2_2 img {
+    width: 100%;
+}
+
+.div2_1_1, .div2_1_2, .div2_1_3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2_1_1 img, .div2_1_2 img, .div2_1_3 img{
+    width: 50%;
+}
+
+.quote {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.quote1 {
+    font-size: 10vw;
+    font-weight: 700;
+    color: #B0EB00;
+}
+
+.quote2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 36px;
+}
+
+.team {
+    margin-top: 10vw;
 }
 
 
-.item_pic{
-    background-size: 40vw;
+.team p{
+    display: inline;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -8px;
+    color: #B0EB00;
+}
+
+.team_description {
+    margin-left: 10vw;
+    margin-top: 5vw;
     width: 40vw;
 }
 
-
-.item_pic img{
-    width: 100%;
-}
-
-.item_pic2 {
-    background-size: 20vw;
-    width: 30vw;
-}
-
-.item_pic2 img {
-    width: 100%;
-}
-
-.container {
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.container2 {
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.primer{
+.anya {
+    margin-top: -2vw;
     display: flex;
     flex-direction: column;
 }
 
-.underline {
-    padding-left: 30%;
-}
-
-.manifesto {
-    padding-left: 60px;
-    width: 100vw;
-    margin-top: 100px;
+.name1{
     display: flex;
-    justify-content: space-around;
-    align-items: start;
+    flex-direction: column;
 }
 
-
-.social {
-    width: 20%;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 30px;
-}
-
-.tg {
-    margin-right: 20px;
-}
-
-.tg1 {
-
-    width: 3vw;
-}
-
-.history_pic{
-    background-size: 25vw;
-    width: 25vw;
-}
-
-.history_pic img{
-    background-size: 25vw;
-    width: 25vw;
-}
-
-.container1 {
-    margin-top: 100px;
+.name1 img, .anya img{
     width: 100%;
-    height: auto;
+}
+
+.names {
     display: flex;
     justify-content: space-around;
-    align-items: start;
+    align-items: end;
+    margin-left: 30vw;
 }
 
-.historyy {
-    padding-left: 60px;
-    width: 50vw;
+.contacts {
+    margin-top: 10vw;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -8px;
+    color: #B0EB00;
 }
 
-.manifesto1 {
-    width: 40%;
+footer {
+    background-color: #B0EB00;
 }
 
+.contacts_img img{
+    display: flex;
+    justify-content: space-between;
+}
 
+footer img{
+    width: 100%;
+}
 
-@media screen and (max-width: 500px) {
+footer {
+    margin-top: -11px;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+}
 
-    body {
-        padding: 0;
-        overflow-x: hidden;
-    }
+.socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-top: 8vw;
+}
 
-    p, a {
-        font-size: 20px;
-    }
+.line {
+    width: 100%;
+    height: 7px;
+    background-color: white;
+    cursor: pointer;
+}
 
-    h1, h2 {
-        font-size: 25px;;
-    }
+.tgg {
+    margin-top: -4vw;
+}
 
-    .section h2, .section p {
-        width: 100vw;
-        padding-top: 20px;
-    }
+.hse {
+    font-size: 3vw;
+    font-weight: 700;
+    letter-spacing: -5px;
+    color: white;
+}
 
-    .section{
-        padding-top: 20px;
-        padding-right: 0px;
-    }
-
-    .section22{
-        display: block;
-        padding-right: 20px;
-    }
-
-    .section p, .section h2{
-        width: 100vw;
-        padding-top: 20px;
-        padding-right: 0;
-    }
-    
-    .section2 p {
-        width: 80vw;
-    }
-
-    .img1 img {
-        width: 80vw;
-        padding-left: 30px;
-        padding-top: 50px;
-    }
-
-    hr {
-        margin-top: 50px;
-    }
-
-    .container {
-        padding-top: 0px;
+@media screen and (max-width: 767px) {
+    .big_section {
         flex-direction: column;
     }
 
-    .item_pic{
-        background-size: 80vw;
-        width: 80vw;
+    .div1{
+        width: 100%;
     }
     
-    .item_pic2 {
-        background-size: 40vw;
-        width: 60vw;
+    .div2{
+        width: 100%;
+    }
+    
+    .div3{
+        width: 100%;
     }
 
-    .underline {
-        padding-left: 20%;
+    .chascha1 {
+        font-size: 50vw;
+        margin-top: -47vw;
     }
 
-    .container2 {
-        flex-direction: column-reverse;
+    .menu{
+       margin-top: 20vw;
     }
 
-    .manifesto_bg {
+    .chascha2 {
+        font-size: 10vw;
+        letter-spacing: -5px;
+    }
+
+    .div1_1_2 {
+        width: 80%;
+    }
+
+    .div1_1_1 p{
+        font-size: 9vw;
+        letter-spacing: -4px;
+    }
+
+    .div2 {
         display: none;
     }
 
-    .manifesto {
-        width: 100vw;
-        margin-top: 0vw;
-        padding-top: 50px;
-        padding-left: 10px;
-        flex-direction: column;
+    .div3{
+        margin-top: 0em;
+    
     }
 
-    .container1 {
-        flex-direction: column;
+    .team p{
+        font-size: 9vw;
+        letter-spacing: -4px;
     }
 
-    .historyy {
-        width: 100vw;
+    .team_description {
+        width: 80vw;
     }
 
-    .history_pic img{
-        margin-top: 0px;
-        background-size: 50vw;
-        width: 50vw;
+    .names {
+        margin-left: 6vw;
     }
 
-    .logotypee{
-        margin-top: -10vw;
-        width: 20vw;
-        height: 20vw;
+    .contacts{
+        font-size: 9vw;
+        letter-spacing: -4px;
+    }
+
+    .hse {
+        font-size: 6vw;
+        letter-spacing: -4px;
+    }
+
+    footer {
+        height: 35vw;
     }
 
 
-    .tg1 {
-        width: 6vw;
-    }
 
-    .manifesto1 {
-        width: 90%;
-    }
+}
 
 }

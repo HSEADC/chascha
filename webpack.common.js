@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
@@ -59,13 +60,14 @@ module.exports = {
           filename: 'images/[hash][ext][query]'
         }
       },
+
       {
-        test: /\.(ttf|otf|woff|woff2)$/i,
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]'
+        test: /\.(ttf|otf|woff|woff2|eot)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[hash][ext][query]'
         }
-      }
+     }
     ]
   },
   plugins: [
@@ -156,8 +158,18 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/feno/feno_article2.html',
+      filename: './feno/feno_article2.html'
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/geo/geo_article1.html',
       filename: './geo/geo_article1.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/geo/geo_article2.html',
+      filename: './geo/geo_article2.html'
     }),
     
     new HtmlWebpackPlugin({
@@ -172,8 +184,27 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/sound/sound_article2.html',
+      filename: './sound/sound_article2.html'
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/structure/structure_article1.html',
       filename: './structure/structure_article1.html'
+    }),
+
+    new CopyPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, './src/images/styleguide/favicon.png'),
+          to: path.resolve(__dirname, './dev_build/images/favicon.png')
+        },
+        {
+          from: path.resolve(__dirname, './src/images/styleguide/favicon.png'),
+          to: path.resolve(__dirname, './docs/images/favicon.png')
+        }
+      
+      ]
     }),
 
 
@@ -200,3 +231,7 @@ module.exports = {
     minimizer: [new CssMinimizerPlugin()]
   }
 }
+
+
+
+

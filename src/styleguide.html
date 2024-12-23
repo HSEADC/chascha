@@ -6,30 +6,341 @@
 
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="https://hseadc.github.io/umwelt/styleguide.html" /> 
-    <meta property="og:title" content="Стайл-гайд Умвельта" /> 
-    <meta property="og:description" content="В этом разделе Умвельт рассказывает своём стиле" /> 
+    <meta property="og:title" content="Стайл-гайд чаща" /> 
+    <meta property="og:description" content="В этом разделе чаща рассказывает о своём стиле" /> 
     <meta property="og:image" content="https://raw.githubusercontent.com/HSEADC/umwelt/refs/heads/main/src/images/logotype.jpg" /> 
      
     <!-- Twitter --> 
     <meta property="twitter:card" content="summary_large_image" /> 
-    <meta property="twitter:url" content="https://hseadc.github.io/umwelt/literature.html" /> 
-    <meta property="twitter:title" content="Стайл-гайд Умвельтаа" /> 
-    <meta property="twitter:description" content="В этом разделе Умвельт рассказывает своём стиле" /> 
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/HSEADC/umwelt/refs/heads/main/src/images/logotype.jpg" /> 
-    <link rel="icon" href="images/logotype.png" type="image/x-icon"> 
-    <title>literature</title>
+    <meta property="twitter:url" content="https://hseadc.github.io/umwelt/styleguide.html" /> 
+    <meta property="twitter:title" content="Стайл-гайд чаща" /> 
+    <meta property="twitter:description" content="В этом разделе чаща рассказывает своём стиле" /> 
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/HSEADC/umwelt/refs/heads/main/src/images/logotype.jpg" />
+    <script src="./styleguide.js" charset="UTF-8"></script>
+    <link rel="icon" href="images/styleguide/favicon.png" type="image/x-icon">
+    <title>стайл-гайд</title>
 </head>
-<body>
-    <p><a href="./index.html">Главная</a></p>
-    <p><a href="./about.html">О нас</a></p>
-    <p><a href="./map.html">Карта</a></p>
-    <h1>Стайл-гайд</h1>
+<body class="styleguide_style">
+    <!-- <p><a href="./index.html">Главная</a></p> -->
+    <p class="about"><a href="./about.html">О нас</a></p>
+    <p class="map"><a href="./map.html">Карта</a></p>
+    
 
-    <form>
-        <input type=""  placeholder="Что Вы хотите узнать?">
-        <button id="my-form-button" src="images/main/poisk.svg" ></button>
-        <p id="my-form-status"></p>
-      </form>
+    <div class="back_grad">
+        <img class="grad" src="./images/styleguide/background_grad.webp">
+    </div>
+    <div class="logo">
+        <a href="./index.html" ><img class="logotype" src="./images/styleguide/logotype_black.webp"></a>
+        <h1 class="media_o">медиа о природных знаках</h1>
+    </div>
+    <a href="./index.html" id="back_button"></a>
+    <div class="navigation">
+        <button id="about_but" > <a href="#about_us_id" class="about_us">
+            <h2>o проекте</h2>
+        </a>
+        </button>
+        <button id="logo_but" ><a href="#logo_id" class="logooo">
+            <h2>логотип</h2>
+        </a>
+    </button>
+    <button><a href="#color_id" class="color">
+            <h2>цвет</h2>
+        </a>
+    </button>
+        <button id="typo_but" ><a href="#typo_id" class="typography">
+            <h2>типографика</h2>
+        </a></button>
+        <button><a href="#grid_id" class="grid">
+            <h2>сетка</h2>
+        </a></button>
+       <button id="graphic_but" > <a href="#graphic_id" class="graphic">
+            <h2>графика</h2>
+        </a>
+    </button>
+        <button><a href="#lang_id" class="lang">
+            <h2>язык</h2>
+        </a>
+    </button>
+        <button><a href="#merch_id" class="merch">
+            <h2>мерч</h2>
+        </a></button>
+    <a href="#back_button" class="up_button"></a>
+    </div>
+
+    <div class="about_block">
+        <h3 id="about_us_id" >о проекте</h3>
+        <p class="intro" >Мы — команда тех, кто любит задавать вопросы.<br> Неважно, смотрим ли мы на облака, кору дерева<br> или следы на снегу, — нас всегда волнует: «Что это значит?». <br>Мы собрались вместе, чтобы объединить наши интересы<br> к природе, науке, культуре и дизайну.</p>
+        <img class="collage" src="./images/styleguide/collage.webp">
+        <div class="missia">
+        <h4>миссия</h4>
+        <p>Пробудить интерес к диалогу с природой,<br> научить самостоятельно определять влияние<br> климатических изменений на жизнь человека.</p>
+        <h4>суть</h4>
+        <p>Сборник природных знаков и их расшифровок.</p>
+         </div>
+    </div>
+
+    <div class="logotype_block">
+        <h3 id="logo_id" class="logoooo">логотип</h3>
+        <img class='first_logo' src="./images/styleguide/logo_green.webp">
+        <h4 class="postroenie" >построение и механика</h4>
+        <img class="postroenie_1" src="./images/styleguide/measure_green.webp">
+        <img class="postroenie_2" src="./images/styleguide/measure_black.webp">
+        <p class="postroenie_3" >Внутреннее расстояние между блоком текста<br> 
+            и зеленым полем равно 0 px. </p>
+        <img class="ohrannoe" src="./images/styleguide/ohrannoe.webp">
+        <h4>коллаборация</h4>
+        <p>В качестве расстояния между логотипами<br> используется 0.5 символа «‎а».</p>
+        <img class="collab" src="./images/styleguide/collab.webp">
+        <h4>цветовые пары</h4>
+        <img class="cvetovie_pari" src="./images/styleguide/cvetovie_pari.webp">
+        <h4>ограничения</h4>
+        <div class="ogranichenia">
+            <p>Нельзя:</p>
+            <div class="ogr_1">
+            <img class="blue_on_green" src="./images/styleguide/blue_on_green.webp">
+            <p class="text_1">Использовать другой цвет текста</p>
+            <img class="black_on_red" src="./images/styleguide/black_on_red.webp">
+            <p class="text_2">Использовать другой цвет фона</p>
+            </div>
+            <div class="ogr_2">
+                <img class="otstupi" src="./images/styleguide/otstupi.webp">
+                <p class="text_3">Менять расстояние между текстом<br>
+                    и зеленым полем</p>
+                <img class="no_contrast" src="./images/styleguide/no_contrast.webp">
+                <p class="text_4">Использовать неконтрастные сочетания цветов</p>
+            </div>
+            <div class="ogr_3">
+                <img class="pol_treking" src="./images/styleguide/pol_treking.webp">
+                <p class="text_5">Менять трекинг логотипа</p>
+                <img class="defor" src="./images/styleguide/defor.webp">
+                <p class="text_66">Деформировать логотип</p>
+            </div>
+        </div>
+        <p class="ispolzovanie" >Использование логотипа с зеленым фоном<br> допустимо только на черном и белом фоне.</p>
+        <div class="fon">
+            <img class="black_back" src="./images/styleguide/black_back.webp">
+            <img class="blue_back" src="./images/styleguide/blue_back.webp">
+        </div>
+        <div class="fon_white">
+            <img class="white_back" src="./images/styleguide/white_back.webp">
+        </div>
+        <h4>использование в вебе</h4>
+        <p>В мобильной версии разделов «О нас» и «Стайлгайд» <br> логотип расположен по ширине страницы.</p>
+        <img class="ex_web1" src="./images/styleguide/ex_web1.webp">
+        <h4>на физических носителях</h4>
+        <img class="ex_fiz1" src="./images/styleguide/ex_fiz1.webp">
+        <h4>фавикон</h4>
+        <img class="favicon" src="./images/styleguide/favicon.webp">
+    </div>
+    <div class="color_block">
+        <h3 id="color_id" class="">цвет</h3>
+        <p class="osn_1" >Основной цвет</p>
+        <p class="cvet_1">#B0EB00</p>
+        <p class="osn_2">Основной цвет</p>
+        <p class="cvet_2">#FFFFFF</p>
+        <p class="dop_1" >Дополнительный цвет</p>
+        <p class="cvet_3">#F8F8F8</p>
+        <p class="dop_2">Дополнительный цвет</p>
+        <p class="cvet_4" >#2B372C</p>
+        <p class="interface">Только для интерфейсов</p>
+        <p class="cvet_5" >#000000</p>
+        <p class="cvet_grad">Градиент состоит<br>из основных цветов</p>
+        <img class="coloors" src="./images/styleguide/coloors.webp">
+        <h4>в вебе</h4>
+        <img  class="color_v_webe" src="./images/styleguide/color_v_webe.webp">
+    </div>
+    <div class="typo_block">
+        <h3 id="typo_id" class="">типографика</h3>
+        <h4>шрифт</h4>
+        <div class="mobile_name_font">
+            <p>Arial Narrow Regular</p>
+            <p class="arial_bold_font" >Arial Narrow Bold</p>
+        </div>
+        <div class="fonts_name">
+        <p>Arial Narrow Regular<br> <br>
+
+            А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У  Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я <br> <br>
+            
+            а б в г д е ё ж з и й к л м н о п р с т у<br> ф х ц ч ш щ ъ ы ь э ю я
+            
+            </p>
+            <p class="arial_bold">Arial Narrow Bold<br> <br>
+
+                А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я <br> <br>
+                
+                а б в г д е ё ж з и й к л м н о п р с т у<br> ф х ц ч ш щ ъ ы ь э ю я
+                
+                </p>
+        </div>
+        <div class="font_size">
+        <h4>размер</h4>
+        <div class="logo_250">
+            <h4 class="logot">logo</h4>
+            <h4 class="p250">250px</h4>
+            <img class="logo_size" src="./images/styleguide/logotype_black.webp">
+        </div>
+        <div class="header_128">
+            <h4 class="header">header</h4>
+            <h4 class="p128">128px</h4>
+            <img class="logo_size_128" src="./images/styleguide/logotype_black.webp">
+        </div>
+        <div class="subheader_48">
+            <h4 class="subheader">subheader</h4>
+            <h4 class="48">48px</h4>
+            <img class="logo_size_48" src="./images/styleguide/logotype_black.webp">
+        </div>
+        <div class="body_32">
+            <h4 class="body_1">body</h4>
+            <h4 class="32">32px</h4>
+            <p class="text_size_32">чаща</p>
+        </div>
+        <div class="body_24">
+            <h4 class="body_2">body</h4>
+            <h4 class="24">24px</h4>
+            <p class="text_size_24">чаща</p>
+        </div>
+       </div>
+       <div>
+        <h4>трекинг</h4>
+        <div class="trecking">
+            <h4 class="treck_11">-11%</h4>
+            <img class="logo_treck" src="./images/styleguide/logo_treck.webp">
+        </div>
+        <div class="trecking_2">
+            <h4 class="treck_0">0%</h4>
+            <p class="text_treck">чаща</p>
+        </div>
+        <p class="special_font" >Из-за особенностей шрифта Arial Narrow, появляется расстояние<br> между буквами ы, ц, щ и последующим символом.<br> В таких случаях необходимо понизить трекинг до -13%.</p>
+        <div class="rasstoyanie">
+            <div class="ploho">
+              <h1 class="klik_1">клык</h1>
+              <h4>-11%</h4>
+            </div>
+            <div class="horosho">
+                <h1 class="klik_2">клык</h1>
+                <h4>-13%</h4>
+            </div>
+        </div>
+        <h4>на носителях</h4>
+        <div class="na_nositelyah">
+            <img class="ex_lecture" src="./images/styleguide/ex_lecture.webp">
+            <img class="ex_korni" src="./images/styleguide/ex_korni.webp">
+        </div>
+    </div>
+    <div class="grid_block">
+        <h3 id="grid_id" >сетка</h3>
+        <h4>веб</h4>
+        <div class="desktop">
+            <p class="prir_chaos">У природного хаоса тоже есть правила.<br> 
+            В вебе мы используем 24 колонки<br>
+            с межколоночным интервалом, равным 8px.</p>
+            <h4 class="desktop_text">десктоп</h4>
+            <h4 class="text_24">24</h4>
+        </div>
+        <img class="grid_desktop" src="./images/styleguide/grid_desktop.webp">
+        <div class="laptop_mobile">
+                <h4 class="laptop_text">планшет</h4>
+                <h4 class="text_12">12</h4>
+                <h4 class="mobile_text">телефон</h4>
+                <h4 class="text_6">6</h4>
+            </div>
+            <div class="grids">
+                <img class="grid_laptop" src="./images/styleguide/grid_laptop.webp">
+                <img class="grid_mobile" src="./images/styleguide/grid_mobile.webp">
+            </div>
+            <p class="on_main_text" >На главной странице проекта и в социальных <br>
+                сетях используется сетка из квадратов (графика).<br>
+                Она структурирует материал и не позволяет потеряться<br>
+                в чаще знаний. </p>
+            <img class="quadro" src="./images/styleguide/grid_quadro.webp">
+        <h4>физические носители</h4>
+        <p>В печати мы используем 4 колонки. </p>
+        <h4 class="pechat_4">4</h4>
+        <img class="pechat" src="./images/styleguide/grid_pechat.webp">
+    </div>
+    <div class="graphic_block">
+        <h3 id="graphic_id" >графика</h3>
+        <div class="opisanie_graph">
+            <p >Стиль, в котором царит естественный хаос, подчиняющийся своим<br> внутренним законам. Это путешествие через густой лес знаний.<br> Такой подход вдохновляет на открытие смысла среди кажущегося<br> беспорядка, оставляя пространство для размышлений <br>и личной интерпретации.</p>
+            <ol class="style_text">
+                <li>Ключевые особенности стиля:</li>
+                <li>  — &#160;сложная структура и многослойность;</li>
+                <li> —&#160; отрицательный трекинг и градиенты;</li>
+                <li> — &#160;фриковатость.</li>
+            </ol>
+        </div>
+            <h4>фильтры</h4>
+            <div class="filtrs">
+             <img class="filtr_none" src="./images/styleguide/filtr_none.webp">
+             <img src="./images/styleguide/filtr_halftone.webp">
+            </div>
+            <div class="filtrs_text">
+                <p class="filtr_none_text" >без фильтров</p>
+                <p class="filtr_half_text">halftone</p>
+            </div>
+            <img class="filtr_post" src="./images/styleguide/filtr_posterisation.webp">
+            <p class="post_text" >posterisation — 4 уровня</p>
+            <h4>ограничения</h4>
+            <div class="filtrs_ploho">
+                <img class="filtr_ploho_1" src="./images/styleguide/filtr_ploho_1.webp">
+                <img src="./images/styleguide/filtr_ploho_2.webp">
+            </div>
+            <div class="filtrs_text_ploho">
+                <p class="paper_postal">postal paper</p>
+                <p class="filtr_half_coal">coal</p>
+            </div>
+            <h4>наложение</h4>
+            <img class="layers" src="./images/styleguide/layers.webp">
+        </div>
+    </div>
+    <div class="lang_block">
+        <h3 id="lang_id" >язык</h3>
+        <ol class="principi">
+            <li>Мы придерживаемся следующих принципов коммуникации:</li>
+            <li> — &#160;прозрачность взаимодействий;</li>
+            <li> —&#160; избежание манипуляций с эмоциональным состоянием;</li>
+            <li> — &#160;выстраивание реалистичных ожиданий;</li>
+            <li> — &#160;уважение самостоятельного исследования;</li>
+            <li> — &#160;культурная инклюзия, уважение к разнообразию<br>
+                &#160;&#160;&#160;&#160; культурных трактовок природных знаков.</li>
+        </ol>
+
+        <div class="na_nositelyah_lang">
+            <img class="ex_lecture" src="./images/styleguide/rebrand.webp">
+            <img class="ex_korni" src="./images/styleguide/present.webp">
+        </div>
+    </div>
+    <div class="merch_block" >
+     <h3 id="merch_id" >мерч</h3>
+     <h4>примеры</h4>
+     <div class="merch_ex" >
+        <div class="merch_1_2" >
+       <img src="./images/styleguide/merch_1.webp">
+       <img class="tshirt" src="./images/styleguide/merch_2.webp">
+    </div>
+    <div class="merch_3_4">
+       <img src="./images/styleguide/merch_3.webp">
+       <img class="avoska" src="./images/styleguide/merch_4.webp">
+     </div>
+     </div>
+     <h4>ограничения</h4>
+     <p class="merch_ploho_text" >Мы не хотим ассоциироваться с загрязнением природы.<br>
+        Айдентика не используется на пластиковых носителях.</p>
+        <img class="plastic" src="./images/styleguide/plastic.webp">
+    </div>
+    <footer>
+        <div class="names">
+          <a href="https://t.me/kaddelina">@kaddelina</a>
+          <a href="https://t.me/kudryashhhh">@kudryashhhh</a>
+        </div>
+        <div class="socials"> 
+          <a href="https://t.me/uumwelt" class="tg"><img class="tg1" src="./images/index/tg.webp" alt=""></a>
+          <a href="https://vk.com/club227899273" class="tg"><img class="tg1" src="./images/index/vk.webp" alt=""></a>
+          <a href="https://clck.ru/3DfjFZ" class="tg"><img class="tg1" src="./images/index/dzen.webp" alt=""></a>
+        </div>  
+      </footer> 
+    
+    
 
 </body>
 </html>

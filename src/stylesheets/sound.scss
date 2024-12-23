@@ -1,0 +1,51 @@
+body.index {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+  
+    & > div,
+    & > a {
+      margin: 10px 0;
+    }
+  }
+  
+  .main{
+    body {
+      overflow: hidden;
+    }
+    a{
+      margin-top: 11%;
+      
+    }
+    
+  }
+  
+  
+.sound {
+    .table img{
+        width: 100%;
+    }
+
+    .div2 p{
+        font-size: 3vw;
+        mix-blend-mode: normal;
+    }
+
+    .div2, .div3, .div4, .div5, .div6{
+        padding: 0;
+        background-color: #B0EB00;
+    }
+
+
+    .table {
+        .div1, .div2, .div3, .div4, .div5, .div6{ 
+            height: 3vw;
+        }
+    }
+
+  .razdel {
+    font-weight: 700;
+      color: #000000;
+  }
+}
