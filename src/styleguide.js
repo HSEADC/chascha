@@ -5,13 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
         if (window.scrollY >= top) {
             navigation.style.position = "fixed";
-            navigation.style.top = "-32%"; 
-            navigation.style.zIndex = "1000"; 
+            navigation.style.top = "-33%"; 
+            navigation.style.zIndex = "10"; 
         } else {
             navigation.style.position = ""; 
             navigation.style.top = ""; 
-            navigation.style.left = ""; 
-            navigation.style.width = "";
             navigation.style.zIndex = "";
         }
     });

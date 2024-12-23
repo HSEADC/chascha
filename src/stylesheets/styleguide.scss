@@ -10,10 +10,11 @@
         margin-bottom: 8%;
         width: 40%;
     }
-    p{
+    p, ol{
         color: #2B372C;
         padding-left: 14%;
         margin-bottom: 5%;
+        font-size: 1.4vw;
     }
     h1{
         color: #2B372C;
@@ -47,7 +48,8 @@
         border-style: none;
         box-shadow: whitesmoke 0px -0px 20px 5px;
         letter-spacing:-0.5rem;
-        width: 8.5%;
+        width: 9%;
+        height: 2%;
         
     }
 
@@ -58,20 +60,35 @@
         display: flex;
         justify-content: space-between;
         margin-top: 15%;
-        margin-left: 13%;
-        width: 75%;
+        margin-left: 12%;
+        width: 78%;
+        
     }
 
-    .about_us{
+    
+
+    button#about_but{
         width: 14%;
     }
+
+    button#typo_but{
+   width: 18%;
+    }
     .logooo{
+        width: 13%;
+    }
+
+    button#logo_but{
         width: 13%;
     }
     .typography{
         width: 18%;
     }
     .graphic{
+        width: 13%;
+    }
+
+    button#graphic_but{
         width: 13%;
     }
    
@@ -138,11 +155,13 @@
 
     .logoooo{
         margin-top: 38%;
+       
     }
 
     .first_logo{
         width: 30%;
         margin-left: 43%;
+        
     }
 
     .ohrannoe{
@@ -605,6 +624,7 @@
 
     .style_text{
         margin-right: 4%;
+        margin-top: 0%;
     }
 
     .filtrs{
@@ -676,6 +696,91 @@
     .layers{
         width: 54.8%;
     }
+
+    .na_nositelyah_lang{
+        margin-top: 3%;
+        margin-left: 14%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .plastic{
+        width: 35%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        background-image: url(../images/styleguide/background_grad.webp);
+        background-color: white;
+        width: 100%;
+        height: 10%;
+        overflow: hidden;
+        margin-top: 1%;
+        
+    }
+    
+    .names {
+        z-index: 5;
+        padding: 25px;
+    }
+    
+    .names a{
+        font-style: italic;
+        color: #2B372C;
+    }
+    
+    .tg1 {
+        margin-left: 10%;
+        margin-top: 0%;
+        width: 100%;
+    }
+    
+    .socials {
+        filter: invert(1) brightness(0);
+        width: 20%;
+        z-index: 6;
+        position: relative;
+        margin-top: -0.2%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .merch_1_2{
+        margin-top: 3%;
+        margin-left: 17%;
+        width: 55%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .tshirt{
+        margin-left: 8%;
+        width: 55%;
+        height: 55%;
+    }
+
+
+    .merch_3_4{
+        margin-top: 0%;
+        margin-left: 17.5%;
+        width: 54%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .avoska{
+        margin-left: 9%;
+        width: 55%;
+        height: 55%;
+    }
+
+    
 
     
 
