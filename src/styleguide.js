@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
         if (window.scrollY >= top) {
             navigation.style.position = "fixed";
-            navigation.style.top = "-15vw"; 
+            navigation.style.top = "-15.8vw"; 
             navigation.style.zIndex = "10"; 
             up_button.style.display = 'block';
         } else {
