@@ -1,0 +1,1729 @@
+.styleguide_style{
+    background-image: none;
+    body{
+        overflow-x: hidden;
+        
+    }
+
+    img{
+        margin-left: 38%;
+        margin-bottom: 8%;
+        width: 40%;
+    }
+    p, ol{
+        color: #2B372C;
+        padding-left: 14%;
+        margin-bottom: 5%;
+        font-size: 1.4vw;
+    }
+    h1{
+        color: #2B372C;
+        font-size: 8vw;
+        letter-spacing:-0.4vw;
+    }
+    h2{
+        color: #2B372C;
+        font-size: 3vw;
+        letter-spacing:-0.37vw;
+        font-weight: 600;
+    }
+    h3{
+        color: #B0EB00;
+        font-size: 8vw;
+        letter-spacing:-0.7vw;
+        font-weight: 600;
+        margin-bottom: 4%;
+        margin-left: -0.5%;
+    }
+    h4{
+        color: #B0EB00;
+        font-size: 3vw;
+        letter-spacing:-0.35vw;
+        font-weight: 600;
+        margin-bottom: 3%;
+        margin-left: -0.3%;
+    }
+    button{
+        background-color: #B0EB00;
+        border-style: none;
+        box-shadow: whitesmoke 0px -0px 20px 5px;
+        letter-spacing:-0.5rem;
+        width: 9%;
+        height: 2%;
+        
+    }
+
+    .navigation{
+        
+        justify-content: center;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15%;
+        margin-left: 12%;
+        width: 78%;
+        
+    }
+
+    
+
+    button#about_but{
+        width: 14%;
+        
+    }
+
+    button#typo_but{
+   width: 18%;
+    }
+    .logooo{
+        width: 13%;
+    }
+
+    button#logo_but{
+        width: 13%;
+    }
+    .typography{
+        width: 18%;
+    }
+    .graphic{
+        width: 13%;
+    }
+
+    button#graphic_but{
+        width: 13%;
+    }
+   
+    .map{
+        display: none;
+    }
+    .about{
+        display: none;
+
+    }
+    form{
+        display: none;
+    }
+
+    .back_grad{
+        display: block;
+        justify-content: center;
+        margin-top: -1.4%;
+        margin-left: 0%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .grad{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .logo{
+        justify-content: center;
+        position: relative;
+        margin-top: -54.6%;
+        margin-bottom: -10%;
+        
+        
+        
+    }
+    .logotype{
+        width: 30%;
+        margin-left: 34%;
+    }
+
+    .media_o{
+        margin-left: 14%;
+        margin-top: -9%;
+        
+    }
+
+    .about_block{
+      margin-top: 30%;
+      width: 100%;
+      
+    }
+    
+    .collage{
+      width: 36%;
+      margin-top: 2%;
+      margin-left: 0%;
+      margin-bottom: 0%;
+      
+    }
+
+    .missia{
+        margin-top: -41%;
+        margin-left: 38%;
+        margin-bottom: -10%;
+    }
+
+    .logoooo{
+        margin-top: 38%;
+       
+    }
+
+    .first_logo{
+        width: 30%;
+        margin-left: 43%;
+        
+    }
+
+    .ohrannoe{
+        width: 30%;
+        margin-left: 43%;
+    }
+
+    .ogranichenia{
+        position: relative;
+    }
+    .ogr_1{
+        margin-top: -4%;
+        margin-left: 22%;
+        width: 40%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .blue_on_green{
+    width: 50%;
+    height: 50%;
+    margin-right: -20%;
+    }
+
+    .black_on_red{
+        width: 50%;
+    height: 50%;
+    }
+
+    .text_1{
+        position: absolute;
+        margin-top: 29%;
+        margin-left: 24%;
+    }
+
+    .text_2{
+        position: absolute;
+        margin-top: 29%;
+        margin-left: 92%;
+        width: 58%;
+    }
+
+    .ogr_2{
+        margin-left: 22%;
+        width: 40%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .otstupi{
+    width: 50%;
+    height: 50%;
+    margin-right: -19%;
+    margin-left: 37%;
+    }
+
+    .no_contrast{
+        width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    
+    }
+
+    .text_3{
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 24%;
+    }
+
+    .text_4{
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 92%;
+        width: 58%;
+    }
+
+
+    .ogr_3{
+        margin-left: 22%;
+        width: 40%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+    .pol_treking{
+    width: 50%;
+    height: 50%;
+    margin-right: -19%;
+    margin-left: 38%;
+    margin-top: 10%;
+    }
+
+    .defor{
+        width: 66%;
+    height: 50%;
+    margin-top: 10%;
+    
+    }
+
+    .text_5{
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 24%;
+    }
+
+    .text_66{
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 92%;
+        width: 58%;
+    }
+
+    .fon{
+        margin-top: 0%;
+        margin-left: 22%;
+        width: 40%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .black_back{
+    width: 65%;
+    height: 65%;
+    margin-right: -20%;
+    }
+
+    .blue_back{
+        width: 65%;
+    height: 65%;
+    }
+
+    .fon_white{
+        margin-top: 0%;
+        margin-left: 22%;
+        width: 40%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .white_back{
+    width: 66.5%;
+    height: 65%;
+    margin-right: -20%;
+    margin-left: 37.2%;
+    }
+
+  
+    .ex_web1{
+     width: 26%;
+     }
+
+    .favicon{
+     width: 10%;
+     }
+
+     .coloors{
+        width: 50%;
+        margin-left: 36.5%;
+     }
+     .color_v_webe{
+        margin-left: 36.5%;
+     }
+    
+     .fonts_name{
+        margin-top: 0%;
+        margin-left: 29%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .mobile_name_font{
+        margin-top: 0%;
+        margin-left: 29%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .arial_bold_font{
+        font-weight: 700;
+    }
+
+    .arial_bold{
+       font-weight: 700;
+    }
+
+    .logo_250{
+        margin-top: 0%;
+        margin-left: 37.4%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .logo_size{
+        margin-left: -1%;
+        margin-right:10% ;
+    }
+
+
+    .header_128{
+        margin-top: 0%;
+        margin-left: 37.4%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .header{
+        margin-right: -4%;
+    }
+
+    .logo_size_128{
+        width: 21%;
+        margin-left: -1%;
+        margin-right:29% ;
+    }
+
+    .subheader_48{
+        margin-top: 3%;
+        margin-left: 37.4%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .subheader{
+        margin-right: -10%;
+    }
+
+    .logo_size_48{
+        margin-top: 1%;
+        width: 10%;
+        margin-left: -1%;
+        margin-right:40% ;
+    }
+
+    .body_32{
+        margin-top: 3%;
+        margin-left: 37.4%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .body_1{
+        margin-right: 12%;
+    }
+
+    .text_size_32{
+        margin-top: 0.5%;
+        font-weight: 700;
+        font-size: 2.5vw;
+        margin-left: -1%;
+        margin-right:41% ;
+    }
+
+    .body_24{
+        margin-top: 3%;
+        margin-left: 37.4%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .body_2{
+        margin-right: 12%;
+    }
+
+    .text_size_24{
+        margin-top: 2%;
+        margin-left: -1%;
+        margin-right:44.5% ;
+    }
+
+
+    .trecking{
+        margin-top: 3%;
+        margin-left: 37.4%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .treck_11{
+        margin-right: 12%;
+    }
+
+
+    .logo_treck{
+        margin-top: -12%;
+        margin-left: -10%;
+        margin-right:36% ;
+    }
+
+    .trecking_2{
+        margin-top: 3%;
+        margin-left: 37.4%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 6%;
+    }
+
+    .treck_0{
+        margin-right: 12%;
+    }
+
+    .text_treck{
+        margin-top: 1.5%;
+        margin-left: -4%;
+        margin-right:90% ;
+    }
+
+    .rasstoyanie{
+        margin-top: -2%;
+        margin-left: 37.4%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 3%;
+    }
+
+    .ploho{
+        display: block;
+        justify-content: center;
+    }
+
+    .horosho{
+        display: block;
+        justify-content: center;
+        margin-right: 15%;
+    }
+    
+    .klik_1{
+        font-size: 13vw;
+        letter-spacing:-1.4vw;
+        font-weight: 700;
+    }
+
+    .klik_2{
+        font-size: 13vw;
+        letter-spacing:-1.6vw;
+        font-weight: 700;
+    }
+
+    .na_nositelyah{
+        margin-top: 3%;
+        margin-left: 14%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .ex_lecture{
+        margin-right: -28%;
+    }
+
+    .desktop{
+        margin-top: 3%;
+        margin-left: 14%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .grid_desktop{
+     width: 100%;
+     margin-left: 0%;
+     margin-top: -2%;
+    }
+
+    .desktop_text, .text_24{
+        margin-top: 2%;
+    }
+    .text_24{
+      margin-right: 8%;
+    }
+    
+
+    .desktop_text{
+        
+        margin-right: -14%;
+    }
+    
+
+    .laptop_mobile{
+        margin-top: 0%;
+        
+        width: 50%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .text_12{
+        margin-left: 8%;
+    }
+
+.grid_laptop{
+    width: 83%;
+    margin-left: -23.5%;
+    margin-top: -6%;
+}
+
+    .grids{
+        margin-top: 3%;
+        margin-left: 14%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    
+    .grid_mobile{
+        width: 42%;
+    margin-left: 7.5%;
+    margin-top: -6%;
+    }
+
+    .mobile_text{
+        
+        margin-left: 80%;
+    }
+
+    .text_6{
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+
+    .prir_chaos{
+        margin-left: -9%;
+    }
+    
+    .quadro{
+        width: 25%;
+    }
+
+    .ex_main{
+        width: 50%;
+    }
+
+    .pechat_4{
+        margin-left: 38%;
+        margin-bottom: 0.5%;
+    }
+
+    .pechat{
+        width: 17%;
+    }
+
+    .opisanie_graph{
+        margin-top: 3%;
+        margin-left: 1%;
+        width: 90%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .style_text{
+        margin-right: 4%;
+        margin-top: 0%;
+    }
+
+    .filtrs{
+        margin-top: 3%;
+        margin-left: 13%;
+        width: 65%;
+        margin-bottom: -4%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .filtr_none{
+        margin-right: -33%;
+    }
+
+    .filtrs_text{
+        margin-top:-0.5%;
+        margin-left: 31.5%;
+        width: 45%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .filtr_half_text{
+        margin-right: 12%;
+    }
+
+    .filtr_post{
+        width: 26%;
+        margin-left: 37.7%;
+    }
+
+    .post_text{
+        margin-top: -7%;
+        margin-left: 23.6%;
+    }
+
+
+    .filtrs_ploho{
+        margin-top: 3%;
+        margin-left: 13%;
+        width: 65%;
+        margin-bottom: -4%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .filtrs_text_ploho{
+        margin-top:-0.5%;
+        margin-left: 31.5%;
+        width: 45%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .filtr_ploho_1{
+        margin-right: -33%;
+    }
+
+
+    .filtr_half_coal{
+        margin-right: 16%;
+    }
+
+    .layers{
+        width: 54.8%;
+    }
+
+    .na_nositelyah_lang{
+        margin-top: 3%;
+        margin-left: 14%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .plastic{
+        width: 35%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        background-image: url(../images/styleguide/background_grad.webp);
+        background-color: white;
+        width: 100%;
+        height: 10%;
+        overflow: hidden;
+        margin-top: 1%;
+        
+    }
+    
+    .names {
+        z-index: 5;
+        padding: 25px;
+    }
+    
+    .names a{
+        font-style: italic;
+        color: #2B372C;
+    }
+    
+    .tg1 {
+        margin-left: 10%;
+        margin-top: 0%;
+        width: 100%;
+    }
+    
+    .socials {
+        filter: invert(1) brightness(0);
+        width: 20%;
+        z-index: 6;
+        position: relative;
+        margin-top: -0.2%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .merch_1_2{
+        margin-top: 3%;
+        margin-left: 17%;
+        width: 55%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .tshirt{
+        margin-left: 8%;
+        width: 55%;
+        height: 55%;
+    }
+
+
+    .merch_3_4{
+        margin-top: 0%;
+        margin-left: 17.5%;
+        width: 54%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .avoska{
+        margin-left: 9%;
+        width: 55%;
+        height: 55%;
+    }
+
+    #back_button{
+        box-shadow: whitesmoke 0px -0px 20px 5px;
+        width: 7%;
+  height: 9%;
+  position: absolute;
+  margin-top: -9.4%;
+  border: none;
+  background-image: url('../images/styleguide/back_button.webp');
+  background-size: cover;
+    }
+
+    .up_button{
+        box-shadow: whitesmoke 0px -0px 20px 5px;
+        width: 7%;
+        position: absolute;
+  height: 98%;
+  border: none;
+  background-image: url('../images/styleguide/up_button.webp');
+  background-size: cover;
+  z-index: 11;
+  margin-top: 0%;
+  margin-left: 101%;
+  display: none;
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 10px; 
+        height: 10px;
+      }
+      
+      
+      ::-webkit-scrollbar-thumb {
+        background: #B0EB00;
+        border-radius: 10px; 
+      }
+      
+      
+      ::-webkit-scrollbar-track {
+        background: transparent;
+        border-radius: 10px;
+      }
+      
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #A5D600; 
+      }
+
+
+
+      .osn_1, .osn_2, .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5, .dop_1, .dop_2, .interface, .cvet_grad{
+      position: absolute;
+      }
+
+      .osn_1{
+        margin-top: 2.5%;
+        margin-left: 25%;
+        color: white;
+      }
+
+      .osn_2{
+        margin-top: 10.5%;
+        margin-left: 43%;
+        color: #B0EB00;
+      }
+
+      .dop_1{
+        margin-top: 2.5%;
+        margin-left: 43%;
+        color: #B0EB00;
+      }
+
+      .dop_2{
+        margin-top: 2.5%;
+        margin-left: 57.5%;
+        color: #B0EB00;
+      }
+      .cvet_4{
+        margin-top:9.5%;
+        margin-left: 57.5%;
+        color: #B0EB00;
+      }
+
+      .cvet_3{
+        margin-top:6.5%;
+        margin-left: 43%;
+        color: #B0EB00;
+      }
+
+      .cvet_2{
+        margin-top: 26%;
+        margin-left: 43%;
+        color: #B0EB00;
+      }
+
+      .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5{
+        font-size: 2vw;
+      }
+
+      .cvet_1{
+        margin-top: 18.5%;
+        margin-left: 25%;
+        color: white;
+      }
+
+    .interface{
+        margin-top: 22.5%;
+        margin-left: 25%;
+        color: white;
+    }
+
+    .cvet_5{
+        margin-top: 26%;
+        margin-left: 25%;
+        color: white;
+      }
+
+      .cvet_grad{
+        margin-top: 13.5%;
+        margin-left: 57.5%;
+        color: #ffffff;
+      }
+
+
+      @media screen and (min-width: 1920px){
+        #back_button{
+            width: 8%;
+        }
+
+        .names{
+            margin-top: 0.6%;
+        }
+
+        .socials{
+            width: 10%;
+            margin-top: 0.5%;
+        }
+
+         
+      }
+        @media screen and (min-width: 1440px)and (max-width: 1919px){
+            #back_button{
+                width: 9%;
+            }
+    
+            .names{
+                margin-top: 0.6%;
+            }
+    
+            .socials{
+                width:12%;
+                margin-top: 0.5%;
+            }
+        }
+        @media screen and (min-width: 1366px)and (max-width: 1439px){
+            #back_button{
+                width: 8%;
+            }
+    
+            .names{
+                margin-top: 0.2%;
+            }
+    
+            .socials{
+                width:12%;
+                margin-top: 0%;
+                margin-right: 1%;
+            }
+        }
+            
+        @media screen and (min-width: 1024px)and (max-width: 1365px){
+            #back_button{
+                width: 11%;
+            }
+    
+            .names{
+                margin-top: 0.2%;
+            }
+    
+            .socials{
+                width:14%;
+                margin-top: 0.2%;
+                margin-right: 1%;
+            }
+
+            .tg{
+                margin-left: 7%;
+            }
+
+            p,li{
+                font-size: 1.5vw;
+            }
+
+            .opisanie_graph{
+                width: 96%;
+            }
+
+            .fonts_name{
+                width: 62%;
+            }
+        }
+        
+        @media screen and (min-width: 768px)and (max-width: 1023px){
+            #back_button{
+                width: 11%;
+                height: 4%;
+            }
+
+            .navigation{
+                width: 90%;
+                margin-left: 4.5%;
+            }
+
+            h2{
+                font-size: 3.5vw;
+            }
+
+            h4{
+                font-size: 3.6vw;
+            }
+    
+            .names a{
+                font-size: 3vw;
+            }
+            .names{
+                margin-top: 2%;
+            }
+
+            .text_1{
+                width: 50%;
+            }
+            .text_3{
+                width: 50%;
+            }
+
+            .coloors{
+                width: 58%;
+            }
+
+            .osn_1, .osn_2, .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5, .dop_1, .dop_2, .interface, .cvet_grad{
+                font-size: 2vw;
+                }
+
+                .osn_1{
+                    margin-top: 2.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .osn_2{
+                    margin-top: 12%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .dop_1{
+                    margin-top: 2.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+            
+                  .dop_2{
+                    margin-top: 2.5%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+                  .cvet_4{
+                    margin-top:11%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_3{
+                    margin-top:8%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_2{
+                    margin-top: 30.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  
+            
+                  .cvet_1{
+                    margin-top: 22%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                .interface{
+                    margin-top: 26%;
+                    margin-left: 25%;
+                    color: white;
+                }
+            
+                .cvet_5{
+                    margin-top: 30.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .cvet_grad{
+                    margin-top: 15.5%;
+                    margin-left: 63.2%;
+                    color: #ffffff;
+                  }
+
+
+    
+            .socials{
+                width:20%;
+                margin-top: 2%;
+                margin-right: 1%;
+            }
+
+            .tg{
+                margin-left: 7%;
+            }
+
+            p,li{
+                font-size: 1.9vw;
+            }
+
+            .opisanie_graph{
+                width: 104%;
+                margin-left: -5%;
+                
+            }
+
+            .style_text{
+                margin-left: -10%;
+            }
+
+            .fonts_name{
+                width: 77%;
+                margin-left: 15%;
+            }
+
+        }
+        @media screen and (min-width: 414px)and (max-width: 767px){
+            #back_button{
+                width: 17%;
+                height: 4%;
+                margin-top: -14%;
+            }
+
+            .logotype{
+                width: 40%;
+                margin-left: 30%;
+            }
+
+            .navigation{
+                width: 90%;
+                margin-left: 4.5%;
+                display: none;
+            }
+
+            h2{
+                font-size: 3.5vw;
+            }
+            h3{
+                font-size: 13vw;
+            }
+
+            h4{
+                font-size: 6.5vw;
+            }
+    
+            .names a{
+                font-size: 3vw;
+            }
+            .names{
+                margin-top: 2%;
+            }
+
+            .text_1{
+                width: 50%;
+            }
+            .text_3{
+                width: 50%;
+            }
+
+            .coloors{
+                width: 58%;
+            }
+
+            .osn_1, .osn_2, .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5, .dop_1, .dop_2, .interface, .cvet_grad{
+                font-size: 2vw;
+                }
+
+                .osn_1{
+                    margin-top: 2.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .osn_2{
+                    margin-top: 12%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .dop_1{
+                    margin-top: 2.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+            
+                  .dop_2{
+                    margin-top: 2.5%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+                  .cvet_4{
+                    margin-top:11%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_3{
+                    margin-top:8%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_2{
+                    margin-top: 30.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  
+            
+                  .cvet_1{
+                    margin-top: 22%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                .interface{
+                    margin-top: 26%;
+                    margin-left: 25%;
+                    color: white;
+                }
+            
+                .cvet_5{
+                    margin-top: 30.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .cvet_grad{
+                    margin-top: 15.5%;
+                    margin-left: 63.2%;
+                    color: #ffffff;
+                  }
+
+
+    
+            .socials{
+                width:20%;
+                margin-top: 2%;
+                margin-right: 1%;
+            }
+
+            .tg{
+                margin-left: 7%;
+            }
+            .intro{
+                display: none;
+            }
+
+            p,li{
+                font-size: 4vw;
+            }
+
+            .opisanie_graph{
+                width: 104%;
+                margin-left: -5%;
+                
+            }
+
+            .style_text{
+                margin-left: -10%;
+            }
+
+            .fonts_name{
+                width: 77%;
+                margin-left: 15%;
+                display: none;
+            }
+            .special_font{
+                display: none;
+            }
+            
+            .collage{
+                width: 70%;
+            }
+
+            .missia{
+                margin-top: 2%;
+            }
+            .first_logo{
+                width: 40%;
+            }
+
+            .collab{
+             width: 55%;
+            }
+
+            .cvetovie_pari{
+                width: 55%;
+            }
+
+            .postroenie, .postroenie_1, .postroenie_2, .ohrannoe, .postroenie_3, .fon, .ispolzovanie, .fon_white{
+                display: none;
+            }
+
+            .ex_web1{
+                width: 40%;
+            }
+            .ex_fiz1{
+                width: 50%;
+            }
+
+            .favicon{
+                width: 30%;
+            }
+
+            .color_block{
+                display: none;
+            }
+
+            .trecking, .trecking_2, .rasstoyanie{
+                margin-left: 14%;
+            }
+
+            .na_nositelyah{
+                width: 85%;
+                margin-left: -20%;
+            }
+
+            .quadro{
+                width: 40%;
+            }
+
+            .opisanie_graph, .filtr_half_coal, .paper_postal{
+                display: none;
+            }
+
+            .filtrs, .filtrs_ploho{
+                width: 90%;
+                margin-left: -15%;
+            }
+
+            .lang_block{
+                display: none;
+            }
+
+            .merch_1_2, .merch_3_4{
+                width: 80%;
+                margin-left: -18%;
+            }
+
+            .layers{
+                width: 75%;
+                margin-left: 20%;
+            }
+
+            .filtr_none_text,.filtr_half_text,.post_text{
+                display: none;
+            }
+
+
+            .filtr_post{
+                width: 35%;
+                margin-left: -58%;
+            }
+            .prir_chaos{
+            display: none;}
+
+            .mobile_name_font{
+                display: block;
+            }
+            .logo_250, .header_128, .subheader_48, .body_32, .body_24{
+                width: 85%;
+                margin-left: 15%;
+            }
+
+            .text_1, .text_2, .text_3, .text_4, .text_5, .text_66{
+                display: none;
+            }
+
+            .merch_ploho_text{
+                display: none;
+            }
+
+            .plastic{
+                width: 44%;
+                margin-left: 52%;
+            }
+
+            .names a{
+                font-size: 5vw;
+            }
+
+            .names{
+                margin-top: 0%;
+            }
+
+            .socials{
+                width: 50%;
+            }
+
+        
+        }
+        @media screen and (min-width: 360px)and (max-width: 413px){ 
+            #back_button{
+                width: 17%;
+                height: 4%;
+                margin-top: -14%;
+            }
+
+            .logotype{
+                width: 40%;
+                margin-left: 30%;
+            }
+
+            .navigation{
+                width: 90%;
+                margin-left: 4.5%;
+                display: none;
+            }
+
+            h2{
+                font-size: 3.5vw;
+            }
+            h3{
+                font-size: 13vw;
+            }
+
+            h4{
+                font-size: 6.5vw;
+            }
+    
+            .names a{
+                font-size: 3vw;
+            }
+            .names{
+                margin-top: 2%;
+            }
+
+            .text_1{
+                width: 50%;
+            }
+            .text_3{
+                width: 50%;
+            }
+
+            .coloors{
+                width: 58%;
+            }
+
+            .osn_1, .osn_2, .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5, .dop_1, .dop_2, .interface, .cvet_grad{
+                font-size: 2vw;
+                }
+
+                .osn_1{
+                    margin-top: 2.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .osn_2{
+                    margin-top: 12%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .dop_1{
+                    margin-top: 2.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+            
+                  .dop_2{
+                    margin-top: 2.5%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+                  .cvet_4{
+                    margin-top:11%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_3{
+                    margin-top:8%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_2{
+                    margin-top: 30.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  
+            
+                  .cvet_1{
+                    margin-top: 22%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                .interface{
+                    margin-top: 26%;
+                    margin-left: 25%;
+                    color: white;
+                }
+            
+                .cvet_5{
+                    margin-top: 30.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .cvet_grad{
+                    margin-top: 15.5%;
+                    margin-left: 63.2%;
+                    color: #ffffff;
+                  }
+
+
+    
+            .socials{
+                width:20%;
+                margin-top: 2%;
+                margin-right: 1%;
+            }
+
+            .tg{
+                margin-left: 7%;
+            }
+            .intro{
+                display: none;
+            }
+
+            p,li{
+                font-size: 4vw;
+            }
+
+            .opisanie_graph{
+                width: 104%;
+                margin-left: -5%;
+                
+            }
+
+            .style_text{
+                margin-left: -10%;
+            }
+
+            .fonts_name{
+                width: 77%;
+                margin-left: 15%;
+                display: none;
+            }
+            .special_font{
+                display: none;
+            }
+            
+            .collage{
+                width: 70%;
+            }
+
+            .missia{
+                margin-top: 2%;
+            }
+            .first_logo{
+                width: 40%;
+            }
+
+            .collab{
+             width: 55%;
+            }
+
+            .cvetovie_pari{
+                width: 55%;
+            }
+
+            .postroenie, .postroenie_1, .postroenie_2, .ohrannoe, .postroenie_3, .fon, .ispolzovanie, .fon_white{
+                display: none;
+            }
+
+            .ex_web1{
+                width: 40%;
+            }
+            .ex_fiz1{
+                width: 50%;
+            }
+
+            .favicon{
+                width: 30%;
+            }
+
+            .color_block{
+                display: none;
+            }
+
+            .trecking, .trecking_2, .rasstoyanie{
+                margin-left: 14%;
+            }
+
+            .na_nositelyah{
+                width: 85%;
+                margin-left: -20%;
+            }
+
+            .quadro{
+                width: 40%;
+            }
+
+            .opisanie_graph, .filtr_half_coal, .paper_postal{
+                display: none;
+            }
+
+            .filtrs, .filtrs_ploho{
+                width: 90%;
+                margin-left: -15%;
+            }
+
+            .lang_block{
+                display: none;
+            }
+
+            .merch_1_2, .merch_3_4{
+                width: 80%;
+                margin-left: -18%;
+            }
+
+            .layers{
+                width: 75%;
+                margin-left: 20%;
+            }
+
+            .filtr_none_text,.filtr_half_text,.post_text{
+                display: none;
+            }
+
+
+            .filtr_post{
+                width: 35%;
+                margin-left: -58%;
+            }
+            .prir_chaos{
+            display: none;}
+
+            .mobile_name_font{
+                display: block;
+            }
+            .logo_250, .header_128, .subheader_48, .body_32, .body_24{
+                width: 85%;
+                margin-left: 15%;
+            }
+
+            .text_1, .text_2, .text_3, .text_4, .text_5, .text_66{
+                display: none;
+            }
+
+            .merch_ploho_text{
+                display: none;
+            }
+
+            .plastic{
+                width: 44%;
+                margin-left: 52%;
+            }
+
+            .names a{
+                font-size: 5vw;
+            }
+
+            .names{
+                margin-top: -3%;
+            }
+
+            .socials{
+                width: 50%;
+                margin-top: -1%;
+            }
+
+            .mobile_text{
+                margin-left: 48%;
+                margin-right: -130%;
+            }
+
+            .text_12{
+                margin-left: 10%;
+            }
+
+            .on_main_text{
+                width: 105%;
+                margin-left: -5%;
+            }
+
+        }
+        @media screen and (min-width: 0px)and (max-width: 359px){ 
+        }
+
+
+
+    
+
+    
+
+
+    
+}

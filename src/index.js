@@ -6,3 +6,4 @@ import jpg from './images/image.jpg'
 //   image.src = jpg
 //   document.querySelector('.images').appendChild(image)
 // })
+

@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
@@ -190,6 +191,20 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/structure/structure_article1.html',
       filename: './structure/structure_article1.html'
+    }),
+
+    new CopyPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, './src/images/styleguide/favicon.png'),
+          to: path.resolve(__dirname, './dev_build/images/favicon.png')
+        },
+        {
+          from: path.resolve(__dirname, './src/images/styleguide/favicon.png'),
+          to: path.resolve(__dirname, './docs/images/favicon.png')
+        }
+      
+      ]
     }),
 
 
