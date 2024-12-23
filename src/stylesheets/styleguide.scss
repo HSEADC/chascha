@@ -69,6 +69,7 @@
 
     button#about_but{
         width: 14%;
+        
     }
 
     button#typo_but{
@@ -123,10 +124,11 @@
         margin-bottom: -10%;
         
         
+        
     }
     .logotype{
         width: 30%;
-        margin-left: 33%;
+        margin-left: 34%;
     }
 
     .media_o{
@@ -138,7 +140,9 @@
     .about_block{
       margin-top: 30%;
       width: 100%;
+      
     }
+    
     .collage{
       width: 36%;
       margin-top: 2%;
@@ -333,6 +337,20 @@
         position: relative;
         display: inline-flex;
         justify-content: space-between;
+    }
+
+    .mobile_name_font{
+        margin-top: 0%;
+        margin-left: 29%;
+        width: 60%;
+        position: relative;
+        display: inline-flex;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .arial_bold_font{
+        font-weight: 700;
     }
 
     .arial_bold{
@@ -559,7 +577,7 @@
     }
 
     .text_12{
-        margin-left: -71%;
+        margin-left: 8%;
     }
 
 .grid_laptop{
@@ -584,12 +602,13 @@
     }
 
     .mobile_text{
-        margin-right: -25%;
+        
+        margin-left: 80%;
     }
 
     .text_6{
         margin-top: 0%;
-        margin-left: 134%;
+        margin-left: 10%;
     }
 
     .prir_chaos{
@@ -779,6 +798,927 @@
         width: 55%;
         height: 55%;
     }
+
+    #back_button{
+        box-shadow: whitesmoke 0px -0px 20px 5px;
+        width: 7%;
+  height: 9%;
+  position: absolute;
+  margin-top: -9.4%;
+  border: none;
+  background-image: url('../images/styleguide/back_button.webp');
+  background-size: cover;
+    }
+
+    .up_button{
+        box-shadow: whitesmoke 0px -0px 20px 5px;
+        width: 7%;
+        position: absolute;
+  height: 98%;
+  border: none;
+  background-image: url('../images/styleguide/up_button.webp');
+  background-size: cover;
+  z-index: 11;
+  margin-top: 0%;
+  margin-left: 101%;
+  display: none;
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 10px; 
+        height: 10px;
+      }
+      
+      
+      ::-webkit-scrollbar-thumb {
+        background: #B0EB00;
+        border-radius: 10px; 
+      }
+      
+      
+      ::-webkit-scrollbar-track {
+        background: transparent;
+        border-radius: 10px;
+      }
+      
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #A5D600; 
+      }
+
+
+
+      .osn_1, .osn_2, .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5, .dop_1, .dop_2, .interface, .cvet_grad{
+      position: absolute;
+      }
+
+      .osn_1{
+        margin-top: 2.5%;
+        margin-left: 25%;
+        color: white;
+      }
+
+      .osn_2{
+        margin-top: 10.5%;
+        margin-left: 43%;
+        color: #B0EB00;
+      }
+
+      .dop_1{
+        margin-top: 2.5%;
+        margin-left: 43%;
+        color: #B0EB00;
+      }
+
+      .dop_2{
+        margin-top: 2.5%;
+        margin-left: 57.5%;
+        color: #B0EB00;
+      }
+      .cvet_4{
+        margin-top:9.5%;
+        margin-left: 57.5%;
+        color: #B0EB00;
+      }
+
+      .cvet_3{
+        margin-top:6.5%;
+        margin-left: 43%;
+        color: #B0EB00;
+      }
+
+      .cvet_2{
+        margin-top: 26%;
+        margin-left: 43%;
+        color: #B0EB00;
+      }
+
+      .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5{
+        font-size: 2vw;
+      }
+
+      .cvet_1{
+        margin-top: 18.5%;
+        margin-left: 25%;
+        color: white;
+      }
+
+    .interface{
+        margin-top: 22.5%;
+        margin-left: 25%;
+        color: white;
+    }
+
+    .cvet_5{
+        margin-top: 26%;
+        margin-left: 25%;
+        color: white;
+      }
+
+      .cvet_grad{
+        margin-top: 13.5%;
+        margin-left: 57.5%;
+        color: #ffffff;
+      }
+
+
+      @media screen and (min-width: 1920px){
+        #back_button{
+            width: 8%;
+        }
+
+        .names{
+            margin-top: 0.6%;
+        }
+
+        .socials{
+            width: 10%;
+            margin-top: 0.5%;
+        }
+
+         
+      }
+        @media screen and (min-width: 1440px)and (max-width: 1919px){
+            #back_button{
+                width: 9%;
+            }
+    
+            .names{
+                margin-top: 0.6%;
+            }
+    
+            .socials{
+                width:12%;
+                margin-top: 0.5%;
+            }
+        }
+        @media screen and (min-width: 1366px)and (max-width: 1439px){
+            #back_button{
+                width: 8%;
+            }
+    
+            .names{
+                margin-top: 0.2%;
+            }
+    
+            .socials{
+                width:12%;
+                margin-top: 0%;
+                margin-right: 1%;
+            }
+        }
+            
+        @media screen and (min-width: 1024px)and (max-width: 1365px){
+            #back_button{
+                width: 11%;
+            }
+    
+            .names{
+                margin-top: 0.2%;
+            }
+    
+            .socials{
+                width:14%;
+                margin-top: 0.2%;
+                margin-right: 1%;
+            }
+
+            .tg{
+                margin-left: 7%;
+            }
+
+            p,li{
+                font-size: 1.5vw;
+            }
+
+            .opisanie_graph{
+                width: 96%;
+            }
+
+            .fonts_name{
+                width: 62%;
+            }
+        }
+        
+        @media screen and (min-width: 768px)and (max-width: 1023px){
+            #back_button{
+                width: 11%;
+                height: 4%;
+            }
+
+            .navigation{
+                width: 90%;
+                margin-left: 4.5%;
+            }
+
+            h2{
+                font-size: 3.5vw;
+            }
+
+            h4{
+                font-size: 3.6vw;
+            }
+    
+            .names a{
+                font-size: 3vw;
+            }
+            .names{
+                margin-top: 2%;
+            }
+
+            .text_1{
+                width: 50%;
+            }
+            .text_3{
+                width: 50%;
+            }
+
+            .coloors{
+                width: 58%;
+            }
+
+            .osn_1, .osn_2, .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5, .dop_1, .dop_2, .interface, .cvet_grad{
+                font-size: 2vw;
+                }
+
+                .osn_1{
+                    margin-top: 2.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .osn_2{
+                    margin-top: 12%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .dop_1{
+                    margin-top: 2.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+            
+                  .dop_2{
+                    margin-top: 2.5%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+                  .cvet_4{
+                    margin-top:11%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_3{
+                    margin-top:8%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_2{
+                    margin-top: 30.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  
+            
+                  .cvet_1{
+                    margin-top: 22%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                .interface{
+                    margin-top: 26%;
+                    margin-left: 25%;
+                    color: white;
+                }
+            
+                .cvet_5{
+                    margin-top: 30.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .cvet_grad{
+                    margin-top: 15.5%;
+                    margin-left: 63.2%;
+                    color: #ffffff;
+                  }
+
+
+    
+            .socials{
+                width:20%;
+                margin-top: 2%;
+                margin-right: 1%;
+            }
+
+            .tg{
+                margin-left: 7%;
+            }
+
+            p,li{
+                font-size: 1.9vw;
+            }
+
+            .opisanie_graph{
+                width: 104%;
+                margin-left: -5%;
+                
+            }
+
+            .style_text{
+                margin-left: -10%;
+            }
+
+            .fonts_name{
+                width: 77%;
+                margin-left: 15%;
+            }
+
+        }
+        @media screen and (min-width: 414px)and (max-width: 767px){
+            #back_button{
+                width: 17%;
+                height: 4%;
+                margin-top: -14%;
+            }
+
+            .logotype{
+                width: 40%;
+                margin-left: 30%;
+            }
+
+            .navigation{
+                width: 90%;
+                margin-left: 4.5%;
+                display: none;
+            }
+
+            h2{
+                font-size: 3.5vw;
+            }
+            h3{
+                font-size: 13vw;
+            }
+
+            h4{
+                font-size: 6.5vw;
+            }
+    
+            .names a{
+                font-size: 3vw;
+            }
+            .names{
+                margin-top: 2%;
+            }
+
+            .text_1{
+                width: 50%;
+            }
+            .text_3{
+                width: 50%;
+            }
+
+            .coloors{
+                width: 58%;
+            }
+
+            .osn_1, .osn_2, .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5, .dop_1, .dop_2, .interface, .cvet_grad{
+                font-size: 2vw;
+                }
+
+                .osn_1{
+                    margin-top: 2.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .osn_2{
+                    margin-top: 12%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .dop_1{
+                    margin-top: 2.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+            
+                  .dop_2{
+                    margin-top: 2.5%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+                  .cvet_4{
+                    margin-top:11%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_3{
+                    margin-top:8%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_2{
+                    margin-top: 30.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  
+            
+                  .cvet_1{
+                    margin-top: 22%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                .interface{
+                    margin-top: 26%;
+                    margin-left: 25%;
+                    color: white;
+                }
+            
+                .cvet_5{
+                    margin-top: 30.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .cvet_grad{
+                    margin-top: 15.5%;
+                    margin-left: 63.2%;
+                    color: #ffffff;
+                  }
+
+
+    
+            .socials{
+                width:20%;
+                margin-top: 2%;
+                margin-right: 1%;
+            }
+
+            .tg{
+                margin-left: 7%;
+            }
+            .intro{
+                display: none;
+            }
+
+            p,li{
+                font-size: 4vw;
+            }
+
+            .opisanie_graph{
+                width: 104%;
+                margin-left: -5%;
+                
+            }
+
+            .style_text{
+                margin-left: -10%;
+            }
+
+            .fonts_name{
+                width: 77%;
+                margin-left: 15%;
+                display: none;
+            }
+            .special_font{
+                display: none;
+            }
+            
+            .collage{
+                width: 70%;
+            }
+
+            .missia{
+                margin-top: 2%;
+            }
+            .first_logo{
+                width: 40%;
+            }
+
+            .collab{
+             width: 55%;
+            }
+
+            .cvetovie_pari{
+                width: 55%;
+            }
+
+            .postroenie, .postroenie_1, .postroenie_2, .ohrannoe, .postroenie_3, .fon, .ispolzovanie, .fon_white{
+                display: none;
+            }
+
+            .ex_web1{
+                width: 40%;
+            }
+            .ex_fiz1{
+                width: 50%;
+            }
+
+            .favicon{
+                width: 30%;
+            }
+
+            .color_block{
+                display: none;
+            }
+
+            .trecking, .trecking_2, .rasstoyanie{
+                margin-left: 14%;
+            }
+
+            .na_nositelyah{
+                width: 85%;
+                margin-left: -20%;
+            }
+
+            .quadro{
+                width: 40%;
+            }
+
+            .opisanie_graph, .filtr_half_coal, .paper_postal{
+                display: none;
+            }
+
+            .filtrs, .filtrs_ploho{
+                width: 90%;
+                margin-left: -15%;
+            }
+
+            .lang_block{
+                display: none;
+            }
+
+            .merch_1_2, .merch_3_4{
+                width: 80%;
+                margin-left: -18%;
+            }
+
+            .layers{
+                width: 75%;
+                margin-left: 20%;
+            }
+
+            .filtr_none_text,.filtr_half_text,.post_text{
+                display: none;
+            }
+
+
+            .filtr_post{
+                width: 35%;
+                margin-left: -58%;
+            }
+            .prir_chaos{
+            display: none;}
+
+            .mobile_name_font{
+                display: block;
+            }
+            .logo_250, .header_128, .subheader_48, .body_32, .body_24{
+                width: 85%;
+                margin-left: 15%;
+            }
+
+            .text_1, .text_2, .text_3, .text_4, .text_5, .text_66{
+                display: none;
+            }
+
+            .merch_ploho_text{
+                display: none;
+            }
+
+            .plastic{
+                width: 44%;
+                margin-left: 52%;
+            }
+
+            .names a{
+                font-size: 5vw;
+            }
+
+            .names{
+                margin-top: 0%;
+            }
+
+            .socials{
+                width: 50%;
+            }
+
+        
+        }
+        @media screen and (min-width: 360px)and (max-width: 413px){ 
+            #back_button{
+                width: 17%;
+                height: 4%;
+                margin-top: -14%;
+            }
+
+            .logotype{
+                width: 40%;
+                margin-left: 30%;
+            }
+
+            .navigation{
+                width: 90%;
+                margin-left: 4.5%;
+                display: none;
+            }
+
+            h2{
+                font-size: 3.5vw;
+            }
+            h3{
+                font-size: 13vw;
+            }
+
+            h4{
+                font-size: 6.5vw;
+            }
+    
+            .names a{
+                font-size: 3vw;
+            }
+            .names{
+                margin-top: 2%;
+            }
+
+            .text_1{
+                width: 50%;
+            }
+            .text_3{
+                width: 50%;
+            }
+
+            .coloors{
+                width: 58%;
+            }
+
+            .osn_1, .osn_2, .cvet_1, .cvet_2, .cvet_3, .cvet_4, .cvet_5, .dop_1, .dop_2, .interface, .cvet_grad{
+                font-size: 2vw;
+                }
+
+                .osn_1{
+                    margin-top: 2.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .osn_2{
+                    margin-top: 12%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .dop_1{
+                    margin-top: 2.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+            
+                  .dop_2{
+                    margin-top: 2.5%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                    width: 10%;
+                  }
+                  .cvet_4{
+                    margin-top:11%;
+                    margin-left: 63%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_3{
+                    margin-top:8%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  .cvet_2{
+                    margin-top: 30.5%;
+                    margin-left: 46%;
+                    color: #B0EB00;
+                  }
+            
+                  
+            
+                  .cvet_1{
+                    margin-top: 22%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                .interface{
+                    margin-top: 26%;
+                    margin-left: 25%;
+                    color: white;
+                }
+            
+                .cvet_5{
+                    margin-top: 30.5%;
+                    margin-left: 25%;
+                    color: white;
+                  }
+            
+                  .cvet_grad{
+                    margin-top: 15.5%;
+                    margin-left: 63.2%;
+                    color: #ffffff;
+                  }
+
+
+    
+            .socials{
+                width:20%;
+                margin-top: 2%;
+                margin-right: 1%;
+            }
+
+            .tg{
+                margin-left: 7%;
+            }
+            .intro{
+                display: none;
+            }
+
+            p,li{
+                font-size: 4vw;
+            }
+
+            .opisanie_graph{
+                width: 104%;
+                margin-left: -5%;
+                
+            }
+
+            .style_text{
+                margin-left: -10%;
+            }
+
+            .fonts_name{
+                width: 77%;
+                margin-left: 15%;
+                display: none;
+            }
+            .special_font{
+                display: none;
+            }
+            
+            .collage{
+                width: 70%;
+            }
+
+            .missia{
+                margin-top: 2%;
+            }
+            .first_logo{
+                width: 40%;
+            }
+
+            .collab{
+             width: 55%;
+            }
+
+            .cvetovie_pari{
+                width: 55%;
+            }
+
+            .postroenie, .postroenie_1, .postroenie_2, .ohrannoe, .postroenie_3, .fon, .ispolzovanie, .fon_white{
+                display: none;
+            }
+
+            .ex_web1{
+                width: 40%;
+            }
+            .ex_fiz1{
+                width: 50%;
+            }
+
+            .favicon{
+                width: 30%;
+            }
+
+            .color_block{
+                display: none;
+            }
+
+            .trecking, .trecking_2, .rasstoyanie{
+                margin-left: 14%;
+            }
+
+            .na_nositelyah{
+                width: 85%;
+                margin-left: -20%;
+            }
+
+            .quadro{
+                width: 40%;
+            }
+
+            .opisanie_graph, .filtr_half_coal, .paper_postal{
+                display: none;
+            }
+
+            .filtrs, .filtrs_ploho{
+                width: 90%;
+                margin-left: -15%;
+            }
+
+            .lang_block{
+                display: none;
+            }
+
+            .merch_1_2, .merch_3_4{
+                width: 80%;
+                margin-left: -18%;
+            }
+
+            .layers{
+                width: 75%;
+                margin-left: 20%;
+            }
+
+            .filtr_none_text,.filtr_half_text,.post_text{
+                display: none;
+            }
+
+
+            .filtr_post{
+                width: 35%;
+                margin-left: -58%;
+            }
+            .prir_chaos{
+            display: none;}
+
+            .mobile_name_font{
+                display: block;
+            }
+            .logo_250, .header_128, .subheader_48, .body_32, .body_24{
+                width: 85%;
+                margin-left: 15%;
+            }
+
+            .text_1, .text_2, .text_3, .text_4, .text_5, .text_66{
+                display: none;
+            }
+
+            .merch_ploho_text{
+                display: none;
+            }
+
+            .plastic{
+                width: 44%;
+                margin-left: 52%;
+            }
+
+            .names a{
+                font-size: 5vw;
+            }
+
+            .names{
+                margin-top: -3%;
+            }
+
+            .socials{
+                width: 50%;
+                margin-top: -1%;
+            }
+
+            .mobile_text{
+                margin-left: 48%;
+                margin-right: -130%;
+            }
+
+            .text_12{
+                margin-left: 10%;
+            }
+
+            .on_main_text{
+                width: 105%;
+                margin-left: -5%;
+            }
+
+        }
+        @media screen and (min-width: 0px)and (max-width: 359px){ 
+        }
+
+
 
     
 

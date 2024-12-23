@@ -26,20 +26,14 @@
     <p class="map"><a href="./map.html">Карта</a></p>
     
 
-    <form>
-        <input type=""  placeholder="Что Вы хотите узнать?">
-        <button id="my-form-button" src="images/main/poisk.svg" ></button>
-        <p id="my-form-status"></p>
-      </form>
-
-
     <div class="back_grad">
         <img class="grad" src="./images/styleguide/background_grad.webp">
     </div>
     <div class="logo">
-        <img class="logotype" src="./images/styleguide/logotype_black.webp">
+        <a href="./index.html" ><img class="logotype" src="./images/styleguide/logotype_black.webp"></a>
         <h1 class="media_o">медиа о природных знаках</h1>
     </div>
+    <a href="./index.html" id="back_button"></a>
     <div class="navigation">
         <button id="about_but" > <a href="#about_us_id" class="about_us">
             <h2>o проекте</h2>
@@ -70,11 +64,12 @@
         <button><a href="#merch_id" class="merch">
             <h2>мерч</h2>
         </a></button>
+    <a href="#back_button" class="up_button"></a>
     </div>
 
     <div class="about_block">
         <h3 id="about_us_id" >о проекте</h3>
-        <p>Мы — команда тех, кто любит задавать вопросы.<br> Неважно, смотрим ли мы на облака, кору дерева<br> или следы на снегу, — нас всегда волнует: «Что это значит?». <br>Мы собрались вместе, чтобы объединить наши интересы<br> к природе, науке, культуре и дизайну.</p>
+        <p class="intro" >Мы — команда тех, кто любит задавать вопросы.<br> Неважно, смотрим ли мы на облака, кору дерева<br> или следы на снегу, — нас всегда волнует: «Что это значит?». <br>Мы собрались вместе, чтобы объединить наши интересы<br> к природе, науке, культуре и дизайну.</p>
         <img class="collage" src="./images/styleguide/collage.webp">
         <div class="missia">
         <h4>миссия</h4>
@@ -87,17 +82,17 @@
     <div class="logotype_block">
         <h3 id="logo_id" class="logoooo">логотип</h3>
         <img class='first_logo' src="./images/styleguide/logo_green.webp">
-        <h4>построение и механика</h4>
-        <img src="./images/styleguide/measure_green.webp">
-        <img src="./images/styleguide/measure_black.webp">
-        <p>Внутреннее расстояние между блоком текста<br> 
+        <h4 class="postroenie" >построение и механика</h4>
+        <img class="postroenie_1" src="./images/styleguide/measure_green.webp">
+        <img class="postroenie_2" src="./images/styleguide/measure_black.webp">
+        <p class="postroenie_3" >Внутреннее расстояние между блоком текста<br> 
             и зеленым полем равно 0 px. </p>
         <img class="ohrannoe" src="./images/styleguide/ohrannoe.webp">
         <h4>коллаборация</h4>
         <p>В качестве расстояния между логотипами<br> используется 0.5 символа «‎а».</p>
         <img class="collab" src="./images/styleguide/collab.webp">
         <h4>цветовые пары</h4>
-        <img src="./images/styleguide/cvetovie_pari.webp">
+        <img class="cvetovie_pari" src="./images/styleguide/cvetovie_pari.webp">
         <h4>ограничения</h4>
         <div class="ogranichenia">
             <p>Нельзя:</p>
@@ -121,7 +116,7 @@
                 <p class="text_66">Деформировать логотип</p>
             </div>
         </div>
-        <p>Использование логотипа с зеленым фоном<br> допустимо только на черном и белом фоне.</p>
+        <p class="ispolzovanie" >Использование логотипа с зеленым фоном<br> допустимо только на черном и белом фоне.</p>
         <div class="fon">
             <img class="black_back" src="./images/styleguide/black_back.webp">
             <img class="blue_back" src="./images/styleguide/blue_back.webp">
@@ -139,6 +134,17 @@
     </div>
     <div class="color_block">
         <h3 id="color_id" class="">цвет</h3>
+        <p class="osn_1" >Основной цвет</p>
+        <p class="cvet_1">#B0EB00</p>
+        <p class="osn_2">Основной цвет</p>
+        <p class="cvet_2">#FFFFFF</p>
+        <p class="dop_1" >Дополнительный цвет</p>
+        <p class="cvet_3">#F8F8F8</p>
+        <p class="dop_2">Дополнительный цвет</p>
+        <p class="cvet_4" >#2B372C</p>
+        <p class="interface">Только для интерфейсов</p>
+        <p class="cvet_5" >#000000</p>
+        <p class="cvet_grad">Градиент состоит<br>из основных цветов</p>
         <img class="coloors" src="./images/styleguide/coloors.webp">
         <h4>в вебе</h4>
         <img  class="color_v_webe" src="./images/styleguide/color_v_webe.webp">
@@ -146,6 +152,10 @@
     <div class="typo_block">
         <h3 id="typo_id" class="">типографика</h3>
         <h4>шрифт</h4>
+        <div class="mobile_name_font">
+            <p>Arial Narrow Regular</p>
+            <p class="arial_bold_font" >Arial Narrow Bold</p>
+        </div>
         <div class="fonts_name">
         <p>Arial Narrow Regular<br> <br>
 
@@ -200,7 +210,7 @@
             <h4 class="treck_0">0%</h4>
             <p class="text_treck">чаща</p>
         </div>
-        <p>Из-за особенностей шрифта Arial Narrow, появляется расстояние<br> между буквами ы, ц, щ и последующим символом.<br> В таких случаях необходимо понизить трекинг до -13%.</p>
+        <p class="special_font" >Из-за особенностей шрифта Arial Narrow, появляется расстояние<br> между буквами ы, ц, щ и последующим символом.<br> В таких случаях необходимо понизить трекинг до -13%.</p>
         <div class="rasstoyanie">
             <div class="ploho">
               <h1 class="klik_1">клык</h1>
@@ -238,7 +248,7 @@
                 <img class="grid_laptop" src="./images/styleguide/grid_laptop.webp">
                 <img class="grid_mobile" src="./images/styleguide/grid_mobile.webp">
             </div>
-            <p>На главной странице проекта и в социальных <br>
+            <p class="on_main_text" >На главной странице проекта и в социальных <br>
                 сетях используется сетка из квадратов (графика).<br>
                 Она структурирует материал и не позволяет потеряться<br>
                 в чаще знаний. </p>
@@ -265,7 +275,7 @@
              <img src="./images/styleguide/filtr_halftone.webp">
             </div>
             <div class="filtrs_text">
-                <p>без фильтров</p>
+                <p class="filtr_none_text" >без фильтров</p>
                 <p class="filtr_half_text">halftone</p>
             </div>
             <img class="filtr_post" src="./images/styleguide/filtr_posterisation.webp">
@@ -276,7 +286,7 @@
                 <img src="./images/styleguide/filtr_ploho_2.webp">
             </div>
             <div class="filtrs_text_ploho">
-                <p>postal paper</p>
+                <p class="paper_postal">postal paper</p>
                 <p class="filtr_half_coal">coal</p>
             </div>
             <h4>наложение</h4>
@@ -287,11 +297,12 @@
         <h3 id="lang_id" >язык</h3>
         <ol class="principi">
             <li>Мы придерживаемся следующих принципов коммуникации:</li>
-            <li>  — &#160;прозрачность взаимодействий;</li>
+            <li> — &#160;прозрачность взаимодействий;</li>
             <li> —&#160; избежание манипуляций с эмоциональным состоянием;</li>
             <li> — &#160;выстраивание реалистичных ожиданий;</li>
             <li> — &#160;уважение самостоятельного исследования;</li>
-            <li> — &#160;культурная инклюзия, уважение к разнообразию культурных трактовок природных знаков.</li>
+            <li> — &#160;культурная инклюзия, уважение к разнообразию<br>
+                &#160;&#160;&#160;&#160; культурных трактовок природных знаков.</li>
         </ol>
 
         <div class="na_nositelyah_lang">
@@ -313,7 +324,7 @@
      </div>
      </div>
      <h4>ограничения</h4>
-     <p>Мы не хотим ассоциироваться с загрязнением природы.<br>
+     <p class="merch_ploho_text" >Мы не хотим ассоциироваться с загрязнением природы.<br>
         Айдентика не используется на пластиковых носителях.</p>
         <img class="plastic" src="./images/styleguide/plastic.webp">
     </div>
