@@ -8,12 +8,7 @@
     margin-left: 34%;
 }
 
-.M_LogoAndDescription{
-        justify-content: center;
-        position: relative;
-        margin-top: -54.6%;
-        margin-bottom: -10%;
-}
+
 
 .A_Gradient{
     display: block;
@@ -22,4 +17,48 @@
         margin-left: 0%;
         width: 100%;
         overflow: hidden;
+}
+
+
+
+.A_Logotype, .A_ChapterTests, .A_ChapterAbout, .A_ChapterLit {
+    display: inline;
+}
+
+.A_Logotype a{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: -5px;
+}
+
+.A_Chapters p{
+    font-size: 80px;
+}
+
+.A_Chapters{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    cursor: pointer;
+}
+
+.A_CardImage img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.A_CardName p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.A_CardTags p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.A_Icon{
+    display: flex;
+    width: 24px;
 }

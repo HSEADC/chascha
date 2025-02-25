@@ -1,0 +1,21 @@
+.M_Menu {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    padding-right: 16vw;
+    align-items: center;
+}
+
+.M_LogoAndDescription{
+    justify-content: center;
+    position: relative;
+    margin-top: -54.6%;
+    margin-bottom: -10%;
+}
+
+.M_Card {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
