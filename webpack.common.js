@@ -83,16 +83,20 @@ module.exports = {
       filename: './about.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/tests.html',
+      filename: './tests.html'
+    }),
     
 
     new HtmlWebpackPlugin({
       template: './src/literature.html',
-      filename: './literature.html'
+      filename: './literature.html',
     }),
 
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
     }),
 
 

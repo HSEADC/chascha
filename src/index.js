@@ -11,9 +11,33 @@ console.log(require('./fonts/arialnarrow_bold.ttf'));
 console.log(require('./fonts/PT-Root-UI_Regular.woff2'));
 
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const image = new Image()
-//   image.src = jpg
-//   document.querySelector('.images').appendChild(image)
-// })
+document.addEventListener('DOMContentLoaded', function () {
+    
+    const filters = document.querySelectorAll('.A_Chapters u[data-filter]');
+    const cards = document.querySelectorAll('.M_Card');
+    const showAllButton = document.querySelector('.A_ShowAllButton');
+  
+    filters.forEach(filter => {
+      filter.addEventListener('click', () => {
+        const selectedTag = filter.getAttribute('data-filter');
+  
+        cards.forEach(card => {
+          const cardTag = card.querySelector('.A_CardTag p')?.textContent.replace('#', ''); 
+  
+          if (cardTag === selectedTag) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  
+    showAllButton.addEventListener('click', () => {
+      cards.forEach(card => {
+        card.style.display = 'flex'; 
+      });
+    });
 
+
+  });

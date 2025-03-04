@@ -48,12 +48,19 @@
     object-fit: cover;
 }
 
+.A_CardImageCover img {
+    width: 240px;
+    height: auto;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+
 .A_CardName p {
     margin: 0;
     font-size: 24px;
 }
 
-.A_CardTags p {
+.A_CardTag p {
     margin: 0;
     font-size: 16px;
 }
@@ -62,3 +69,37 @@
     display: flex;
     width: 24px;
 }
+
+.A_Icon img{
+    width: 24px;
+}
+
+.A_Icon img:hover{
+    opacity: 0.7;
+}
+
+.A_ShowAllButton {
+    width: 15vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    padding: 8px 16px;
+    border: solid 2px #B0EB00;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #B0EB00;
+    }
+  }
+
+
+  .A_Chapters u {
+    transition: opacity 0.2s ease;
+
+    &:hover {
+        opacity: 0.7;
+      }
+  }
+  
