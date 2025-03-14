@@ -3,7 +3,7 @@ body.index {
   flex-direction: column;
   justify-content: top;
   align-items: left;
-
+  
   & > div,
   & > a {
     margin: 10px 0;
@@ -11,8 +11,9 @@ body.index {
 }
 
 body {
-    background-image: url(../images/index/Q_Gradient.png);
+  background-image: linear-gradient(to bottom, #B0EB00 0%, #B0EB00 10%,white 30%, white 100%);
     background-repeat: no-repeat;
+
 }
 
 

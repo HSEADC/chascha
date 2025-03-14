@@ -43,3 +43,43 @@
     }
   }
 
+.M_Summary, .M_SideTags, .M_Resources, .M_ReadMore {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.M_SideCard {
+    display: flex;
+    gap: 10px;
+    position: relative; 
+    overflow: hidden; 
+    transition: opacity 0.3s ease; 
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to bottom, #B0EB00, white);
+      opacity: 0; 
+      transition: opacity 0.3s ease;
+      z-index: -1;
+    }
+  
+    &:hover {
+      &::before {
+        opacity: 1; 
+      }
+    }
+}
+
+.M_ArticleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -152,8 +152,8 @@ module.exports = {
 
 
     new HtmlWebpackPlugin({
-      template: './src/color/color_article1.html',
-      filename: './color/color_article1.html'
+      template: './src/color/why_do_leaves_change_color.html',
+      filename: './color/why_do_leaves_change_color.html'
     }),
 
     new HtmlWebpackPlugin({
@@ -167,8 +167,8 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/geo/geo_article1.html',
-      filename: './geo/geo_article1.html'
+      template: './src/geo/sloi_gornyh_porod.html',
+      filename: './geo/sloi_gornyh_porod.html'
     }),
 
     new HtmlWebpackPlugin({
@@ -177,14 +177,22 @@ module.exports = {
     }),
     
     new HtmlWebpackPlugin({
-      template: './src/habitat/habitat_article1.html',
-      filename: './habitat/habitat_article1.html'
+      template: './src/habitat/cows_lie_down_before_rain.html',
+      filename: './habitat/cows_lie_down_before_rain.html'
+    }), 
+    new HtmlWebpackPlugin({
+      template: './src/habitat/povedenie_zhivotnyh_pered_stihiynymi_bedstviami.html',
+      filename: './habitat/povedenie_zhivotnyh_pered_stihiynymi_bedstviami.html'
+    }), 
+    new HtmlWebpackPlugin({
+      template: './src/habitat/migratsya_ptiz.html',
+      filename: './habitat/migratsya_ptiz.html'
     }),
-    
+
 
     new HtmlWebpackPlugin({
-      template: './src/sound/sound_article1.html',
-      filename: './sound/sound_article1.html'
+      template: './src/sound/ptichi_treli.html',
+      filename: './sound/ptichi_treli.html'
     }),
 
     new HtmlWebpackPlugin({
@@ -193,8 +201,8 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/structure/structure_article1.html',
-      filename: './structure/structure_article1.html'
+      template: './src/structure/godichnye_koltsa_dereviev.html',
+      filename: './structure/godichnye_koltsa_dereviev.html'
     }),
 
     new CopyPlugin({
