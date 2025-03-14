@@ -1,0 +1,26 @@
+.W_Mission{
+    margin-top: -41%;
+        margin-left: 38%;
+        margin-bottom: -10%;
+}
+
+.W_CardDescription {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.W_Socials {
+    display: flex;
+    gap: 10px;
+    padding: 2vw;
+}
+
+.W_SideBar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 30px;
+}

@@ -13,4 +13,12 @@
 @import 'stylesheets/map.scss';
 @import 'stylesheets/sound.scss';
 @import 'stylesheets/styleguide.scss';
+@import 'stylesheets/components/A_atoms.scss';
+@import 'stylesheets/components/C_collections.scss';
+@import 'stylesheets/components/M_molecules.scss';
+@import 'stylesheets/components/O_organisms.scss';
+@import 'stylesheets/components/Q_quarqs.scss';
+@import 'stylesheets/components/S_superOrganisms.scss';
+@import 'stylesheets/components/W_wrapper.scss';
+
 
