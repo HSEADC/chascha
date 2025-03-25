@@ -205,6 +205,13 @@ module.exports = {
       filename: './structure/godichnye_koltsa_dereviev.html'
     }),
 
+
+    new HtmlWebpackPlugin({
+      template: './src/tests/lakes.html',
+      filename: './tests/lakes.html'
+    }),
+
+
     new CopyPlugin({
       patterns: [
         {
@@ -219,6 +226,7 @@ module.exports = {
       ]
     }),
 
+    
 
     // Internal pages
     // new HtmlWebpackPlugin({

@@ -169,3 +169,121 @@
 .A_ArticleText {
     font-size: 20px;
 }
+
+.tests{
+.A_Image{
+    margin-left: 2%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    &:hover {
+        opacity: 0.7;
+      }
+}
+
+
+.A_TitleTest{
+    margin-left: 1%;
+    margin-top: -1%;
+    font-size: 1.9vw;
+    cursor: pointer;
+    
+    transition: opacity 0.2s ease;
+    &:hover {
+        opacity: 0.7;
+      }
+}
+
+.A_TitleTag{
+    margin-left: 1%;
+    margin-top: 0.5%;
+    font-size: 1.3vw;
+}
+
+.lakes{
+    .A_BaikalImage{
+        z-index: -1;
+        margin-top: 20%;
+    }
+    .A_BaikalImage1{
+        margin-right: 15%;
+    }
+
+      
+    
+      .quiz-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 100, 150, 0.1);
+      }
+      
+      h1 {
+        text-align: center;
+        color: #0066cc;
+        border-bottom: 2px solid #0066cc;
+        padding-bottom: 10px;
+      }
+      
+      .question {
+        font-weight: bold;
+        margin: 20px 0;
+        font-size: 1.1em;
+      }
+      
+      .option {
+        display: block;
+        margin: 10px 0;
+        padding: 12px;
+        background: #f0f8ff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+      
+      .option:hover {
+        background: #d0e8ff;
+      }
+      
+      input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      button {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        background: #0066cc;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: background 0.3s;
+      }
+      
+      button:hover {
+        background: #0055aa;
+      }
+      
+      #results {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1.2em;
+      }
+      
+      #results h2 {
+        color: #0066cc;
+      }
+      
+      #results button {
+        width: auto;
+        margin: 20px auto;
+        padding: 10px 20px;
+      }
+}
+
+}
