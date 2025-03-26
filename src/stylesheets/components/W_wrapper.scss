@@ -24,3 +24,9 @@
     gap: 20px;
     padding-right: 30px;
 }
+
+@media screen and (max-width: 999px) {
+    .W_SideBar {
+        width: 100%;
+    }
+  }
