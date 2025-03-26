@@ -157,9 +157,21 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/color/vodorosli.html',
+      filename: './color/vodorosli.html'
+    }),
+    
+
+    new HtmlWebpackPlugin({
       template: './src/feno/feno_article1.html',
       filename: './feno/feno_article1.html'
     }),
+
+    new HtmlWebpackPlugin({
+      template: './src/feno/listopad.html',
+      filename: './feno/listopad.html'
+    }),
+
 
     new HtmlWebpackPlugin({
       template: './src/feno/feno_article2.html',
@@ -167,8 +179,18 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/feno/cvetenie.html',
+      filename: './feno/cvetenie.html'
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/geo/sloi_gornyh_porod.html',
       filename: './geo/sloi_gornyh_porod.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/geo/seismicheskaya.html',
+      filename: './geo/seismicheskaya.html'
     }),
 
     new HtmlWebpackPlugin({
@@ -180,6 +202,29 @@ module.exports = {
       template: './src/habitat/cows_lie_down_before_rain.html',
       filename: './habitat/cows_lie_down_before_rain.html'
     }), 
+
+    new HtmlWebpackPlugin({
+      template: './src/habitat/flypovedenie.html',
+      filename: './habitat/flypovedenie.html'
+    }),
+
+    
+
+    new HtmlWebpackPlugin({
+      template: './src/advice/ecoprivichki.html',
+      filename: './advice/ecoprivichki.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/advice/read_signals.html',
+      filename: './advice/read_signals.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/advice/signals.html',
+      filename: './advice/signals.html'
+    }),
+
     new HtmlWebpackPlugin({
       template: './src/habitat/povedenie_zhivotnyh_pered_stihiynymi_bedstviami.html',
       filename: './habitat/povedenie_zhivotnyh_pered_stihiynymi_bedstviami.html'
@@ -201,14 +246,34 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/sound/zvuk_dereviev.html',
+      filename: './sound/zvuk_dereviev.html'
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/structure/godichnye_koltsa_dereviev.html',
       filename: './structure/godichnye_koltsa_dereviev.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/structure/molluski.html',
+      filename: './structure/molluski.html'
     }),
 
 
     new HtmlWebpackPlugin({
       template: './src/tests/lakes.html',
       filename: './tests/lakes.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/tests/yavlenia.html',
+      filename: './tests/yavlenia.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/tests/insects.html',
+      filename: './tests/insects.html'
     }),
 
 

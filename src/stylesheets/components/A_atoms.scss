@@ -199,91 +199,198 @@
     margin-top: 0.5%;
     font-size: 1.3vw;
 }
+}
 
-.lakes{
-    .A_BaikalImage{
-        z-index: -1;
-        margin-top: 20%;
-    }
-    .A_BaikalImage1{
-        margin-right: 15%;
-    }
 
-      
+
+.A_BaikalImage{
+    z-index:-1;
+    margin-top: -20%;
+    overflow: hidden;
+    height: 112%;
+
+}
+.A_BaikalImage1{
+    margin-right: 90%;
+    margin-left: 9%;
+}
+
+  
+  .quiz-container {
+    z-index: 3;
+    position: absolute;
+    max-width: 900px;
+    padding: 2% 3%;
+    margin-top: 5%;
+    margin-left: 1%;
     
-      .quiz-container {
-        max-width: 600px;
-        margin: 0 auto;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 15px rgba(0, 100, 150, 0.1);
-      }
-      
-      h1 {
-        text-align: center;
-        color: #0066cc;
-        border-bottom: 2px solid #0066cc;
-        padding-bottom: 10px;
-      }
-      
-      .question {
-        font-weight: bold;
-        margin: 20px 0;
-        font-size: 1.1em;
-      }
-      
-      .option {
-        display: block;
-        margin: 10px 0;
-        padding: 12px;
-        background: #f0f8ff;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background 0.3s;
-      }
-      
-      .option:hover {
-        background: #d0e8ff;
-      }
-      
-      input[type="radio"] {
-        margin-right: 10px;
-      }
-      
-      button {
-        display: block;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  .question {
+    margin-top: -12%;
+    z-index: 3;
+    margin: 2%;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  }
+  
+  .option {
+    z-index: 3;
+    display: inline-block;
+    padding: 12px;
+    cursor: pointer;
+  }
+
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    z-index: 3;
+    display: block;
+    width: 5%;
+    background: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.7em;
+    cursor: pointer;
+    margin-top: 19%;
+    margin-left: 114%;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #results {
+    padding: 2% 3%;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+    
+  }
+  
+  #results h2 {
+    width: 130%;
+    color: #000000;
+    font-size: 2vw;
+  }
+  
+  #results button {
+    width: 100%;
+    cursor: pointer;
+    margin-top: 118%;
+    margin-left: 345%;
+  }
+
+
+
+
+
+
+.A_DomImage{
+        z-index:-1;
         width: 100%;
-        padding: 12px;
-        background: #0066cc;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 1em;
-        cursor: pointer;
-        margin-top: 20px;
-        transition: background 0.3s;
-      }
-      
-      button:hover {
-        background: #0055aa;
-      }
-      
-      #results {
-        text-align: center;
-        margin-top: 30px;
-        font-size: 1.2em;
-      }
-      
-      #results h2 {
-        color: #0066cc;
-      }
-      
-      #results button {
-        width: auto;
-        margin: 20px auto;
-        padding: 10px 20px;
-      }
+        margin-top: -30%;
+        margin-left: 0%;
+        height: 130%;
+        overflow: hidden;
+    
+}
+.A_DomImage1{
+        width: 100%;
+}
+    
+   
+    
+    
+
+
+  
+
+        .A_FlyImage{
+            z-index:-1;
+            width: 90%;
+            margin-left: 10%;
+            overflow: hidden;
+            height: 70%;
+            
+        
+        }
+        .A_FlyImage1{
+            width: 90%;
+            margin-left: 17%;
+        }
+
+
+.medium_article{
+    .A_ArticleImg{
+     width: 100%;
+    }
+
+    .A_MainTitle{
+        width: 60%;
+        margin-left: 34%;
+    }
+
+    .M_Summary{
+    margin-top: -50%;
+    }
+    
 }
 
+.molluski{
+    .M_Summary{
+        margin-top: -35%;
+    }
+    .A_ArticleImg{
+        width: 100%;
+       }
+   
+       .A_MainTitle{
+           width: 60%;
+           margin-left: 34%;
+       }
+   
+
 }
+
+
+.advice_eco{
+
+    .A_ArticleTitle, .A_ArticleText{
+        color: aliceblue;
+        text-align: center;
+        width: 35%;
+        margin-left: 32%;
+        margin-top: 2%;
+    }
+
+    .A_AdviceImg{
+        width: 100%;
+        margin-top: -7%;
+        position: absolute;
+        z-index: -1;
+        height: 100.7%;
+        overflow: hidden;
+        
+    }
+
+    footer{
+        position: relative;
+        z-index: 5;
+        margin-top: -2%;
+    }
+}
+
+        
+          
+    
+        
+        
