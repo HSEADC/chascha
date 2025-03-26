@@ -11,6 +11,15 @@ module.exports = {
   entry: {
     index: './src/index.js'
   },
+  entry: {
+    index: './src/test_insects.js'
+  },
+  entry: {
+    index: './src/test_yavlenia.js'
+  },
+  entry: {
+    index: './src/test.js'
+  },
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'docs'),
