@@ -107,11 +107,29 @@ const arialnarrow_bolditalic_namespaceObject = __webpack_require__.p + "fonts/c5
 console.log(__webpack_require__(29));
 console.log(__webpack_require__(655));
 console.log(__webpack_require__(210));
-
-// document.addEventListener('DOMContentLoaded', () => {
-//   const image = new Image()
-//   image.src = jpg
-//   document.querySelector('.images').appendChild(image)
-// })
+document.addEventListener('DOMContentLoaded', function () {
+  var filters = document.querySelectorAll('.A_Chapters u[data-filter]');
+  var cards = document.querySelectorAll('.M_Card');
+  var showAllButton = document.querySelector('.A_ShowAllButton');
+  filters.forEach(function (filter) {
+    filter.addEventListener('click', function () {
+      var selectedTag = filter.getAttribute('data-filter');
+      cards.forEach(function (card) {
+        var _card$querySelector;
+        var cardTag = (_card$querySelector = card.querySelector('.A_CardTag p')) === null || _card$querySelector === void 0 ? void 0 : _card$querySelector.textContent.replace('#', '');
+        if (cardTag === selectedTag) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+  showAllButton.addEventListener('click', function () {
+    cards.forEach(function (card) {
+      card.style.display = 'flex';
+    });
+  });
+});
 /******/ })()
 ;
