@@ -14,7 +14,59 @@
     padding-right: 60px;
 }
 
+
+.tests{
 .O_TestCard{
     margin-right: 10%;
     margin-left: 2%;
+}
+
+@media screen and (min-width: 1441px)and (max-width: 1920px){
+    .O_TestCard{
+        margin-right: 24%;
+        margin-left: 2%;
+    }
+}
+@media screen and (min-width: 1366px)and (max-width: 1440px){
+    .O_TestCard{
+        margin-right: 3%;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1365px){
+    .O_TestCard{
+        margin-right: 0%;
+        margin-left: 2%;
+    }
+
+    .A_Image img{
+        width: 88%;
+    }
+
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px){
+          .O_TestCard{
+        margin-right: 0%;
+        margin-left: 2%;
+        
+        
+    }
+
+    .A_Image img{
+        width: 88%;
+    }            
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+
+
+}
+@media screen and (min-width: 360px)and (max-width: 413px){ 
+
+}
+@media screen and (min-width: 0px)and (max-width: 359px){ 
+}
+
+
 }
