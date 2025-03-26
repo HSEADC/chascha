@@ -1,135 +1,70 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
+var quizData = [{
+  question: "1/5 Как называется участок реки с быстрым течением и небольшими глубинами, образованный выходом твердых пород?",
+  options: ["Пойма", "Плес", "Перекат", "Старица"],
+  correct: 2 // Индекс правильного ответа (в) Перекат)
+}, {
+  question: "2/5 Какое озеро является самым глубоким в мире?",
+  options: ["Каспийское море", "Озеро Байкал", "Озеро Танганьика", "Озеро Верхнее"],
+  correct: 1 // (б) Озеро Байкал)
+}, {
+  question: "3/5 Как называется река, которая впадает в другую реку, а не в море или озеро?",
+  options: ["Главная река", "Приток", "Водораздел", "Дельта"],
+  correct: 1 // (б) Приток)
+}, {
+  question: "4/5 Какая река является самой длинной в мире?",
+  options: ["Нил", "Амазонка", "Янцзы", "Миссисипи"],
+  correct: 1 // (б) Амазонка)
+}, {
+  question: "5/5 Как называется озеро, образовавшееся в кратере потухшего вулкана?",
+  options: ["Ледниковое", "Карстовое", "Тектоническое", "Кальдера"],
+  correct: 3 // (г) Кальдера)
+}];
+var quizContainer = document.getElementById('quiz');
+var resultsContainer = document.getElementById('results');
+var submitButton = document.getElementById('submit');
+var currentQuestion = 0;
+var score = 0;
 
-/***/ 210:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+// Загрузка вопроса
+function loadQuestion() {
+  var questionData = quizData[currentQuestion];
+  var optionsHtml = questionData.options.map(function (option, index) {
+    return "\n    <label class=\"option\">\n      <input type=\"radio\" name=\"question\" value=\"".concat(index, "\">\n      ").concat(option, "\n    </label>\n  ");
+  }).join('');
+  quizContainer.innerHTML = "\n    <div class=\"question\">".concat(questionData.question, "</div>\n    <div class=\"options\">").concat(optionsHtml, "</div>\n  ");
+}
 
-module.exports = __webpack_require__.p + "fonts/51b7ac2a32dbd9f9a8b4.woff2";
+// Проверка ответов
+function checkAnswers() {
+  var selectedOption = document.querySelector('input[name="question"]:checked');
+  if (!selectedOption) {
+    alert("Выберите ответ!");
+    return;
+  }
+  if (parseInt(selectedOption.value) === quizData[currentQuestion].correct) {
+    score++;
+  }
+  currentQuestion++;
+  if (currentQuestion < quizData.length) {
+    loadQuestion();
+  } else {
+    showResults();
+  }
+}
 
-/***/ }),
+// Показ результатов
+function showResults() {
+  var percentage = Math.round(score / quizData.length * 100);
+  var message = "";
+  if (percentage >= 80) message = "Отлично! Вы знаток гидрологии!";else if (percentage >= 50) message = "Хорошо, но есть куда расти!";
+  quizContainer.style.display = 'none';
+  submitButton.style.display = 'none';
+  resultsContainer.innerHTML = "\n    <h2>\u0412\u0430\u0448 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442: ".concat(score, " \u0438\u0437 ").concat(quizData.length, " </h2>\n    <p>").concat(message, "</p>\n    <button onclick=\"location.reload()\">\u043F\u0440\u043E\u0439\u0442\u0438 \u0437\u0430\u043D\u043E\u0432\u043E</button>\n  ");
+}
 
-/***/ 655:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "fonts/f955bf9c1916545f4f8e.ttf";
-
-/***/ }),
-
-/***/ 29:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "fonts/4b8d1d12b9574544ab39.ttf";
-
-/***/ })
-
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-
-;// ./src/images/image.jpg
-const image_namespaceObject = __webpack_require__.p + "images/6373cac8eccfb40124d1.jpg";
-// EXTERNAL MODULE: ./src/fonts/ofont.ru_Arial Narrow.ttf
-var ofont_ru_Arial_Narrow = __webpack_require__(29);
-// EXTERNAL MODULE: ./src/fonts/arialnarrow_bold.ttf
-var arialnarrow_bold = __webpack_require__(655);
-;// ./src/fonts/arialnarrow_italic.ttf
-const arialnarrow_italic_namespaceObject = __webpack_require__.p + "fonts/465dc0649679f65097f5.ttf";
-;// ./src/fonts/arialnarrow_bolditalic.ttf
-const arialnarrow_bolditalic_namespaceObject = __webpack_require__.p + "fonts/c599e2aafc499a21372d.ttf";
-;// ./src/index.js
-
-
-
-
-
-
-console.log(__webpack_require__(29));
-console.log(__webpack_require__(655));
-console.log(__webpack_require__(210));
-document.addEventListener('DOMContentLoaded', function () {
-  var filters = document.querySelectorAll('.A_Chapters u[data-filter]');
-  var cards = document.querySelectorAll('.M_Card');
-  var showAllButton = document.querySelector('.A_ShowAllButton');
-  filters.forEach(function (filter) {
-    filter.addEventListener('click', function () {
-      var selectedTag = filter.getAttribute('data-filter');
-      cards.forEach(function (card) {
-        var _card$querySelector;
-        var cardTag = (_card$querySelector = card.querySelector('.A_CardTag p')) === null || _card$querySelector === void 0 ? void 0 : _card$querySelector.textContent.replace('#', '');
-        if (cardTag === selectedTag) {
-          card.style.display = 'flex';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    });
-  });
-  showAllButton.addEventListener('click', function () {
-    cards.forEach(function (card) {
-      card.style.display = 'flex';
-    });
-  });
-});
+// Инициализация
+loadQuestion();
+submitButton.addEventListener('click', checkAnswers);
 /******/ })()
 ;
