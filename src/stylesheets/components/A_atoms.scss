@@ -180,7 +180,18 @@
         opacity: 0.7;
       }
 }
-
+@media screen and (min-width: 1920px){
+    .A_Image{
+        width: 20%;
+        margin-left: 2%;
+        margin-top: 5%;
+        cursor: pointer;
+        transition: opacity 0.2s ease;
+        &:hover {
+            opacity: 0.7;
+          }
+    }
+}
 @media screen and (min-width: 1440px)and (max-width: 1919px){
     .A_Image{
         width: 20%;
@@ -192,7 +203,6 @@
             opacity: 0.7;
           }
     }
-
     
     }
 @media screen and (min-width: 1366px)and (max-width: 1439px){
@@ -200,8 +210,9 @@
 }
 
 @media screen and (min-width: 1024px)and (max-width: 1365px){
-
-
+    .A_Image img{
+        width: 88%;
+    }
 }
 
 @media screen and (min-width: 768px)and (max-width: 1023px){
@@ -221,14 +232,18 @@
         margin-left: 1%;
         margin-top: 0.5%;
         font-size: 2.3vw;
-    }            
+    }    
+    
+    .A_Image img{
+        width: 60%;
+    }  
 }
 @media screen and (min-width: 414px)and (max-width: 767px){
    
     .A_TitleTest{
         margin-left: 1%;
         margin-top: 1%;
-        font-size: 3.2vw;
+        font-size: 6vw;
         cursor: pointer;
         
         transition: opacity 0.2s ease;
@@ -240,18 +255,60 @@
     .A_TitleTag{
         margin-left: 1%;
         margin-top: 0.5%;
-        font-size: 2.3vw;
-    }            
+        font-size: 4.3vw;
+    }  
+    
+    .A_Image img{
+        width: 90%;
+    } 
 }
 @media screen and (min-width: 360px)and (max-width: 413px){ 
-   
+    .A_TitleTest{
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 6vw;
+        cursor: pointer;
+        
+        transition: opacity 0.2s ease;
+        &:hover {
+            opacity: 0.7;
+          }
+    }
+    
+    .A_TitleTag{
+        margin-left: 1%;
+        margin-top: 0.5%;
+        font-size: 4.3vw;
+    }  
+
+    .A_Image img{
+        width: 80%;
+    } 
 }
 @media screen and (min-width: 0px)and (max-width: 359px){ 
+    .A_TitleTest{
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 6vw;
+        cursor: pointer;
+        
+        transition: opacity 0.2s ease;
+        &:hover {
+            opacity: 0.7;
+          }
+    }
+    
+    .A_TitleTag{
+        margin-left: 1%;
+        margin-top: 0.5%;
+        font-size: 4.3vw;
+    }  
 
+    .A_Image img{
+        width: 70%;
+    } 
 }
-
 }
-
 
 .A_TitleTest{
     margin-left: 1%;
@@ -272,7 +329,345 @@
 }
 
 
+.lakes, .yavlenia, .insects{
+    @media screen and (min-width: 1920px){
+        .A_BaikalImage{
+            z-index:-1;
+            margin-top: -6%;
+            overflow: hidden;
+            height: 88%;
+        
+        }
+        .A_BaikalImage1{
+            margin-right:10%;
+            margin-left: 27%;
+        }
+    
+          button {
+            z-index: 3;
+            display: block;
+            width: 5%;
+            background: none;
+            color: rgb(0, 0, 0);
+            border: none;
+            font-size: 1.7em;
+            cursor: pointer;
+            margin-top: 13%;
+            margin-left: 118%;
+            transition: background 0.3s;
+          }
+    
+          #results button {
+            width: 100%;
+            cursor: pointer;
+            margin-top: 90%;
+            margin-left: 270%;
+          }
 
+          .A_FlyImage{
+            height: 76%;
+          }
+    }
+
+@media screen and (min-width: 1440px)and (max-width: 1919px){
+    .A_BaikalImage{
+        z-index:-1;
+        margin-top: -10%;
+        overflow: hidden;
+        height: 90%;
+    
+    }
+    .A_BaikalImage1{
+        margin-right:10%;
+        margin-left: 27%;
+    }
+
+      button {
+        z-index: 3;
+        display: block;
+        width: 5%;
+        background: none;
+        color: rgb(0, 0, 0);
+        border: none;
+        font-size: 1.7em;
+        cursor: pointer;
+        margin-top: 17%;
+        margin-left: 114%;
+        transition: background 0.3s;
+      }
+
+      #results button {
+        width: 100%;
+        cursor: pointer;
+        margin-top: 120%;
+        margin-left: 350%;
+      }
+
+      .A_FlyImage{
+        height: 76%;
+      }
+      
+    }
+@media screen and (min-width: 1366px)and (max-width: 1419px){
+    .A_BaikalImage{
+        z-index:-1;
+        margin-top: -10%;
+        overflow: hidden;
+        height: 90%;
+    
+    }
+    .A_BaikalImage1{
+        margin-right:10%;
+        margin-left: 27%;
+    }
+
+      button {
+        z-index: 3;
+        display: block;
+        width: 5%;
+        background: none;
+        color: rgb(0, 0, 0);
+        border: none;
+        font-size: 1.7em;
+        cursor: pointer;
+        margin-top: 17%;
+        margin-left: 114%;
+        transition: background 0.3s;
+      }
+
+      #results button {
+        width: 100%;
+        cursor: pointer;
+        margin-top: 120%;
+        margin-left: 350%;
+      }
+
+      .A_FlyImage{
+        height: 73%;
+      }
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1365px){
+    
+    
+    .A_BaikalImage{
+        z-index:-1;
+        margin-top: -10%;
+        overflow: hidden;
+        height: 90%;
+    
+    }
+    .A_BaikalImage1{
+        margin-right:10%;
+        margin-left: 27%;
+    }
+
+
+      button {
+        z-index: 3;
+        display: block;
+        width: 5%;
+        background: none;
+        color: rgb(0, 0, 0);
+        border: none;
+        font-size: 1.7em;
+        cursor: pointer;
+        margin-top: 10%;
+        margin-left: 86%;
+        transition: background 0.3s;
+      }
+
+      #results button {
+        width: 100%;
+        cursor: pointer;
+        margin-top: 120%;
+        margin-left: 350%;
+      }
+
+      .question{
+        font-size: 3vw;
+      }
+      .option{
+        font-size: 2vw;
+      }
+
+      .A_DomImage{
+        margin-top: -11%;
+        height: 90%;
+      }
+
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px){
+    
+    
+    .A_BaikalImage{
+        z-index:-1;
+        margin-top: -10%;
+        overflow: hidden;
+        height: 90%;
+    
+    }
+    .A_BaikalImage1{
+        margin-right:10%;
+        margin-left: 27%;
+    }
+
+    
+      button {
+        z-index: 3;
+        display: block;
+        width: 5%;
+        background: none;
+        color: rgb(0, 0, 0);
+        border: none;
+        font-size: 1.7em;
+        cursor: pointer;
+        margin-top: 10%;
+        margin-left: 86%;
+        transition: background 0.3s;
+      }
+
+      #results button {
+        width: 100%;
+        cursor: pointer;
+        margin-top: 120%;
+        margin-left: 350%;
+      }
+
+      .question{
+        font-size: 3vw;
+      }
+      .option{
+        font-size: 2vw;
+      }  
+      
+      .A_DomImage{
+        margin-top:30%;
+        height: 53%;
+      }
+
+      .A_FlyImage{
+        height: 65%;
+      }
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+    
+
+    
+    .A_BaikalImage{
+
+        z-index:-1;
+        margin-top: -10%;
+        overflow: hidden;
+        height: 90%;
+    
+    }
+    .A_BaikalImage1{
+        margin-right:10%;
+        margin-left: 27%;
+    }
+
+    
+      button {
+        z-index: 3;
+        display: block;
+        width: 5%;
+        background: none;
+        color: rgb(0, 0, 0);
+        border: none;
+        font-size: 1.7em;
+        cursor: pointer;
+        margin-top: 10%;
+        margin-left: 60%;
+        transition: background 0.3s;
+      }
+
+      
+
+      #results button {
+        width: 100%;
+        cursor: pointer;
+        margin-top: 120%;
+        margin-left: 350%;
+      }
+
+      h2, p{
+        font-size: 7vw;
+      }
+
+      .question{
+        font-size: 7vw;
+      }
+      .option{
+        font-size: 7vw;
+      }
+
+      .A_DomImage{
+        margin-top:127%;
+        height: 30%;
+      }
+
+}
+@media screen and (min-width: 360px)and (max-width: 413px){ 
+    
+
+    
+    .A_BaikalImage{
+
+        z-index:-1;
+        margin-top: -10%;
+        overflow: hidden;
+        height: 90%;
+    
+    }
+    .A_BaikalImage1{
+        margin-right:10%;
+        margin-left: 27%;
+    }
+
+    
+      button {
+        z-index: 3;
+        display: block;
+        width: 5%;
+        background: none;
+        color: rgb(0, 0, 0);
+        border: none;
+        font-size: 1.7em;
+        cursor: pointer;
+        margin-top: 10%;
+        margin-left: 60%;
+        transition: background 0.3s;
+      }
+
+      
+
+      #results button {
+        width: 100%;
+        cursor: pointer;
+        margin-top: 120%;
+        margin-left: 350%;
+      }
+
+      h2, p{
+        font-size: 7vw;
+      }
+
+      .question{
+        font-size: 7vw;
+      }
+      .option{
+        font-size: 7vw;
+      }
+      .A_DomImage{
+        margin-top:127%;
+        height: 30%;
+      }
+}
+
+
+}
 
 .A_BaikalImage{
     z-index:-1;
@@ -287,15 +682,6 @@
 }
 
   
-  .quiz-container {
-    z-index: 3;
-    position: absolute;
-    max-width: 900px;
-    padding: 2% 3%;
-    margin-top: 5%;
-    margin-left: 1%;
-    
-  }
   
   h1 {
     color: black;
@@ -396,6 +782,8 @@
 
 
 .medium_article{
+
+    
     .A_ArticleImg{
      width: 100%;
     }
@@ -408,8 +796,82 @@
     .M_Summary{
     margin-top: -50%;
     }
+}
+
+.medium_article{
+
+    
+    @media screen and (min-width: 1920px){
+        .M_Summary{
+            margin-top: -20%;
+            }
+    }
+    @media screen and (min-width: 1440px)and (max-width: 1919px){
+        .M_Summary{
+            margin-top: -50%;
+            }
+    }
+@media screen and (min-width: 1366px)and (max-width: 1439px){
+
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1365px){
+
+
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px){
+    .A_MainTitle{
+        width: 90%;
+        margin-left: 2%;
+    }      
+    .M_Summary{
+        margin-top: 0%;
+        }  
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+   
+    .A_MainTitle{
+        width: 90%;
+        font-size: 7vw;
+        margin-left: 2%;
+    }        
+
+    .M_Summary{
+        margin-top: 0%;
+        }
     
 }
+
+@media screen and (min-width: 360px)and (max-width: 413px){ 
+    .A_MainTitle{
+        width: 90%;
+        font-size: 7vw;
+        margin-left: 2%;
+    }        
+
+    .M_Summary{
+        margin-top: 0%;
+        }  
+
+        .M_Summary .molluski{
+            margin-top: 50%;
+            }  
+        
+    
+
+}
+@media screen and (min-width: 0px)and (max-width: 359px){ 
+    .A_MainTitle{
+        width: 60%;
+        margin-left: 2%;
+    }        
+}
+}
+
+
+
+    
 
 .molluski{
     .M_Summary{
@@ -423,6 +885,72 @@
            width: 60%;
            margin-left: 34%;
        }
+
+    
+       @media screen and (min-width: 1920px){
+        .M_Summary{
+            margin-top: -20%;
+            }
+    }
+    @media screen and (min-width: 1440px)and (max-width: 1919px){
+        .M_Summary{
+            margin-top: -50%;
+            }
+    }
+@media screen and (min-width: 1366px)and (max-width: 1439px){
+
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1365px){
+
+
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px){
+    .A_MainTitle{
+        width: 90%;
+        margin-left: 2%;
+    }      
+    .M_Summary{
+        margin-top: 0%;
+        }  
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+   
+    .A_MainTitle{
+        width: 90%;
+        font-size: 7vw;
+        margin-left: 2%;
+    }        
+
+    .M_Summary{
+        margin-top: 0%;
+        }
+    
+}
+
+@media screen and (min-width: 360px)and (max-width: 413px){ 
+    .A_MainTitle{
+        width: 90%;
+        font-size: 7vw;
+        margin-left: 2%;
+    }        
+
+    .M_Summary{
+        margin-top: 0%;
+        }  
+
+    
+        
+    
+
+}
+@media screen and (min-width: 0px)and (max-width: 359px){ 
+    .A_MainTitle{
+        width: 60%;
+        margin-left: 2%;
+    }        
+}
    
 
 }
@@ -455,6 +983,83 @@
     }
 }
 
+
+.advice_eco{
+    @media screen and (min-width: 1920px){
+        .A_ArticleTitle{
+    margin-top: 5%;
+    font-size: 1.5vw;
+        }
+        .A_ArticleText{
+            font-size: 1.5vw;
+        }
+        }
+@media screen and (min-width: 1440px)and (max-width: 1919px){
+    
+    }
+@media screen and (min-width: 1366px)and (max-width: 1439px){
+
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1365px){
+
+
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px){
+    .A_ArticleTitle{
+        margin-top: 5%;
+        font-size: 4vw;
+            }
+            .A_ArticleText{
+                font-size: 4vw;
+            } 
+       background-color: #352d05;
+               
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+    .A_ArticleTitle{
+        margin-top: 5%;
+        font-size: 4vw;
+        width: 50%;
+        margin-left: 24%;
+            }
+            .A_ArticleText{
+                font-size: 4vw;
+                width: 50%;
+                margin-left: 24%;
+            } 
+
+            .A_AdviceImg{
+                height: 100%;
+            }
+       background-color: #352d05;
+
+}
+@media screen and (min-width: 360px)and (max-width: 413px){ 
+    .A_ArticleTitle{
+        margin-top: 5%;
+        font-size: 4vw;
+        width: 50%;
+        margin-left: 24%;
+            }
+            .A_ArticleText{
+                font-size: 4vw;
+                width: 50%;
+                margin-left: 24%;
+            } 
+       background-color: #352d05;
+}
+@media screen and (min-width: 0px)and (max-width: 359px){ 
+}
+
+}
+
+
+
+
+
+
         
 
 
@@ -462,6 +1067,7 @@
     .A_ShowAllButton {
         width: 50vw;
       }
+
 
     .A_ChapterTests a, .A_ChapterLit a, .A_ChapterAbout a{
         font-size: 15px;

@@ -21,13 +21,13 @@
     margin-left: 2%;
 }
 
-@media screen and (min-width: 1441px)and (max-width: 1920px){
+@media screen and (min-width: 1440px)and (max-width: 1919px){
     .O_TestCard{
-        margin-right: 24%;
+        margin-right: 6%;
         margin-left: 2%;
     }
 }
-@media screen and (min-width: 1366px)and (max-width: 1440px){
+@media screen and (min-width: 1366px)and (max-width: 1439px){
     .O_TestCard{
         margin-right: 3%;
         margin-left: 2%;
@@ -40,9 +40,6 @@
         margin-left: 2%;
     }
 
-    .A_Image img{
-        width: 88%;
-    }
 
 }
 
@@ -50,22 +47,43 @@
           .O_TestCard{
         margin-right: 0%;
         margin-left: 2%;
+        margin-bottom: 27%;
+        
+        
+    }
+           
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+    .O_TestCard{
+        margin-right: 0%;
+        margin-left: 2%;
+        margin-bottom: 18%;
         
         
     }
 
-    .A_Image img{
-        width: 88%;
-    }            
-}
-@media screen and (min-width: 414px)and (max-width: 767px){
 
 
 }
 @media screen and (min-width: 360px)and (max-width: 413px){ 
+    .O_TestCard{
+        margin-right: 0%;
+        margin-left: 2%;
+        margin-bottom: 18%;
+        
+        
+    }
 
 }
 @media screen and (min-width: 0px)and (max-width: 359px){ 
+    .O_TestCard{
+        margin-right: 0%;
+        margin-left: 2%;
+        margin-bottom: 18%;
+        
+        
+    }
+
 }
 
 

@@ -11,3 +11,51 @@
     margin-top: -5%;
     margin-left: -5%;
   }
+
+
+  .lakes, .yavlenia, .insects{
+   
+@media screen and (min-width: 1024px)and (max-width: 1365px){
+    .Q_QuestionBox{
+        width: 95%;
+        margin-left: -3%;
+    }
+    .Q_QuestionBox1{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 768px)and (max-width: 1023px){
+    .Q_QuestionBox{
+        width: 95%;
+        margin-left: -3%;
+    }
+    .Q_QuestionBox1{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+    .Q_QuestionBox{
+        display: none;
+        width: 95%;
+        margin-left: -3%;
+    }
+    .Q_QuestionBox1{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 360px)and (max-width: 413px){ 
+    .Q_QuestionBox{
+        display: none;
+        width: 95%;
+        margin-left: -3%;
+    }
+    .Q_QuestionBox1{
+        width: 100%;
+    }
+
+}
+
+}

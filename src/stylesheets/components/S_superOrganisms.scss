@@ -52,10 +52,151 @@
 .S_TestCards{
   display:inline-flex;
   justify-content: space-between;
+}
 
+@media screen and (min-width: 768px)and (max-width: 1023px){
+  .S_TestCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }                 
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+  .S_TestCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } 
 
 }
+@media screen and (min-width: 360px)and (max-width: 413px){ 
+  .S_TestCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } 
 }
+@media screen and (min-width: 0px)and (max-width: 359px){
+  .S_TestCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }  
+}
+
+}
+
+
+.lakes, .yavlenia, .insects{
+  @media screen and (min-width: 1920px){
+      
+  
+      .S_Quiz_Container {
+          z-index: 3;
+          position: absolute;
+          max-width: 900px;
+          padding: 2% 3%;
+          margin-top: 5%;
+          margin-left: 1%;
+          
+      }
+  }
+
+@media screen and (min-width: 1440px)and (max-width: 1919px){
+  
+  .S_Quiz_Container {
+      z-index: 3;
+      position: absolute;
+      max-width: 900px;
+      padding: 2% 3%;
+      margin-top: 5%;
+      margin-left: 1%;
+      
+    }
+   
+    
+  }
+@media screen and (min-width: 1366px)and (max-width: 1419px){
+  
+
+  .S_Quiz_Container {
+      z-index: 3;
+      position: absolute;
+      max-width: 900px;
+      padding: 2% 3%;
+      margin-top: 5%;
+      margin-left: 1%;
+      
+    }
+    
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1365px){
+  
+  
+  .S_Quiz_Container {
+      z-index: 3;
+      position: absolute;
+      max-width: 900px;
+      padding: 2% 3%;
+      margin-top: 5%;
+      margin-left: 1%;
+      
+      
+    }
+    
+   
+
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px){
+  
+
+  .S_Quiz_Container {
+      z-index: 3;
+      position: absolute;
+      max-width: 900px;
+      padding: 2% 3%;
+      margin-top: 60%;
+      margin-left: 1%;
+    }
+      
+      
+   
+    
+}
+@media screen and (min-width: 414px)and (max-width: 767px){
+  
+  
+  .S_Quiz_Container {
+      z-index: 3;
+      position: absolute;
+      max-width: 900px;
+      padding: 2% 3%;
+      margin-top: 35%;
+      margin-left: 1%;
+      
+      
+    }
+    
+}
+@media screen and (min-width: 360px)and (max-width: 413px){ 
+  
+  .S_Quiz_Container {
+      z-index: 3;
+      position: absolute;
+      max-width: 900px;
+      padding: 2% 3%;
+      margin-top: 35%;
+      margin-left: 1%;
+      
+      
+    }
+    
+}
+
+}
+
 
 @media screen and (max-width: 999px) {
   .S_Cards{
@@ -65,4 +206,15 @@
   .S_Article {
    flex-direction: column;
 }
+}
+
+
+.S_Quiz_Container {
+  z-index: 3;
+  position: absolute;
+  max-width: 900px;
+  padding: 2% 3%;
+  margin-top: 5%;
+  margin-left: 1%;
+  
 }
