@@ -287,3 +287,20 @@
 }
 
 }
+
+
+@media screen and (max-width: 999px) {
+    .A_ShowAllButton {
+        width: 50vw;
+      }
+
+    .A_ChapterTests a, .A_ChapterLit a, .A_ChapterAbout a{
+        font-size: 15px;
+    }
+
+
+.A_Resources a{
+    font-size: 15px;
+    
+}
+  }

@@ -55,3 +55,13 @@
 
 }
 }
+
+@media screen and (max-width: 999px) {
+  .S_Cards{
+    flex-direction: column;
+  }
+
+  .S_Article {
+   flex-direction: column;
+}
+}

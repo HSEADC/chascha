@@ -17,3 +17,10 @@
 .O_TestCard{
     margin-left: 1%;
 }
+
+@media screen and (max-width: 999px) {
+    .O_Article {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    }
+  }
