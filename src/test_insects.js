@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+
 
 const quizData = [
     {
@@ -88,4 +88,4 @@ const quizData = [
   
 
   loadQuestion();
-  submitButton.addEventListener('click', checkAnswers);})
+  submitButton.addEventListener('click', checkAnswers);
