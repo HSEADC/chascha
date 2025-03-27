@@ -9,7 +9,10 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    test_insects: './src/test_insects.js',
+    test_yavlenia: './src/test_yavlenia.js',
+    test: './src/test.js'
   },
   output: {
     filename: '[name].js',

@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 const quizData = [
   {
     question: "1/5 Как называется участок реки с быстрым течением и небольшими глубинами, образованный выходом твердых пород?",
@@ -86,4 +88,4 @@ function showResults() {
 
 // Инициализация
 loadQuestion();
-submitButton.addEventListener('click', checkAnswers);
+submitButton.addEventListener('click', checkAnswers);}

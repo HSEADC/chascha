@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 const quizData = [
     {
       "question": "Как называется стадия развития насекомых, следующая за личинкой и предшествующая имаго?",
@@ -86,4 +88,4 @@ const quizData = [
   
   // Инициализация
   loadQuestion();
-  submitButton.addEventListener('click', checkAnswers);
+  submitButton.addEventListener('click', checkAnswers);}
