@@ -266,17 +266,17 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: './src/tests/lakes.html',
-      filename: 'tests/lakes.html'
+      filename: './tests/lakes.html'
     }),
 
     new HtmlWebpackPlugin({
       template: './src/tests/yavlenia.html',
-      filename: 'tests/yavlenia.html'
+      filename: './tests/yavlenia.html'
     }),
 
     new HtmlWebpackPlugin({
       template: './src/tests/insects.html',
-      filename: 'tests/insects.html'
+      filename: './tests/insects.html'
     }),
 
 
