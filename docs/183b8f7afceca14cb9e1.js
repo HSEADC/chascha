@@ -1,4 +1,3 @@
-/******/ (() => { // webpackBootstrap
 var quizData = [{
   question: "1/5 Какое атмосферное явление возникает из-за электрических разрядов в кучево-дождевых облаках?",
   options: ["Полярное сияние", "Молния", "Гало", "Мираж"],
@@ -58,5 +57,3 @@ function showResults() {
 }
 loadQuestion();
 submitButton.addEventListener('click', checkAnswers);
-/******/ })()
-;

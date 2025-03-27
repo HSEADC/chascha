@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
 
 const quizData = [
   {
@@ -90,4 +89,4 @@ function showResults() {
 
 
 loadQuestion();
-submitButton.addEventListener('click', checkAnswers);})
+submitButton.addEventListener('click', checkAnswers);

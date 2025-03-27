@@ -1,4 +1,3 @@
-/******/ (() => { // webpackBootstrap
 var quizData = [{
   question: "1/5 Как называется участок реки с быстрым течением и небольшими глубинами, образованный выходом твердых пород?",
   options: ["Пойма", "Плес", "Перекат", "Старица"],
@@ -58,5 +57,3 @@ function showResults() {
 }
 loadQuestion();
 submitButton.addEventListener('click', checkAnswers);
-/******/ })()
-;
