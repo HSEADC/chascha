@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 const quizData = [
     {
       question: "1/5 Какое атмосферное явление возникает из-за электрических разрядов в кучево-дождевых облаках?",
@@ -86,4 +88,4 @@ const quizData = [
   
   // Инициализация
   loadQuestion();
-  submitButton.addEventListener('click', checkAnswers);
+  submitButton.addEventListener('click', checkAnswers);}
