@@ -34,7 +34,7 @@ const quizData = [
   let currentQuestion = 0;
   let score = 0;
   
-  // Загрузка вопроса
+
   function loadQuestion() {
     const questionData = quizData[currentQuestion];
     const optionsHtml = questionData.options.map((option, index) => `
@@ -50,7 +50,7 @@ const quizData = [
     `;
   }
   
-  // Проверка ответов
+
   function checkAnswers() {
     const selectedOption = document.querySelector('input[name="question"]:checked');
     if (!selectedOption) {
@@ -70,7 +70,7 @@ const quizData = [
     }
   }
   
-  // Показ результатов
+
   function showResults() {
     const percentage = Math.round((score / quizData.length) * 100);
     let message = "";
@@ -86,6 +86,6 @@ const quizData = [
     `;
   }
   
-  // Инициализация
+
   loadQuestion();
-  submitButton.addEventListener('click', checkAnswers);}
+  submitButton.addEventListener('click', checkAnswers);})

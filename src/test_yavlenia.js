@@ -4,27 +4,27 @@ const quizData = [
     {
       question: "1/5 Какое атмосферное явление возникает из-за электрических разрядов в кучево-дождевых облаках?",
       options: ["Полярное сияние", "Молния", "Гало", "Мираж"],
-      correct: 1 // (б) Молния
+      correct: 1 
     },
     {
       question: "2/5 Как называется процесс вертикального подъёма глубинных вод океана, богатых питательными веществами?",
       options: ["Апвеллинг", "Эрозия", "Конденсация", "Сублимация"],
-      correct: 0 // (а) Апвеллинг
+      correct: 0
     },
     {
       question: "3/5 Какое геологическое явление сопровождается выбросом магмы, пепла и газов на поверхность Земли?",
       options: ["Землетрясение", "Цунами", "Вулканизм", "Оползень"],
-      correct: 2 // (в) Вулканизм
+      correct: 2 
     },
     {
       question: "4/5 Какой термин описывает длительный период аномально высоких температур и засухи?",
       options: ["Паводок", "Смерч", "Заморозки", "Засуха"],
-      correct: 3 // (г) Засуха
+      correct: 3 
     },
     {
       question: "5/5 Какое оптическое явление образуется при преломлении солнечного света в каплях воды?",
       options: ["Радуга", "Мираж", "Гало", "Зарница"],
-      correct: 0 // (а) Радуга
+      correct: 0 
     }
 ]
   
@@ -34,7 +34,6 @@ const quizData = [
   let currentQuestion = 0;
   let score = 0;
   
-  // Загрузка вопроса
   function loadQuestion() {
     const questionData = quizData[currentQuestion];
     const optionsHtml = questionData.options.map((option, index) => `
@@ -50,7 +49,7 @@ const quizData = [
     `;
   }
   
-  // Проверка ответов
+
   function checkAnswers() {
     const selectedOption = document.querySelector('input[name="question"]:checked');
     if (!selectedOption) {
@@ -70,7 +69,7 @@ const quizData = [
     }
   }
   
-  // Показ результатов
+
   function showResults() {
     const percentage = Math.round((score / quizData.length) * 100);
     let message = "";
@@ -86,6 +85,6 @@ const quizData = [
     `;
   }
   
-  // Инициализация
+
   loadQuestion();
-  submitButton.addEventListener('click', checkAnswers);}
+  submitButton.addEventListener('click', checkAnswers);})
