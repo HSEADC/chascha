@@ -107,3 +107,40 @@ input::placeholder {
 }
 
 
+.O_Search {
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  gap: 10px;
+  max-width: 30%;
+}
+
+.A_Search {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px;
+  height: 48px;
+  background-color: transparent;
+  padding: 1px 8px;
+
+  &:focus {
+    border-color: inherit;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.A_SearchButton{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+
+  &.disable {
+    background-color: lightgray;
+    color: gray;
+    cursor: default;
+  }
+}
+

@@ -9,7 +9,8 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js', 
+    search: './src/search-vanilla.js'
   },
   output: {
     filename: '[name].js',
@@ -84,6 +85,12 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/search.html',
+      filename: './search.html',
+      chunks: ['search']
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/tests.html',
       filename: './tests.html'
     }),
@@ -97,6 +104,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
+      chunks: ['index']
     }),
 
 
@@ -310,7 +318,16 @@ module.exports = {
         template_filename: '*',
         priority: 'replace'
       }
-    ])
+    ]),
+        // Partials
+        new HtmlWebpackPartialsPlugin([
+          {
+            path: path.join(__dirname, "./src/partials/analytics.html"),
+            location: "analytics",
+            template_filename: "*",
+            priority: "replace",
+          },
+        ]),
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]
