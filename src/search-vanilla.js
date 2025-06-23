@@ -109,10 +109,12 @@ function SearchContent(requestText) {
 }
 
 function renderNothingFounded() {
+    document.querySelector('.S_Content').innerText = ''
   document.querySelector('.S_Content').innerText = 'Ничего не найдено'
 }
 
 function renderCardsbyIds(container, ids) {
+    document.querySelector('.S_Content').innerText = ''
   ids = [...new Set(ids)]
 
   ids.forEach((id) => {
