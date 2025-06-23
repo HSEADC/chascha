@@ -3,16 +3,71 @@ const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
+const SitemapPlugin = require('sitemap-webpack-plugin').default
 
 const webpack = require('webpack')
 const path = require('path')
+const paths = [
+  '/chascha/',
+  '/chascha/about.html',
+  '/chascha/color.html',
+  '/chascha/feno.html',
+  '/chascha/formspree.html',
+  '/chascha/geo.html',
+  '/chascha/habitat.html',
+  '/chascha/index.html',
+  '/chascha/literature.html',
+  '/chascha/map.html',
+  '/chascha/search.html',
+  '/chascha/sound.html',
+  '/chascha/structure.html',
+  '/chascha/styleguide.html',
+  '/chascha/tests.html',
+  '/chascha/analytics',
+
+]
+
+const homeURL = 'http://localhost:8080'
+
+
+const menu = [{
+  text: 'О нас',
+  url: 'about.html'
+},
+{
+  text: 'Тесты',
+  url: 'tests.html'
+},
+{
+  text: 'Литература',
+  url: 'literature.html'
+},
+{
+  text: 'Поиск',
+  url: 'search.html'
+}]
+
+const props ={
+  prerender: true,
+  homeURL,
+  menu
+}
+
+
+
+
 
 module.exports = {
   entry: {
+<<<<<<< HEAD
     index: './src/index.js',
     test_insects: './src/test_insects.js',
     test_yavlenia: './src/test_yavlenia.js',
     test: './src/test.js'
+=======
+    index: './src/index.js', 
+    search: './src/search-vanilla.js'
+>>>>>>> a63a2d7f9bac49fe4199de0d4cfe1659959de04c
   },
   output: {
     filename: '[name].js',
@@ -87,6 +142,12 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/search.html',
+      filename: './search.html',
+      chunks: ['search']
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/tests.html',
       filename: './tests.html'
     }),
@@ -100,6 +161,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
+      chunks: ['index']
     }),
 
 
@@ -313,7 +375,19 @@ module.exports = {
         template_filename: '*',
         priority: 'replace'
       }
-    ])
+    ]),
+        // Partials
+        new HtmlWebpackPartialsPlugin([
+          {
+            path: path.join(__dirname, "./src/partials/analytics.html"),
+            location: "analytics",
+            template_filename: "*",
+            priority: "replace",
+          },
+        ]),
+
+        new SitemapPlugin({ base: 'https://hseadc.github.io/chascha', 
+        paths })
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]
