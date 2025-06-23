@@ -3,9 +3,59 @@ const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
+const SitemapPlugin = require('sitemap-webpack-plugin').default
 
 const webpack = require('webpack')
 const path = require('path')
+const paths = [
+  '/chascha/',
+  '/chascha/about.html',
+  '/chascha/color.html',
+  '/chascha/feno.html',
+  '/chascha/formspree.html',
+  '/chascha/geo.html',
+  '/chascha/habitat.html',
+  '/chascha/index.html',
+  '/chascha/literature.html',
+  '/chascha/map.html',
+  '/chascha/search.html',
+  '/chascha/sound.html',
+  '/chascha/structure.html',
+  '/chascha/styleguide.html',
+  '/chascha/tests.html',
+  '/chascha/analytics',
+
+]
+
+const homeURL = 'http://localhost:8080'
+
+
+const menu = [{
+  text: 'О нас',
+  url: 'about.html'
+},
+{
+  text: 'Тесты',
+  url: 'tests.html'
+},
+{
+  text: 'Литература',
+  url: 'literature.html'
+},
+{
+  text: 'Поиск',
+  url: 'search.html'
+}]
+
+const props ={
+  prerender: true,
+  homeURL,
+  menu
+}
+
+
+
+
 
 module.exports = {
   entry: {
@@ -328,6 +378,9 @@ module.exports = {
             priority: "replace",
           },
         ]),
+
+        new SitemapPlugin({ base: 'https://hseadc.github.io/chascha', 
+        paths })
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]
