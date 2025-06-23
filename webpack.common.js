@@ -62,7 +62,7 @@ module.exports = {
     index: './src/index.js',
     test_insects: './src/test_insects.js',
     test_yavlenia: './src/test_yavlenia.js',
-    test: './src/test.js'
+    test: './src/test.js',
     search: './src/search-vanilla.js'
   },
   output: {
