@@ -59,15 +59,11 @@ const props ={
 
 module.exports = {
   entry: {
-<<<<<<< HEAD
     index: './src/index.js',
     test_insects: './src/test_insects.js',
     test_yavlenia: './src/test_yavlenia.js',
-    test: './src/test.js'
-=======
-    index: './src/index.js', 
+    test: './src/test.js',
     search: './src/search-vanilla.js'
->>>>>>> a63a2d7f9bac49fe4199de0d4cfe1659959de04c
   },
   output: {
     filename: '[name].js',

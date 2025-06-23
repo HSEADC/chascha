@@ -3965,9 +3965,11 @@ function SearchContent(requestText) {
   });
 }
 function renderNothingFounded() {
+  document.querySelector('.S_Content').innerText = '';
   document.querySelector('.S_Content').innerText = 'Ничего не найдено';
 }
 function renderCardsbyIds(container, ids) {
+  document.querySelector('.S_Content').innerText = '';
   ids = _toConsumableArray(new Set(ids));
   ids.forEach(function (id) {
     content.forEach(function (item) {
